@@ -23,7 +23,13 @@ const id1 = 'slide-8bb437026246';
 
 const id1PrevFib2 = getPrevFib(id1, 'fib2');
 
-text1.updateData({ text: `You said you were able to pump $${id1PrevFib2.data.isComplete && isNaN(id1PrevFib2.data.inputArray[0]) ? `$\\color{A0A0A0}\\text{\[enter a number on slide ${id1PrevFib2.data.slideNum}\]}$` : id1PrevFib2.data.inputArray[0]}$ cubic meters of air in $1$ minute.\n\nHow many cubic kilometers of air is that in $1$ minute?` });
+text1.updateData({
+  text: `You said you were able to pump $${
+    id1PrevFib2.data.isComplete && isNaN(id1PrevFib2.data.inputArray[0])
+      ? `$\\color{A0A0A0}\\text{\[enter a number on slide ${id1PrevFib2.data.slideNum}\]}$`
+      : id1PrevFib2.data.inputArray[0]
+  }$ cubic meters of air in $1$ minute.\n\nHow many cubic kilometers of air is that in $1$ minute?`,
+});
 
 fib1.on('change', ({ values }) => {
   console.log('typed in fib1');
@@ -49,7 +55,10 @@ buttonGroup1.on('click:1', () => {
 function getPrevFib(slideID, compName = 'fib1') {
   // find slide num of source
   const slideNum = ((slideId) => {
-    if (typeof controls == 'undefined' || !controls.slidesNavigationData?.length) {
+    if (
+      typeof controls == 'undefined' ||
+      !controls.slidesNavigationData?.length
+    ) {
       return 'missing slide!';
     }
     let allIds = controls.slidesNavigationData.map(({ slideId }) => slideId);
@@ -66,12 +75,18 @@ function getPrevFib(slideID, compName = 'fib1') {
   // fill in other useful data
   prevFib.data.goBackString = `$\\color{A0A0A0}\\text{\[no input yet on slide ${slideNum}\]}$`;
   prevFib.data.hasData = prevFib.data.values.some((value) => value.text != '');
-  prevFib.data.isComplete = prevFib.data.values.every((value) => value.text != '');
+  prevFib.data.isComplete = prevFib.data.values.every(
+    (value) => value.text != ''
+  );
   prevFib.data.slideNum = slideNum;
   // set text values
   prevFib.data.inputArray = [];
   for (let i = 0, L = prevFib.data.values.length; i < L; i++) {
-    prevFib.data.inputArray.push(prevFib.data.values[i].text != '' ? prevFib.data.values[i].text : prevFib.data.goBackString);
+    prevFib.data.inputArray.push(
+      prevFib.data.values[i].text != ''
+        ? prevFib.data.values[i].text
+        : prevFib.data.goBackString
+    );
   }
   prevFib.data.flagText = prevFib.data.hasData ? '' : prevFib.data.goBackString;
   return { ...prevFib };

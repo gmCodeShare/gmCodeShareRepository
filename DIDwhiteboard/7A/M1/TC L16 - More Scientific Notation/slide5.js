@@ -22,7 +22,10 @@ function onInit() {
 }
 
 buttonGroup1.on('click:1', () => {
-  ggb1.instance.setValue('clickCount', ggb1.instance.getValue('clickCount') + 1);
+  ggb1.instance.setValue(
+    'clickCount',
+    ggb1.instance.getValue('clickCount') + 1
+  );
   if (ggb1.data.startedClicks == false) {
     setTimeout(disablePump, 10000);
     ggb1.updateData({ startedClicks: true });
@@ -31,9 +34,15 @@ buttonGroup1.on('click:1', () => {
   ggb1.instance.setAnimating('time', true);
   ggb1.instance.setAnimating('timePurpBalloon', false);
   if (buttonGroup1.data.clicked) {
-    ggb1.instance.setValue('currentBreaths', ggb1.instance.getValue('nextBreaths'));
+    ggb1.instance.setValue(
+      'currentBreaths',
+      ggb1.instance.getValue('nextBreaths')
+    );
     ggb1.instance.setValue('time', 0);
-    ggb1.instance.setValue('nextBreaths', ggb1.instance.getValue('nextBreaths') + 1);
+    ggb1.instance.setValue(
+      'nextBreaths',
+      ggb1.instance.getValue('nextBreaths') + 1
+    );
   } else {
     buttonGroup1.updateData({ clicked: true });
   }
@@ -55,7 +64,11 @@ buttonGroup2.on('click:1', () => {
   ggb1.instance.setAnimating('timePurpBalloon', true);
   ggb1.instance.setValue('currentBreathsPurpBalloon', 0);
   ggb1.instance.setValue('timePurpBalloon', 0);
-  ggb1.instance.evalCommand(`nextBreathsPurpBalloon=unDiameter(Diameter(${parseFloat(fib1.getInput(0).text)}))`);
+  ggb1.instance.evalCommand(
+    `nextBreathsPurpBalloon=unDiameter(Diameter(${parseFloat(
+      fib1.getInput(0).text
+    )}))`
+  );
   ggb1.instance.startAnimation();
 });
 
@@ -76,7 +89,11 @@ function disablePump() {
     },
     1
   );
-  text2.updateData({ text: `Great! You did $${ggb1.instance.getValue('nextBreaths')}$ pumps in $10$ seconds!\n\nWhat was the total volume of air pumped during those $10$ seconds?` });
+  text2.updateData({
+    text: `Great! You did $${ggb1.instance.getValue(
+      'nextBreaths'
+    )}$ pumps in $10$ seconds!\n\nWhat was the total volume of air pumped during those $10$ seconds?`,
+  });
   fib1.setVisible(true);
   buttonGroup2.updateData({ visible: true });
 }

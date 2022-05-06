@@ -1,10 +1,34 @@
-const { text1, text2, select1, buttonGroup1, cc_sharewithclass_476b70c6644c_textbox1: shareText1, cc_sharewithclass_476b70c6644c_input1: shareInput1, cc_sharewithclass_476b70c6644c_button1: shareButton1, cc_sharewithclass_476b70c6644c_studentanswers1: shareAnswers1 } = components;
+const {
+  text1,
+  text2,
+  select1,
+  buttonGroup1,
+  cc_sharewithclass_476b70c6644c_textbox1: shareText1,
+  cc_sharewithclass_476b70c6644c_input1: shareInput1,
+  cc_sharewithclass_476b70c6644c_button1: shareButton1,
+  cc_sharewithclass_476b70c6644c_studentanswers1: shareAnswers1,
+} = components;
 
-let itemName = ['a typical heart', 'a carbon dioxide molecule', 'the moon', 'the sun'];
+let itemName = [
+  'a typical heart',
+  'a carbon dioxide molecule',
+  'the moon',
+  'the sun',
+];
 
-let itemName2 = ['A typical heart', 'A carbon dioxide molecule', 'The moon', 'The sun'];
+let itemName2 = [
+  'A typical heart',
+  'A carbon dioxide molecule',
+  'The moon',
+  'The sun',
+];
 
-let itemVolume = ['$0.00028$', '$1.95×10^{-29}$', '$2.1968\\times10^{10}$', '$1.409\\times10^{18}$'];
+let itemVolume = [
+  '$0.00028$',
+  '$1.95×10^{-29}$',
+  '$2.1968\\times10^{10}$',
+  '$1.409\\times10^{18}$',
+];
 
 let itemUnit = ['meters', 'meters', 'kilometers', 'kilometers'];
 
@@ -35,7 +59,19 @@ function onInit() {
 
 select1.on('change', (selected) => {
   shareText1.updateData({
-    text: `Consider a life breath balloon with a volume of $344,608,992$ cubic meters, or approximately $3.45\\times10^{8}$ cubic meters.\n\nYou selected ${itemName[parseInt(selected.selected[0])]}, which has a volume of ${itemVolume[parseInt(selected.selected[0])]} cubic ${itemUnit[parseInt(selected.selected[0])]}.\n\n${selected.selected[0] == 0 || selected.selected[0] == 1 ? 'The life breath balloon' : itemName2[parseInt(selected.selected[0])]} is how many times as large as ${selected.selected[0] == 0 || selected.selected[0] == 1 ? itemName[parseInt(selected.selected[0])] : 'the life breath balloon'}?
+    text: `Consider a life breath balloon with a volume of $344,608,992$ cubic meters, or approximately $3.45\\times10^{8}$ cubic meters.\n\nYou selected ${
+      itemName[parseInt(selected.selected[0])]
+    }, which has a volume of ${
+      itemVolume[parseInt(selected.selected[0])]
+    } cubic ${itemUnit[parseInt(selected.selected[0])]}.\n\n${
+      selected.selected[0] == 0 || selected.selected[0] == 1
+        ? 'The life breath balloon'
+        : itemName2[parseInt(selected.selected[0])]
+    } is how many times as large as ${
+      selected.selected[0] == 0 || selected.selected[0] == 1
+        ? itemName[parseInt(selected.selected[0])]
+        : 'the life breath balloon'
+    }?
   `,
   });
   buttonGroup1.updateSingleButton(

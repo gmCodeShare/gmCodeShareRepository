@@ -1,4 +1,5 @@
-const { ggb1, text1, text2, fib1, fib2, buttonGroup1, buttonGroup2 } = components;
+const { ggb1, text1, text2, fib1, fib2, buttonGroup1, buttonGroup2 } =
+  components;
 
 onInit();
 function onInit() {
@@ -35,19 +36,38 @@ const id2 = 'slide-4ada0b608c58';
 const id1PrevGGB1 = getPrevGGB(id1, 'ggb1', { currentBreaths: 0 });
 const id2PrevGGB1 = getPrevGGB(id2, 'ggb1', { currentBreaths: 0 });
 
-let id1Pumps = typeof id1PrevGGB1.innerData['clickCount'] == 'undefined' ? 0 : id1PrevGGB1.innerData['clickCount'];
+let id1Pumps =
+  typeof id1PrevGGB1.innerData['clickCount'] == 'undefined'
+    ? 0
+    : id1PrevGGB1.innerData['clickCount'];
 console.log(id1Pumps);
-let id2Pumps = typeof id2PrevGGB1.innerData['clickCount'] == 'undefined' ? 0 : id2PrevGGB1.innerData['clickCount'];
+let id2Pumps =
+  typeof id2PrevGGB1.innerData['clickCount'] == 'undefined'
+    ? 0
+    : id2PrevGGB1.innerData['clickCount'];
 console.log(id2Pumps);
 
-let prevTotal = round(3.6 * Math.max(id1Pumps, id2Pumps) * 0.001, 5).toExponential();
+let prevTotal = round(
+  3.6 * Math.max(id1Pumps, id2Pumps) * 0.001,
+  5
+).toExponential();
 
 console.log(prevTotal);
 
 let baseAndExponent = prevTotal.match(/(.+)e\+?(.+)/);
 console.log(baseAndExponent);
 
-text1.updateData({ text: `You had $${id1Pumps == 0 && id2Pumps == 0 ? `$\\color{A0A0A0}\\text{\[enter a number on slide ${id1PrevGGB1.data.slideNum}\]}$` : Math.max(id1Pumps, id2Pumps)}$ pumps in your fastest attempt, which pumped $${id1Pumps == 0 && id2Pumps == 0 ? `$\\color{A0A0A0}\\text{\[enter a number on slide ${id1PrevGGB1.data.slideNum}\]}$` : `$${baseAndExponent[1]} \\times 10^{${baseAndExponent[2]}}$`}$ cubic meters of air in $10$ seconds.\n\nHow much air is that per $1$ second?` });
+text1.updateData({
+  text: `You had $${
+    id1Pumps == 0 && id2Pumps == 0
+      ? `$\\color{A0A0A0}\\text{\[enter a number on slide ${id1PrevGGB1.data.slideNum}\]}$`
+      : Math.max(id1Pumps, id2Pumps)
+  }$ pumps in your fastest attempt, which pumped $${
+    id1Pumps == 0 && id2Pumps == 0
+      ? `$\\color{A0A0A0}\\text{\[enter a number on slide ${id1PrevGGB1.data.slideNum}\]}$`
+      : `$${baseAndExponent[1]} \\times 10^{${baseAndExponent[2]}}$`
+  }$ cubic meters of air in $10$ seconds.\n\nHow much air is that per $1$ second?`,
+});
 
 fib1.on('change', ({ values }) => {
   console.log('typed in fib1');
@@ -79,7 +99,10 @@ buttonGroup1.on('click:1', () => {
     },
     1
   );
-  text2.updateData({ text: 'How much air is that per $1$ minute?', visible: true });
+  text2.updateData({
+    text: 'How much air is that per $1$ minute?',
+    visible: true,
+  });
   fib2.setVisible(true);
   buttonGroup2.updateData({ visible: true });
 });
@@ -97,7 +120,10 @@ buttonGroup2.on('click:1', () => {
 function getPrevGGB(slideID, compName = 'ggb1', innerData, storageComp = '') {
   // find slide num of source
   const slideNum = ((slideId) => {
-    if (typeof controls == 'undefined' || !controls.slidesNavigationData?.length) {
+    if (
+      typeof controls == 'undefined' ||
+      !controls.slidesNavigationData?.length
+    ) {
       return 'missing slide!';
     }
     let allIds = controls.slidesNavigationData.map(({ slideId }) => slideId);
@@ -111,7 +137,13 @@ function getPrevGGB(slideID, compName = 'ggb1', innerData, storageComp = '') {
   // get previous data
   let prevGGB = getFromSlide(slideID, compName, false) || false;
   // check previous data
-  const hasData = !prevGGB ? false : !Object.keys(prevGGB).includes('innerData') ? false : !Object.keys(prevGGB.innerData).length ? false : true;
+  const hasData = !prevGGB
+    ? false
+    : !Object.keys(prevGGB).includes('innerData')
+    ? false
+    : !Object.keys(prevGGB.innerData).length
+    ? false
+    : true;
   let returnGGB = hasData ? prevGGB : defGGB;
   // fill in other useful data
   returnGGB.data.goBackString = `$\\color{A0A0A0}\\text{\[no input yet on slide ${slideNum}\]}$`;
@@ -145,7 +177,9 @@ function saveData(dataObj = {}, target = '') {
     return;
   } // make sure at least 1 comp exists
   if (typeof target !== 'string' || typeof dataObj !== 'object') {
-    console.error('saveData error: Parameters should be an object and a string!');
+    console.error(
+      'saveData error: Parameters should be an object and a string!'
+    );
   }
   let tarComp = !!target ? target : firstComp;
   if (!components[tarComp]?.storage) {

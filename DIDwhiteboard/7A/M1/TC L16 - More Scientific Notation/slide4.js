@@ -17,7 +17,10 @@ autorun(() => {
 
 button1.on('click', () => {
   button1.updateData({ disabled: true });
-  ggb1.instance.setValue('nextBreaths', boundIt(input1, 1, 100000000000000000000000000));
+  ggb1.instance.setValue(
+    'nextBreaths',
+    boundIt(input1, 1, 100000000000000000000000000)
+  );
   ggb1.instance.setAnimating('time', true);
   ggb1.instance.startAnimation();
 });

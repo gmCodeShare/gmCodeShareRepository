@@ -6,7 +6,10 @@ let ID1 = 'slide-e3a7f2befeaa';
 let resolved = true;
 
 function getSlideNum(slideId) {
-  if (typeof controls == 'undefined' || !controls.slidesNavigationData?.length) {
+  if (
+    typeof controls == 'undefined' ||
+    !controls.slidesNavigationData?.length
+  ) {
     return 'missing slide!';
   }
   let allIds = controls.slidesNavigationData.map(({ slideId }) => slideId);
@@ -25,7 +28,9 @@ slide.on('firstload', () => {
 let breaths = getFromSlide(ID1, 'input1.data.text', false) || false;
 
 if (!breaths) {
-  breaths = `$\\text\\color{A0A0A0}{\[no input yet on slide ${getSlideNum(ID1)}\]}$`;
+  breaths = `$\\text\\color{A0A0A0}{\[no input yet on slide ${getSlideNum(
+    ID1
+  )}\]}$`;
 }
 
 text1.updateData({

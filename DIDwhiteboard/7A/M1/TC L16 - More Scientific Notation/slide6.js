@@ -1,4 +1,12 @@
-const { ggb1, text1, text2, buttonGroup1, cc_sharewithclass_a0c6e1d8ccb9_textbox1: shareText1, cc_sharewithclass_a0c6e1d8ccb9_input1: shareInput1, cc_sharewithclass_a0c6e1d8ccb9_button1: shareButton1 } = components;
+const {
+  ggb1,
+  text1,
+  text2,
+  buttonGroup1,
+  cc_sharewithclass_a0c6e1d8ccb9_textbox1: shareText1,
+  cc_sharewithclass_a0c6e1d8ccb9_input1: shareInput1,
+  cc_sharewithclass_a0c6e1d8ccb9_button1: shareButton1,
+} = components;
 
 ggb1.instance.setErrorDialogsActive(false);
 
@@ -17,7 +25,10 @@ function onInit() {
 }
 
 buttonGroup1.on('click:1', () => {
-  ggb1.instance.setValue('clickCount', ggb1.instance.getValue('clickCount') + 1);
+  ggb1.instance.setValue(
+    'clickCount',
+    ggb1.instance.getValue('clickCount') + 1
+  );
   if (ggb1.data.startedClicks == false) {
     setTimeout(disablePump, 10000);
     ggb1.updateData({ startedClicks: true });
@@ -26,9 +37,15 @@ buttonGroup1.on('click:1', () => {
   ggb1.instance.setAnimating('time', true);
   ggb1.instance.setAnimating('timePurpBalloon', false);
   if (buttonGroup1.data.clicked) {
-    ggb1.instance.setValue('currentBreaths', ggb1.instance.getValue('nextBreaths'));
+    ggb1.instance.setValue(
+      'currentBreaths',
+      ggb1.instance.getValue('nextBreaths')
+    );
     ggb1.instance.setValue('time', 0);
-    ggb1.instance.setValue('nextBreaths', ggb1.instance.getValue('nextBreaths') + 1);
+    ggb1.instance.setValue(
+      'nextBreaths',
+      ggb1.instance.getValue('nextBreaths') + 1
+    );
   } else {
     buttonGroup1.updateData({ clicked: true });
   }
@@ -45,7 +62,11 @@ function disablePump() {
     },
     1
   );
-  text2.updateData({ text: `You did $${ggb1.instance.getValue('nextBreaths')}$ pumps in $10$ seconds!` });
+  text2.updateData({
+    text: `You did $${ggb1.instance.getValue(
+      'nextBreaths'
+    )}$ pumps in $10$ seconds!`,
+  });
   shareText1.updateData({ visible: true });
   shareInput1.updateData({ visible: true });
   shareButton1.updateData({ visible: true });
