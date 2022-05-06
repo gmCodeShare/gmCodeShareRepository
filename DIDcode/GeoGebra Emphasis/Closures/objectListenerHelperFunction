@@ -1,0 +1,27 @@
+// restore object listeners
+ggbObject.registerAddListener(function (a) {
+  var assignment = {
+    ggbButton1: {
+      type: "click",
+      callback: buttonClick,
+    },
+    A: {
+      type: "update",
+      callback: pointUpdate,
+    },
+    // add more here if you have more objects
+  };
+  if (assignment[a]) {
+    var reAddedProperties = assignment[a];
+    switch (reAddedProperties.type) {
+      case "click":
+        ggbObject.registerObjectClickListener(a, reAddedProperties.callback);
+        break;
+      case "update":
+        // delay update registration within the call stack to prevent premature firing
+        setTimeout(function () {
+          ggbObject.registerObjectUpdateListener(a, reAddedProperties.callback);
+        });
+    }
+  }
+});

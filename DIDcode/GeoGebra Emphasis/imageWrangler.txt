@@ -1,0 +1,25 @@
+Create slider for the number of images you have (free object, increment of 1, I called it "case").
+
+Execute(Sequence("Corner"+i+"=Corner("+i+")",i,1,4)) to create points at the corners of the stage.
+
+Insert your images.  Do not hand label.  If you care about order, change the number at the end of the name (pic1, pic2, etc).
+
+Run the execute Execute(Sequence("ConditionToShowObject(pic"+i+",case=="+i+")",i,1,totalNumberofCases)) so that you only see the image you want in each case.
+
+Make each image the exact height and width you want.
+
+Run the execute Execute(Sequence("Pic"+i+"Width=x(Corner(pic"+i+",3))-x(Corner(pic"+i+",1))",i,1,totalNumberofCases)) to get all of the widths.
+
+Run the execute Execute(Sequence("Pic"+i+"Height=y(Corner(pic"+i+",3))-y(Corner(pic"+i+",1))",i,1,totalNumberofCases)) to get all of the heights.
+
+Create a list of heights and a list of widths.
+
+CopyFreeObject each of those lists. If you don't do this, you get circular definitions. I called mine freeHeight and freeWidth.
+
+Create a currentHeight variable defined as freeHeight(case) and a currentWidth variable defined as freeWidth(case).
+
+Create a polygon for the region in which the point can exist Box=Polygon({Corner1,Corner2-(currentWidth,0),Corner3-(currentWidth,currentHeight),Corner4-(0,currentHeight)}) .
+
+Define each left image point as PointIn(Box).
+
+In "On Update" of each left image point, paste this code and edit to fit appropriately SetCoords(RightPoint,x(LeftPoint)+currentWidth,y(LeftPoint)).
