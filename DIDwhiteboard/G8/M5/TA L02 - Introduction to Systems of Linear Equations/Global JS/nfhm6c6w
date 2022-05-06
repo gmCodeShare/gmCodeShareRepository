@@ -1,0 +1,18 @@
+//Original material ID = xttuvpx7
+
+function ggbOnInit(name, ggbObject) {
+  var arialabel = "Temperature Graph Interactive";
+  var ggbcanvasarray = document.querySelectorAll("canvas");
+  for (i = 0; i < ggbcanvasarray.length; i++) {
+    var parameterID = ggbcanvasarray[i]
+      .closest("div.appletParameters,div.notranslate")
+      .getAttribute("id");
+    var canvasID = "canvas" + parameterID;
+    ggbcanvasarray[i].setAttribute("id", canvasID);
+  }
+  var id = "canvas" + name;
+  var ggbcanvas = document.getElementById(id);
+  if (ggbcanvas) {
+    ggbcanvas.setAttribute("aria-label", arialabel);
+  }
+}

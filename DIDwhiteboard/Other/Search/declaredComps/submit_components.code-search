@@ -1,0 +1,117 @@
+# Query: const.*\\{.*submit.*\\}.*=.*components
+# Flags: RegExp
+# Including: ./DIDwhiteboard
+# Excluding: Answer Key not working.json
+# ContextLines: 1
+
+27 results - 27 files
+
+DIDwhiteboard • 7A/M1/TD L21 - Approximate Values of Roots/OLD2slide1.js:
+  1: const { ggb1, text1, fib1, button1, cc_submit_a5aca3617f6c_textbox1: submitText1, cc_submit_a5aca3617f6c_input1: submitInput1, cc_submit_a5aca3617f6c_button1: submitButton1 } = components;
+  2  
+
+DIDwhiteboard • 7A/M1/TD L21 - Approximate Values of Roots/OLD3slide1.js:
+  1: const { ggb1, text1, text2, fib1, button1, cc_submit_a5aca3617f6c_textbox1: submitText1, cc_submit_a5aca3617f6c_input1: submitInput1, cc_submit_a5aca3617f6c_button1: submitButton1 } = components;
+  2  
+
+DIDwhiteboard • 7A/M1/TD L21 - Approximate Values of Roots/slide3.js:
+  1: const { ggb1, ggb2, cc_submit_3a54687248a4_textbox1: submitText1, cc_submit_3a54687248a4_input1: submitInput1, cc_submit_3a54687248a4_button1: submitButton1, cc_sharewithclass_95f8eb7231ed_textbox1: shareText1, cc_sharewithclass_95f8eb7231ed_input1: shareInput1, cc_sharewithclass_95f8eb7231ed_button1: shareButton1 } = components;
+  2  
+
+DIDwhiteboard • 7A/M2/TC L14 - Exploring Graphs of Proportional Relationships/slide10.js:
+  1: const { ggb1, text1, cc_submit_443afc7ce871_textbox1: submitText1, cc_submit_443afc7ce871_input1: submitInput1, cc_submit_443afc7ce871_button1: submitButton1, cc_submit_b048ddbf4d7d_textbox1: submitText2, cc_submit_b048ddbf4d7d_input1: submitInput2, cc_submit_b048ddbf4d7d_button1: submitButton2 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TA L04 - Solutions Sets of Linear Inequalites in Two Variables/slide11.js:
+  1: const { ggb1, cc_submit_4ded5c2958b8_button1: button1, text2 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TC L17 - Modeling Relationships with a Line/Slide 3.js:
+  1: const { ggb1, text2, cc_submit_c08e2661d81f_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • A1/M4/TD L23 - Creating Equations of Quadratic Functions to Model Contexts/slide9.js:
+  1: const { text1, cc_submit_7855ac1de91d_textbox1: text2 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TC L13 - Understanding Multiples of Negative Numbers/slide1.js:
+  1: const { table1, cc_submit_01667321618c_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TC L13 - Understanding Multiples of Negative Numbers/slide7.js:
+  1: const { ggb1, cc_submit_153010d8cb1a_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TC L13 - Understanding Multiples of Negative Numbers/slide12.js:
+  1: const { cc_submit_348c276c11b1_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TC L13 - Understanding Multiples of Negative Numbers/slide15.js:
+  1: const { ggb1, cc_submit_90db8dd1d5ec_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TC L13 - Understanding Multiples of Negative Numbers/slide18.js:
+  1: const { text1, cc_submit_dcf44cc9ab38_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TC L13 - Understanding Multiples of Negative Numbers/slide19.js:
+  1: const { ggb1, cc_submit_29a7d5b4c86c_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TC L13 - Understanding Multiples of Negative Numbers/slide20.js:
+  1: const { ggb1, cc_submit_3fb0b4bb0b23_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TC L13 - Understanding Multiples of Negative Numbers/slide21.js:
+  1: const { ggb1, cc_submit_e3809bd11c64_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TC L13 - Understanding Multiples of Negative Numbers/slide23.js:
+  1: const { cc_submit_348c276c11b1_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TD L17 - Understanding Negative Dividends/slide8.js:
+  1: const { cc_submit_6eb7b98cdbf5_button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TD L17 - Understanding Negative Dividends/slide12.js:
+  1: const { cc_submit_6eb7b98cdbf5_button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 6.js:
+  1: const { cc_submit_f1b53798ec03_button1, text1, ggb1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M2/TC L13 - Solution Sets of Linear Inequalities in Two Variables/slide4.js:
+  1: const { cc_submit_c997e1f0e31b_input1: input1, table1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide15.js:
+  1: const { ggb1, cc_submit_fc7d1eb1e465_textbox1: submitText1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide18.js:
+  1: const { ggb1, cc_submit_fc7d1eb1e465_textbox1: submitText1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide2.js:
+  1: const { media1, cc_submit_b1b791c2fb51_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide18.js:
+  1: const { media1, cc_submit_1d93061a6cdd_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide22.js:
+  1: const { media1, cc_submit_800f4394a190_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G9/M2/TA/L2/Slide7.js:
+  2  
+  3: const {media7, text2, select1, cc_submit_11eb3a6d2e52_textbox1: text1, cc_submit_11eb3a6d2e52_input1: input1, cc_submit_11eb3a6d2e52_button1: button1} = components;
+  4  slide.on("firstload", () => {
+
+DIDwhiteboard • OMO/G9/M2/TA/L2/Slide11.js:
+  2  
+  3: const {media11, select1, text1, cc_submit_3d06fa3dcabd_textbox1: text2, cc_submit_3d06fa3dcabd_input1: input1, cc_submit_3d06fa3dcabd_button1: button1} = components;
+  4  

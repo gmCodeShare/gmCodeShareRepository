@@ -1,0 +1,130 @@
+# Query: const.*\\{.*image.*\\}.*=.*components
+# Flags: RegExp
+# Including: ./DIDwhiteboard
+# Excluding: Answer Key not working.json
+# ContextLines: 1
+
+31 results - 31 files
+
+DIDwhiteboard • A1/M1/TC L14 - Demo - Solution Sets of Compound Statements/slide1.js:
+  1: const { image1, image2, image3, image4, select1, text1, text2 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TC L20 - Interpreting Correlation/slide13.js:
+  1: const { image1, text1, button1, text2, button2, text3 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TA L04 - Exploring Ratios by Making Batches/slide-4e0cbd8eee9d.js:
+  1: const { image1, image2, image3 } = components;
+
+DIDwhiteboard • G6/M1/TA L04 - Exploring Ratios by Making Batches/slide-180c6df4a7c6.js:
+  1: const { image1, image2 } = components;
+
+DIDwhiteboard • G6/M1/TA L04 - Exploring Ratios by Making Batches/slide-72142e239234.js:
+  1: const { image1, image2 } = components;
+
+DIDwhiteboard • G6/M1/TA L04 - Exploring Ratios by Making Batches/slide-b2bd9b5c3dc5.js:
+  1: const { text1, image1 } = components;
+
+DIDwhiteboard • G6/M1/TB L07 - Graphs of Ratio Relationships/slide-24d09fdab15c.js:
+  1: const { ggb1, button1, text1, image1, table1 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TB L07 - Graphs of Ratio Relationships/slide-82b575fa79fb.js:
+  1: const { ggb1, text1, image1, text2 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TB L07 - Graphs of Ratio Relationships/slide-eb7da8aaf525.js:
+  1: const { text1, text2, text3, ggb1, ggb2, image1 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TB L07 - Graphs of Ratio Relationships/slide-f10fc7125873.js:
+  1: const { table1, ggb1, text1, text2, image1, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M2/TE L17 -Parital Quotients/slide5.js:
+  1: const { ggb1, text1, table1, image1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G6/M4/TA L03 - Exploring Exponents/slide5.js:
+  1: const { text1, text2, text3, text4, image1, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M5/TA L01 - The Area of a Parallelogram/slide7.js:
+  1: const { text1, text2, image1, image2, ggb1, ggb2 } = components;
+  2  
+
+DIDwhiteboard • G7/M1/TB L09 - Comparing Proportional Relationships/slide6.js:
+  1: const { ggb1, text1, image1 } = components;
+  2  
+
+DIDwhiteboard • G7/M1/TC L15 - Scale Drawings/slide8.js:
+  1: const { ggb1, image1, text1 } = components;
+  2  
+
+DIDwhiteboard • G7/M1/TC L15 - Scale Drawings/slide15.js:
+  1: const { image1, table1, text1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TD L17 - Understanding Negative Dividends/slide11.js:
+  1: const { image1, cc_sharewithclass_b50f002c2c34_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TD L17 - Understanding Negative Dividends/slide15.js:
+  1: const { image1, cc_sharewithclass_b50f002c2c34_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 7.js:
+  1: const { image1, button1, table1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TB L08 - Picking Blue/Slide 6.js:
+  1: const { image1, cc_sharewithclass_266dde9717be_textbox1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TB L08 - Picking Blue/Slide 8.js:
+  1: const { image1, cc_sharewithclass_266dde9717be_textbox1 } = components;
+  2  
+
+DIDwhiteboard • G8/M1/TD L18 - The Pythagorean Theorem/slide20.js:
+  1: const { ggb1, text1, input1, text2, button1, image1 } = components;
+  2  
+
+DIDwhiteboard • G8/M5/TC L12 - Solving Historical Problems with Systems of Equations/slide10.js:
+  1: const { text1, image1, image2, input1, input2, button1 } = components;
+  2  
+
+DIDwhiteboard • G8/M6/TC L11 - Maya's Shirt Shop/slide-c818e79d6e9b.js:
+  1: const { image2, image1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V2/slide4.js:
+  2  
+  3: const { ggb1, ggb2, buttonGroup2, media1, button1, text1, image1 } = components;
+  4  
+
+DIDwhiteboard • OMO/G9/M2/TA/L2/Slide3.js:
+  2  
+  3: const {media3, text3, text4, fib1, text1, image1, fib2, text2, image2, buttonGroup1,buttonGroup2} = components;
+  4  
+
+DIDwhiteboard • OMO/G9/M2/TA/L2/Slide5.js:
+  2  
+  3: const {media5, fib1, text1, image1, fib2, text2, image2, buttonGroup1,buttonGroup2} = components;
+  4  
+
+DIDwhiteboard • Print Alt/A1/M2/TC L20 - Interpreting Correlation/slide6.js:
+  1: const { image1, text1, button1, text2, button2, text3, button3 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M1/TB L7/slide4.js:
+  1: const { ggb1, textDsiaply1, image1 } = components;
+  2  components.feedback1.updateData({ visible: false });
+
+DIDwhiteboard • Print Alt/G6/M2/TE L17/slide4.js:
+  1: const { ggb1, table1, image1, buttonGroup1 } = components;
+  2  slide.on("firstload", () => {
+
+DIDwhiteboard • Print Alt/G6/M5/TA L01- The Area os a Parallelogram/slide7.js:
+  1: const { text1, text2, image1, image2, ggb1, ggb2 } = components;
+  2  

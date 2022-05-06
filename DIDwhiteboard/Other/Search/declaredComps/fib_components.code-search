@@ -1,0 +1,271 @@
+# Query: const.*\\{.*fib.*\\}.*=.*components
+# Flags: RegExp
+# Including: ./DIDwhiteboard
+# Excluding: Answer Key not working.json
+# ContextLines: 1
+
+64 results - 64 files
+
+DIDwhiteboard • 7A/M1/TC L16 - More Scientific Notation/slide5.js:
+  1: const { ggb1, text1, text2, buttonGroup1, buttonGroup2, fib1 } = components;
+  2  
+
+DIDwhiteboard • 7A/M1/TC L16 - More Scientific Notation/slide7.js:
+  1: const { ggb1, text1, text2, fib1, fib2, buttonGroup1, buttonGroup2 } = components;
+  2  
+
+DIDwhiteboard • 7A/M1/TC L16 - More Scientific Notation/slide8.js:
+  1: const { ggb1, text1, fib1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • 7A/M1/TD L21 - Approximate Values of Roots/OLD2slide1.js:
+  1: const { ggb1, text1, fib1, button1, cc_submit_a5aca3617f6c_textbox1: submitText1, cc_submit_a5aca3617f6c_input1: submitInput1, cc_submit_a5aca3617f6c_button1: submitButton1 } = components;
+  2  
+
+DIDwhiteboard • 7A/M1/TD L21 - Approximate Values of Roots/OLD3slide1.js:
+  1: const { ggb1, text1, text2, fib1, button1, cc_submit_a5aca3617f6c_textbox1: submitText1, cc_submit_a5aca3617f6c_input1: submitInput1, cc_submit_a5aca3617f6c_button1: submitButton1 } = components;
+  2  
+
+DIDwhiteboard • 7A/M1/TD L21 - Approximate Values of Roots/OLDslide1.js:
+  1: const { ggb1, text1, text2, fib1, fib2, button1, button2 } = components;
+  2  
+
+DIDwhiteboard • 7A/M1/TD L21 - Approximate Values of Roots/OLDslide14.js:
+  1: const { ggb1, text1, text2, text3, buttonGroup1, fib1, fib2 } = components;
+  2  
+
+DIDwhiteboard • 7A/M1/TD L21 - Approximate Values of Roots/OLDslide15.js:
+  1: const { ggb1, text1, text2, text3, buttonGroup1, fib1, fib2 } = components;
+  2  
+
+DIDwhiteboard • 7A/M1/TD L21 - Approximate Values of Roots/slide1.js:
+  1: const { ggb1, text1, fib1, button1 } = components;
+  2  
+
+DIDwhiteboard • 7A/M2/TC L14 - Exploring Graphs of Proportional Relationships/slide11.js:
+  1: const { ggb1, text1, text2, fib1, button1 } = components;
+  2  
+
+DIDwhiteboard • A1/M3/TC L13 - Modeling Elevation as a Function of Time/slide17.js:
+  1: const { ggb1, fib1, fib2, fib3, fib4, select1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • A1/M3/TD L18 - Exploring Transformations of the Graphs of Functions/slide5.js:
+  1: const { ggb1, fib1, button2 } = components;
+  2  
+
+DIDwhiteboard • A1/M3/TD L18 - Exploring Transformations of the Graphs of Functions/slide6.js:
+  1: const { ggb1, fib1, button2 } = components;
+  2  
+
+DIDwhiteboard • A1/M3/TD L18 - Exploring Transformations of the Graphs of Functions/slide8.js:
+  1: const { ggb1, fib1, button2 } = components;
+  2  
+
+DIDwhiteboard • A1/M3/TD L18 - Exploring Transformations of the Graphs of Functions/slide12.js:
+  1: const { ggb1, fib1, button2 } = components;
+  2  
+
+DIDwhiteboard • A1/M3/TD L21 - Demo - Transformations/slide1.js:
+  1: const { ggb1, fib1, button1 } = components;
+  2  
+
+DIDwhiteboard • A1/M3/TD L22 - Demo - Building New Functions Horizontal Scaling/slide1.js:
+  1: const { ggb1, fib1, button1 } = components;
+  2  
+
+DIDwhiteboard • G4/G4 M1 TD L16 - PVC Addition.js:
+  1: const { ggb1, buttonGroup1, fib1 } = components;
+  2  
+
+DIDwhiteboard • G4/G4 M1 TD L18 - PVC Subtraction.js:
+  1: const { fib1, buttonGroup1, ggb1 } = components;
+  2  buttonGroup1.updateSingleButton({ disabled: false }, 1);
+
+DIDwhiteboard • G4/G4 M2 TB L5 - PVC Multiplication.js:
+  1: const { ggb1, text1, fib1, buttonGroup1, select1 } = components;
+  2  
+
+DIDwhiteboard • G4/G4 M2 TC L15 - PVC Division.js:
+  1: const { ggb1, fib1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G4/G4 M2 TD L18 - Arranging Rectangle Side Lengths.js:
+  1: const { ggb1, fib1, buttonGroup1 } = components;
+  2  ggb1.instance.evalCommand("CenterView((8.5,8.5))");
+
+DIDwhiteboard • G4/G4 M3 TC L9 - PVC Multiplication 3 Column.js:
+  2  
+  3: const { ggb1, text1, fib1, buttonGroup1, select1 } = components;
+  4  
+
+DIDwhiteboard • G4/G4 M6 TB L10 - Measuring Angles with a Protractor.js:
+  1: const { ggb1, fib1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G5/G5 M3 TB L10 - Smooshy Multiplication.js:
+  1: const { fib1, ggb1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G5/G5 M3 TC L13 - Partitive Fractional Division.js:
+  37  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  38: const { ggb1, fib1, fib2, fib3 } = components;
+  39  
+
+DIDwhiteboard • G5/G5 M5 TC L19 - Volume with Layers.js:
+  1: const {ggb1, fib1, fib2, fib3, buttonGroup1} = components;
+  2  ggb1.instance.setValue("defaultView", true);
+
+DIDwhiteboard • G5/G5 M6 TA L4 - Coordinate Hopping.js:
+  1: const { ggb1, fib1, fib2, buttonGroup1, select1, select2, text1} =	components;
+  2  
+
+DIDwhiteboard • G5/G5 M6 TB L5 - Point Grabber Game.js:
+  1: const { ggb1, buttonGroup1, buttonGroup2, fib1 } = components;
+  2  buttonGroup1.updateSingleButton({ disabled: true }, 1);
+
+DIDwhiteboard • G5/G5 M6 TB L8 - Table-Graph Linker (patterns down).js:
+  1: const {ggb1, buttonGroup1, fib1} = components;
+  2  
+
+DIDwhiteboard • G5/G5 M6 TB L10 - Table-Graph Linker (patterns across).js:
+  1: const { ggb1, buttonGroup1, fib1 } = components;
+  2  
+
+DIDwhiteboard • G8/M1/TC L13 - Applications with Numbers in Scientific Notation/slide9.js:
+  1: const { text1, select1, text2, select2, text3, fib1, fib2 } = components;
+  2  
+
+DIDwhiteboard • G8/M2/TA L04 - Translations and Reflections on the Coordinate Plane/slide16.js:
+  1: const { ggb1, fib1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G8/M3/TC L09 - Describing Dilations/slide6.js:
+  1: const { ggb1, fib1, button1 } = components;
+  2  
+
+DIDwhiteboard • Geometry/M1/TA L05 - Lines Crossed by a Transversal/slide11.js:
+  1: const { ggb1, buttonGroup1, buttonGroup2, fib1, fib2, text2 } = components;
+  2  
+
+DIDwhiteboard • Geometry/M1/TA L05 - Lines Crossed by a Transversal/slide13.js:
+  1: const { ggb1, select1, buttonGroup1, button1, fib1 } = components;
+  2  
+
+DIDwhiteboard • Geometry/M1/TC L14 - Sequences of Basic Rigid Motions/slide-0944b3252f20.js:
+  1: const { ggb1, buttonGroup1, fib1, table1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M1/TB L09 - Writing and Solving Equations in One Variable/slide2.js:
+  1: const { ggb1, text1, text2, select1, fib1, button1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M1/TB L09 - Writing and Solving Equations in One Variable/slide6.js:
+  1: const { ggb1, text1, text2, input1, fib1, button1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M1/TB L09 - Writing and Solving Equations in One Variable/slide8.js:
+  1: const { ggb1, text1, fib1, button1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide9 slide-c4109ff810fa.js:
+  1: const { fib1, button1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide14 slide-9295071f4648.js:
+  1: const { ggb1, ggb2, fib1, button1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide18 slide-5072c2c56e10.js:
+  1: const { ggb1, fib1, button1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide4.js:
+  1: const { ggb1, fib1, button1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide5.js:
+  1: const { ggb1, fib1, button1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide6.js:
+  1: const { ggb1, fib1, button1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide8.js:
+  1: const { fib1, button1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide9.js:
+  1: const { ggb1, fib1, button1, fib2, button2, text1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide14.js:
+  1: const { ggb1, fib1, button1, buttonGroup1, text2 } = components;
+  2  
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide17.js:
+  1: const { ggb1, fib1, button1, buttonGroup1, text2 } = components;
+  2  
+
+DIDwhiteboard • OMO/G1/M2/TC/L10/Version1/slide2.js:
+  2  
+  3: const { media1, ggb1, fib1, select1, buttonGroup1 } = components;
+  4  media1.on("ready", ({ data: vid }) => {
+
+DIDwhiteboard • OMO/G1/M2/TC/L10/Version1/slide3.js:
+  2  
+  3: const { media1, ggb1, fib1, select1, buttonGroup1 } = components;
+  4  media1.on("ready", ({ data: vid }) => {
+
+DIDwhiteboard • OMO/G1/M2/TC/L10/Version2/slide3.js:
+  1: const { select1, ggb1, buttonGroup1, fib1, media1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V1/newSlide8.js:
+  2  
+  3: const { ggb1, fib2, fib3, fib4, buttonGroup1, text1, media1 } = components;
+  4  let num1 = 4;
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V1/pseudo.js:
+  2  
+  3: const { ggb1, fib2, fib3, fib4, buttonGroup1, text1, media1 } = components;
+  4  let num1 = 4;
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V1/slide3.js:
+  1: const { ggb1, fib2, fib3, fib4, buttonGroup1, text1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V1/slide4.js:
+  1: const { ggb1, fib1, fib2, fib3, fib4, buttonGroup1, text1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G9/M2/TA/L2/Slide3.js:
+  2  
+  3: const {media3, text3, text4, fib1, text1, image1, fib2, text2, image2, buttonGroup1,buttonGroup2} = components;
+  4  
+
+DIDwhiteboard • OMO/G9/M2/TA/L2/Slide5.js:
+  2  
+  3: const {media5, fib1, text1, image1, fib2, text2, image2, buttonGroup1,buttonGroup2} = components;
+  4  
+
+DIDwhiteboard • Print Alt/A1/M3/TC l13 Modeling Elevation as a Function of Time/slide13.js:
+  1: const { ggb1, fib1, fib2, fib3, fib4, select1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M3/TD l18 Exploring Transformations of the Graphs of Functions/slide6.js:
+  1: const { ggb1, fib1, button2 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M3/TD l18 Exploring Transformations of the Graphs of Functions/slide7.js:
+  1: const { ggb1, fib1, button2 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M3/TD l18 Exploring Transformations of the Graphs of Functions/slide8.js:
+  1: const { ggb1, fib1, button2 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M3/TD l18 Exploring Transformations of the Graphs of Functions/slide12.js:
+  1: const { ggb1, fib1, button2 } = components;
+  2  

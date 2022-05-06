@@ -1,0 +1,235 @@
+# Query: select.*.on\\(.*\\{[.\\r\\n]*.*ggb
+# Flags: RegExp
+# Including: ./DIDwhiteboard
+# Excluding: Answer Key not working.json, ROL.js
+# ContextLines: 1
+
+38 results - 38 files
+
+DIDwhiteboard • A1/M1/TA L02 - Demo - The Communative Associative and Distributive Properties/slide1.js:
+  42  
+  43: select1.on('change', (selected) => {
+  44:   ggb1.instance.setValue('show', false);
+  45    ggb1.instance.setAnimating('time', false);
+
+DIDwhiteboard • A1/M1/TA L02 - Demo - The Communative Associative and Distributive Properties/slide2.js:
+  42  
+  43: select1.on('change', (selected) => {
+  44:   ggb1.instance.setValue('show', false);
+  45    ggb1.instance.setAnimating('time', false);
+
+DIDwhiteboard • A1/M1/TA L02 - Demo - The Communative Associative and Distributive Properties/slide3.js:
+  42  
+  43: select1.on('change', (selected) => {
+  44:   ggb1.instance.setValue('show', false);
+  45    ggb1.instance.setAnimating('time', false);
+
+DIDwhiteboard • A1/M1/TA L02 - Demo - The Communative Associative and Distributive Properties/slide4.js:
+  42  
+  43: select1.on('change', (selected) => {
+  44:   ggb1.instance.setValue('show', false);
+  45    ggb1.instance.setAnimating('time', false);
+
+DIDwhiteboard • A1/M1/TA L02 - Demo - The Communative Associative and Distributive Properties/slide5.js:
+  42  
+  43: select1.on('change', (selected) => {
+  44:   ggb1.instance.setValue('show', false);
+  45    ggb1.instance.setAnimating('time', false);
+
+DIDwhiteboard • A1/M1/TA L02 - Demo - The Communative Associative and Distributive Properties/slide6.js:
+  42  
+  43: select1.on('change', (selected) => {
+  44:   ggb1.instance.setValue('show', false);
+  45    ggb1.instance.setAnimating('time', false);
+
+DIDwhiteboard • A1/M1/TA L02 - Demo - The Communative Associative and Distributive Properties/slide7.js:
+  42  
+  43: select1.on('change', (selected) => {
+  44:   ggb1.instance.setValue('show', false);
+  45    ggb1.instance.setAnimating('time', false);
+
+DIDwhiteboard • A1/M1/TA L02 - Demo - The Communative Associative and Distributive Properties/slide8.js:
+  42  
+  43: select1.on('change', (selected) => {
+  44:   ggb1.instance.setValue('show', false);
+  45    ggb1.instance.setAnimating('time', false);
+
+DIDwhiteboard • A1/M1/TA L02 - Demo - The Communative Associative and Distributive Properties/slide9.js:
+  42  
+  43: select1.on('change', (selected) => {
+  44:   ggb1.instance.setValue('show', false);
+  45    ggb1.instance.setAnimating('time', false);
+
+DIDwhiteboard • A1/M1/TA L02 - Demo - The Communative Associative and Distributive Properties/slide10.js:
+  42  
+  43: select1.on('change', (selected) => {
+  44:   ggb1.instance.setValue('show', false);
+  45    ggb1.instance.setAnimating('time', false);
+
+DIDwhiteboard • A1/M1/TB L11 - Writing and Solving Equations in One Variable/slide2.js:
+  68  
+  69: select1.on('change', ({ selected }) => {
+  70:   ggb1.instance.setValue('show3by3', selected.includes('0'));
+  71    ggb1.instance.setValue('show4by4', selected.includes('1'));
+
+DIDwhiteboard • A1/M1/TC L15 - Solving and Graphing Compound Inequalities/slide 6.js:
+  41  
+  42: select1.on("change", ({ selected }) => {
+  43:   ggb1.updateData({ visible: !selected.includes("1") });
+  44    ggb2.updateData({ visible: selected.includes("1") });
+
+DIDwhiteboard • A1/M1/TC L15 - Solving and Graphing Compound Inequalities/slide 7.js:
+  37  
+  38: select3.on("change", ({ selected }) => {
+  39:   ggb1.instance.unregisterClickListener(clicks);
+  40    let allGGB = ggb1.instance.getAllObjectNames();
+
+DIDwhiteboard • A1/M1/TC L15 - Solving and Graphing Compound Inequalities/slide 8.js:
+  108  
+  109: select3.on("change", ({ selected }) => {
+  110:   ggb1.instance.unregisterClickListener(clicks);
+  111    let allGGB = ggb1.instance.getAllObjectNames();
+
+DIDwhiteboard • A1/M1/TC L15 - Solving and Graphing Compound Inequalities/slide 9.js:
+  159  
+  160: select3.on("change", ({ selected }) => {
+  161:   ggb1.instance.unregisterClickListener(clicks);
+  162    let allGGB = ggb1.instance.getAllObjectNames();
+
+DIDwhiteboard • A1/M2/TB L12 - Solution Sets of Systems of Linear Inequalities/slide7.js:
+  35  
+  36: select1.on("change", ({ selected }) => {
+  37:   let counter = ggb1.instance.getValue("counter");
+  38    if (selected[0] == "0" || selected[0] == "1") {
+
+DIDwhiteboard • A1/M3/TA L03 - The Graph of a Function/slide1.js:
+  211  
+  212: select1.on("change", (selected) => {
+  213:   ggb1.instance.setValue("show", 1);
+  214  });
+
+DIDwhiteboard • A1/M4/TA L03 - Analyzing Functions that Model Projectile Motion/slide1.js:
+  113  
+  114: select1.on("change", ({ selected }) => {
+  115:   ggb1.instance.setValue("launchUpBool", selected[0] == "0" ? true : false);
+  116    ggbReset();
+
+DIDwhiteboard • A1/M4/TA L03 - Analyzing Functions that Model Projectile Motion/slide4.js:
+  109  
+  110: select1.on("change", ({ selected }) => {
+  111:   ggb1.instance.setValue("earthBool", selected[0] == "0" ? true : false);
+  112    ggb1.instance.setValue("moonBool", selected[0] == "1" ? true : false);
+
+DIDwhiteboard • G2/G2 M1 TB L7 - Measuring Objects.js:
+  51  
+  52: select1.on("change", ({ selected }) => {
+  53: 	ggb1.instance.evalCommand("RunClickScript(button2)");
+  54  	switch (selectedLabels(select1)[0]) {
+
+DIDwhiteboard • G5/G5 M1 TB L9 - Area Model.js:
+  5  
+  6: select1.on("change", () => {
+  7: 	ggb1.instance.evalCommand("RunClickScript(button2)");
+  8  });
+
+DIDwhiteboard • G5/G5 M6 TA L4 - Coordinate Hopping.js:
+  87  
+  88: select2.on("change", ({selected}) => {
+  89:     if ((ggb1.instance.getXcoord("Point1") < fib2.getInput('0').text && selectedLabels(select2).includes('Left')) || (ggb1.instance.getYcoord('Point1') < fib2.getInput('0').text && selectedLabels(select2).includes('Down'))||(ggb1.instance.getXcoord("Point1") + utils.math.evaluateLatex(fib2.getInput('0').text).value) >15 && selectedLabels(select2).includes('Right')||(ggb1.instance.getYcoord("Point1") + utils.math.evaluateLatex(fib2.getInput('0').text).value) >15 && selectedLabels(select2).includes('Up')) {
+  90          buttonGroup1.updateSingleButton({disabled: true}, 1);
+
+DIDwhiteboard • G8/M1/TC L13 - Applications with Numbers in Scientific Notation/slide14.js:
+  39  
+  40: select1.on("change", ({ selected }) => {
+  41:   ggb1.updateData({ visible: selected.includes("0") });
+  42    table2.updateData({ visible: selected.includes("1") });
+
+DIDwhiteboard • IM1/M1/TA L02/slide-223dee614d44.js:
+  6  
+  7: select1.on("change", ({ selected }) => {
+  8:   ggb1.updateData({ visible: selected.includes("0") });
+  9    table1.updateData({ visible: selected.includes("1") });
+
+DIDwhiteboard • IM1/M1/TB L09 - Writing and Solving Equations in One Variable/slide2.js:
+  23  
+  24: select1.on("change", ({ selected }) => {
+  25:   ggb1.instance.setValue("show3by3", selected.includes("0"));
+  26    ggb1.instance.setValue("show4by4", selected.includes("1"));
+
+DIDwhiteboard • IM1/M1/TC L13 - Solving and Graphing Compound Inequalities/slide6.js:
+  32  
+  33: select1.on("change", ({ selected }) => {
+  34:   ggb1.updateData({ visible: !selected.includes("1") });
+  35    ggb2.updateData({ visible: selected.includes("1") });
+
+DIDwhiteboard • IM1/M1/TC L13 - Solving and Graphing Compound Inequalities/slide7.js:
+  39  
+  40: select3.on("change", ({ selected }) => {
+  41:   ggb1.instance.unregisterClickListener(clicks);
+  42    let allGGB = ggb1.instance.getAllObjectNames();
+
+DIDwhiteboard • IM1/M1/TC L13 - Solving and Graphing Compound Inequalities/slide8.js:
+  110  
+  111: select3.on("change", ({ selected }) => {
+  112:   ggb1.instance.unregisterClickListener(clicks);
+  113    let allGGB = ggb1.instance.getAllObjectNames();
+
+DIDwhiteboard • IM1/M1/TC L13 - Solving and Graphing Compound Inequalities/slide9.js:
+  161  
+  162: select3.on("change", ({ selected }) => {
+  163:   ggb1.instance.unregisterClickListener(clicks);
+  164    let allGGB = ggb1.instance.getAllObjectNames();
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide19.js:
+  10  
+  11: select1.on("change", ({ selected }) => {
+  12:   ggb1.updateData({ visible: selected.includes("0") });
+  13    ggb2.updateData({ visible: selected.includes("1") });
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide14.js:
+  30  
+  31: select1.on("change", ({ selected }) => {
+  32:   ggb1.updateData({ visible: selected.includes("0") });
+  33    media1.updateData({ visible: selected.includes("1") });
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide16.js:
+  17  
+  18: select1.on("change", ({ selected }) => {
+  19:   ggb1.updateData({ visible: selected.includes("0") });
+  20    media1.updateData({ visible: selected.includes("1") });
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide20.js:
+  23  
+  24: select1.on("change", ({ selected }) => {
+  25:   ggb1.updateData({ visible: selected.includes("0") });
+  26    media1.updateData({ visible: selected.includes("1") });
+
+DIDwhiteboard • OMO/G9/M2/TA/L2/Slide8.js:
+  13  
+  14: select1.on("change", ({ selected }) => {
+  15: 	ggb1.instance.setAnimating("time", false);
+  16  	ggb1.instance.setValue("time", 0);
+
+DIDwhiteboard • OMO/G9/M2/TA/L2/Slide10.js:
+  11  
+  12: select1.on("change", ({ selected }) => {
+  13: 	ggb1.instance.setAnimating("time", false);
+  14  	ggb1.instance.setValue("time", 0);
+
+DIDwhiteboard • Print Alt/A1/M2/TB L12 - Solution Sets of Systems of Linear Inequalities/slide6.js:
+  50  
+  51: select1.on('change', ({ selected }) => {
+  52:   let counter = ggb1.instance.getValue('counter');
+  53    if (selected[0] == '0' || selected[0] == '1') {
+
+DIDwhiteboard • Print Alt/A1/M4/TA L3-Analyzing Functions that Model Projectile Motion/slide2.js:
+  95  
+  96: select1.on("change", ({ selected }) => {
+  97:   ggb1.instance.setValue("launchUpBool", selected[0] == "0" ? true : false);
+  98    ggbReset();
+
+DIDwhiteboard • Print Alt/A1/M4/TA L3-Analyzing Functions that Model Projectile Motion/slide4.js:
+  109  
+  110: select1.on("change", ({ selected }) => {
+  111:   ggb1.instance.setValue("earthBool", selected[0] == "0" ? true : false);
+  112    ggb1.instance.setValue("moonBool", selected[0] == "1" ? true : false);

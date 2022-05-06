@@ -1,0 +1,1306 @@
+# Query: RTS.on
+# Flags: RegExp
+# Including: ./DIDwhiteboard
+# ContextLines: 1
+
+275 results - 200 files
+
+DIDwhiteboard • 7A/M1/TD L21 - Approximate Values of Roots/slide3.js:
+  35  
+  36: utils.RTS.on('datachange', id1, (register) => {
+  37    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M1/TA L05 - Multiplying Polynomial Expressions/slide17.js:
+  142  //the magic... update buttons as data comes in to the RTS
+  143: utils.RTS.on("datachange", "slide-74e5ac695299", (register) => {
+  144  	// Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M1/TC L15 - Solving and Graphing Compound Inequalities/slide 4.js:
+  39  
+  40: utils.RTS.on("datachange", "slide-4d0ec089bf0b-unique", (register) => {
+  41    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M1/TC L15 - Solving and Graphing Compound Inequalities/slide 5.js:
+  65  
+  66: utils.RTS.on("datachange", "slide-4d0ec089bf0b", (register) => {
+  67    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M1/TC L15 - Solving and Graphing Compound Inequalities/slide 6.js:
+  82  
+  83: utils.RTS.on("datachange", "slide-4d0ec089bf0b", (register) => {
+  84    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M1/TD L18 - Distributions and Their Shapes/slide4.js:
+  26  
+  27: utils.RTS.on("datachange", "slide-3f75850fe6b3", (register) => {
+  28    if (!register || !register.length) {
+
+  53  
+  54: utils.RTS.on("datachange", "slide-ca9b726bccee", (register2) => {
+  55    if (!register2 || !register2.length) {
+
+DIDwhiteboard • A1/M1/TD L18 - Distributions and Their Shapes/slide5.js:
+   8  
+   9: utils.RTS.on("datachange", "slide-3f75850fe6b3", (register) => {
+  10    if (!register || !register.length) {
+
+  35  
+  36: utils.RTS.on("datachange", "slide-ca9b726bccee", (register2) => {
+  37    if (!register2 || !register2.length) {
+
+DIDwhiteboard • A1/M1/TD L18 - Distributions and Their Shapes/slide6.js:
+   8  
+   9: utils.RTS.on("datachange", "slide-3f75850fe6b3", (register) => {
+  10    if (!register || !register.length) {
+
+  35  
+  36: utils.RTS.on("datachange", "slide-ca9b726bccee", (register2) => {
+  37    if (!register2 || !register2.length) {
+
+DIDwhiteboard • A1/M1/TD L18 - Distributions and Their Shapes/slide9.js:
+  48  
+  49: utils.RTS.on("datachange", "slide-3f75850fe6b3", (register) => {
+  50    if (!register || !register.length) {
+
+  75  
+  76: utils.RTS.on("datachange", "slide-ca9b726bccee", (register2) => {
+  77    if (!register2 || !register2.length) {
+
+DIDwhiteboard • A1/M1/TD L18 - Distributions and Their Shapes/slide10.js:
+  28  
+  29: utils.RTS.on("datachange", "slide-3f75850fe6b3", (register) => {
+  30    if (!register || !register.length) {
+
+  55  
+  56: utils.RTS.on("datachange", "slide-ca9b726bccee", (register2) => {
+  57    if (!register2 || !register2.length) {
+
+DIDwhiteboard • A1/M1/TD L18 - Distributions and Their Shapes/slide13.js:
+  38  
+  39: utils.RTS.on("datachange", "slide-4bfb4c854b0b", (register3) => {
+  40    if (!register3 || !register3.length) {
+
+  61  
+  62: utils.RTS.on("datachange", "slide-4ef6031b9218", (register4) => {
+  63    if (!register4 || !register4.length) {
+
+DIDwhiteboard • A1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/Slide 5.js:
+  258  
+  259: utils.RTS.on("datachange", "slide-1a0fd993032e", (register) => {
+  260    // Don't do anything if we don't have data
+
+  305  // Retrieving information
+  306: utils.RTS.on("datachange", "slide-8e74cc3defa1", (register) => {
+  307    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/Slide 6.js:
+  40  
+  41: utils.RTS.on("datachange", "slide-1a0fd993032e", (register) => {
+  42    if (!register || !register.length) {
+
+  81  
+  82: utils.RTS.on("datachange", "slide-8e74cc3defa1", (register) => {
+  83    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/Slide 9.js:
+   63  
+   64: utils.RTS.on("datachange", "slide-1a0fd993032e", (register) => {
+   65    if (!register || !register.length) {
+
+  109  
+  110: utils.RTS.on("datachange", "slide-8e74cc3defa1", (register) => {
+  111    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/Slide 10.js:
+  21  
+  22: utils.RTS.on("datachange", "slide-1a0fd993032e", (register) => {
+  23    // Don't do anything if we don't have data
+
+  69  // Retrieving information
+  70: utils.RTS.on("datachange", "slide-8e74cc3defa1", (register) => {
+  71    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/Slide 13.js:
+  54  
+  55: utils.RTS.on("datachange", "slide-102b2e9edb49", (register) => {
+  56    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/Slide 14.js:
+  53  
+  54: utils.RTS.on("datachange", "slide-102b2e9edb49", (register) => {
+  55    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/Slide 15.js:
+  27  
+  28: utils.RTS.on("datachange", "slide-102b2e9edb49", (register) => {
+  29    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/Slide 17.js:
+  39  
+  40: utils.RTS.on("datachange", "slide-fd85e50c42c6", (register) => {
+  41    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/Slide 18.js:
+  40  
+  41: utils.RTS.on("datachange", "slide-fd85e50c42c6", (register) => {
+  42    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/Slide 19.js:
+  27  
+  28: utils.RTS.on("datachange", "slide-fd85e50c42c6", (register) => {
+  29    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/Slide 20.js:
+  102  
+  103: utils.RTS.on("datachange", "slide-102b2e9edb49", (register) => {
+  104    if (!register || !register.length) {
+
+  140  
+  141: utils.RTS.on("datachange", "slide-fd85e50c42c6", (register) => {
+  142    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TA L04 - Solutions Sets of Linear Inequalites in Two Variables/slide7.js:
+  251  
+  252: utils.RTS.on("datachange", "slide-1a0fd993032e", (register) => {
+  253    if (!register || !register.length) {
+
+  277  
+  278: utils.RTS.on("datachange", "slide-8e74cc3defa1", (register) => {
+  279    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TA L04 - Solutions Sets of Linear Inequalites in Two Variables/slide8.js:
+  37  
+  38: utils.RTS.on("datachange", "slide-1a0fd993032e", (register) => {
+  39    if (!register || !register.length) {
+
+  64  // Retrieving information
+  65: utils.RTS.on("datachange", "slide-8e74cc3defa1", (register) => {
+  66    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M2/TA L04 - Solutions Sets of Linear Inequalites in Two Variables/slide9.js:
+  30  
+  31: utils.RTS.on("datachange", "slide-1a0fd993032e", (register) => {
+  32    if (!register || !register.length) {
+
+  57  // Retrieving information
+  58: utils.RTS.on("datachange", "slide-8e74cc3defa1", (register) => {
+  59    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M2/TA L04 - Solutions Sets of Linear Inequalites in Two Variables/slide10.js:
+   73  
+   74: utils.RTS.on("datachange", "slide-1a0fd993032e", (register) => {
+   75    if (!register || !register.length) {
+
+  100  // Retrieving information
+  101: utils.RTS.on("datachange", "slide-8e74cc3defa1", (register) => {
+  102    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M2/TB L12 - Solution Sets of Systems of Linear Inequalities/slide13.js:
+  207  //the magic... update buttons as data comes in to the RTS
+  208: utils.RTS.on('datachange', 'slide-8086146665c9', (register) => {
+  209    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M2/TC L15 - Relationships Between Quantitative Variables/Slide 5.js:
+  24  
+  25: utils.RTS.on('datachange', 'slide-380d9e72741f', (register) => {
+  26    if (!register || !register.length) {
+
+  34  
+  35: utils.RTS.on('datachange', 'slide-0f4cf0884e2b', (register) => {
+  36    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L15 - Relationships Between Quantitative Variables/Slide 6.js:
+  45  
+  46: utils.RTS.on('datachange', 'slide-380d9e72741f', (register) => {
+  47    if (!register || !register.length) {
+
+  71  
+  72: utils.RTS.on('datachange', 'slide-0f4cf0884e2b', (register) => {
+  73    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L15 - Relationships Between Quantitative Variables/Slide 7.js:
+  67  
+  68: utils.RTS.on('datachange', 'slide-380d9e72741f', (register) => {
+  69    if (!register || !register.length) {
+
+  76  
+  77: utils.RTS.on('datachange', 'slide-0f4cf0884e2b', (register) => {
+  78    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L15 - Relationships Between Quantitative Variables/Slide 8.js:
+   4  
+   5: utils.RTS.on('datachange', 'slide-380d9e72741f', (register) => {
+   6    if (!register || !register.length) {
+
+  13  
+  14: utils.RTS.on('datachange', 'slide-0f4cf0884e2b', (register) => {
+  15    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L15 - Relationships Between Quantitative Variables/Slide 9.js:
+  67  
+  68: utils.RTS.on('datachange', 'slide-380d9e72741f', (register) => {
+  69    if (!register || !register.length) {
+
+  76  
+  77: utils.RTS.on('datachange', 'slide-0f4cf0884e2b', (register) => {
+  78    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L15 - Relationships Between Quantitative Variables/Slide 10.js:
+  89  
+  90: utils.RTS.on('datachange', 'slide-380d9e72741f', (register) => {
+  91    if (!register || !register.length) {
+
+  98  
+  99: utils.RTS.on('datachange', 'slide-0f4cf0884e2b', (register) => {
+  100    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L15 - Relationships Between Quantitative Variables/Slide 11.js:
+  67  
+  68: utils.RTS.on('datachange', 'slide-380d9e72741f', (register) => {
+  69    if (!register || !register.length) {
+
+  76  
+  77: utils.RTS.on('datachange', 'slide-0f4cf0884e2b', (register) => {
+  78    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L15 - Relationships Between Quantitative Variables/Slide 12.js:
+   4  
+   5: utils.RTS.on('datachange', 'slide-380d9e72741f', (register) => {
+   6    if (!register || !register.length) {
+
+  13  
+  14: utils.RTS.on('datachange', 'slide-0f4cf0884e2b', (register) => {
+  15    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L16 - Using Lines to Model Bivariate Quantitative Data/Slide 2.js:
+  83  
+  84: utils.RTS.on('datachange', 'slide-1c80a58b9dc4', (register) => {
+  85    if (!register || !register.length) {
+
+  93  
+  94: utils.RTS.on('datachange', 'slide-28a7788bcedd', (register) => {
+  95    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L16 - Using Lines to Model Bivariate Quantitative Data/Slide 3.js:
+  16  
+  17: utils.RTS.on('datachange', 'slide-1c80a58b9dc4', (register) => {
+  18    if (!register || !register.length) {
+
+  26  
+  27: utils.RTS.on('datachange', 'slide-74ce23520a2c', (register) => {
+  28    if (!register || !register.length) {
+
+  45  
+  46: utils.RTS.on('datachange', 'slide-28a7788bcedd', (register) => {
+  47    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L16 - Using Lines to Model Bivariate Quantitative Data/Slide 4.js:
+  60  
+  61: utils.RTS.on('datachange', 'slide-1c80a58b9dc4', (register) => {
+  62    if (!register || !register.length) {
+
+  69  
+  70: utils.RTS.on('datachange', 'slide-28a7788bcedd', (register) => {
+  71    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L16 - Using Lines to Model Bivariate Quantitative Data/Slide 5.js:
+   7  
+   8: utils.RTS.on('datachange', 'slide-1c80a58b9dc4', (register) => {
+   9    if (!register || !register.length) {
+
+  16  
+  17: utils.RTS.on('datachange', 'slide-71075d08f8a6', (register) => {
+  18    if (!register || !register.length) {
+
+  49  
+  50: utils.RTS.on('datachange', 'slide-28a7788bcedd', (register) => {
+  51    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L16 - Using Lines to Model Bivariate Quantitative Data/Slide 7.js:
+  5  
+  6: utils.RTS.on("datachange", "slide-4c0089d01b35", (register) => {
+  7    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L16 - Using Lines to Model Bivariate Quantitative Data/Slide 8.js:
+   44  
+   45: utils.RTS.on('datachange', 'slide-1c80a58b9dc4', (register) => {
+   46    if (!register || !register.length) {
+
+   53  
+   54: utils.RTS.on('datachange', 'slide-71075d08f8a6', (register) => {
+   55    if (!register || !register.length) {
+
+   86  
+   87: utils.RTS.on('datachange', 'slide-4c0089d01b35', (register) => {
+   88    // Don't do anything if we don't have data
+
+  120  
+  121: utils.RTS.on('datachange', 'slide-28a7788bcedd', (register) => {
+  122    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L16 - Using Lines to Model Bivariate Quantitative Data/Slide 9.js:
+   90  
+   91: utils.RTS.on('datachange', 'slide-1c80a58b9dc4', (register) => {
+   92    if (!register || !register.length) {
+
+   99  
+  100: utils.RTS.on('datachange', 'slide-28a7788bcedd', (register) => {
+  101    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L16 - Using Lines to Model Bivariate Quantitative Data/Slide 10.js:
+  55  
+  56: utils.RTS.on('datachange', 'slide-1c80a58b9dc4', (register) => {
+  57    if (!register || !register.length) {
+
+  64  
+  65: utils.RTS.on('datachange', 'slide-28a7788bcedd', (register) => {
+  66    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L16 - Using Lines to Model Bivariate Quantitative Data/Slide 11.js:
+  55  
+  56: utils.RTS.on('datachange', 'slide-1c80a58b9dc4', (register) => {
+  57    if (!register || !register.length) {
+
+  64  
+  65: utils.RTS.on('datachange', 'slide-28a7788bcedd', (register) => {
+  66    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L16 - Using Lines to Model Bivariate Quantitative Data/Slide 12.js:
+  62  
+  63: utils.RTS.on('datachange', 'slide-1c80a58b9dc4', (register) => {
+  64    if (!register || !register.length) {
+
+  71  
+  72: utils.RTS.on('datachange', 'slide-28a7788bcedd', (register) => {
+  73    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L16 - Using Lines to Model Bivariate Quantitative Data/Slide 15.js:
+  154  
+  155: utils.RTS.on('datachange', 'slide-1c80a58b9dc4', (register) => {
+  156    if (!register || !register.length) {
+
+  163  
+  164: utils.RTS.on('datachange', 'slide-28a7788bcedd', (register) => {
+  165    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L16 - Using Lines to Model Bivariate Quantitative Data/Slide 16.js:
+   28  // Retrieving information
+   29: utils.RTS.on('datachange', 'slide-0637f0fae6a5', (register) => {
+   30    // Don't do anything if we don't have data
+
+  104  
+  105: utils.RTS.on('datachange', 'slide-1c80a58b9dc4', (register) => {
+  106    if (!register || !register.length) {
+
+  113  
+  114: utils.RTS.on('datachange', 'slide-28a7788bcedd', (register) => {
+  115    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L17 - Modeling Relationships with a Line/Slide 2.js:
+  40  
+  41: utils.RTS.on('datachange', 'slide-e89c96d31a0d', (register) => {
+  42    if (!register || !register.length) {
+
+  50  
+  51: utils.RTS.on('datachange', 'slide-290b837ee12a', (register) => {
+  52    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L17 - Modeling Relationships with a Line/Slide 3.js:
+  13  
+  14: utils.RTS.on('datachange', 'slide-e89c96d31a0d', (register) => {
+  15    if (!register || !register.length) {
+
+  22  
+  23: utils.RTS.on('datachange', 'slide-290b837ee12a', (register) => {
+  24    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L17 - Modeling Relationships with a Line/Slide 4.js:
+  55  
+  56: utils.RTS.on('datachange', 'slide-e89c96d31a0d', (register) => {
+  57    if (!register || !register.length) {
+
+  64  
+  65: utils.RTS.on('datachange', 'slide-290b837ee12a', (register) => {
+  66    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L17 - Modeling Relationships with a Line/Slide 5.js:
+  35  
+  36: utils.RTS.on('datachange', 'slide-e89c96d31a0d', (register) => {
+  37    if (!register || !register.length) {
+
+  44  
+  45: utils.RTS.on('datachange', 'slide-066820f92120', (register) => {
+  46    // Don't do anything if we don't have data
+
+  79  
+  80: utils.RTS.on('datachange', 'slide-290b837ee12a', (register) => {
+  81    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L17 - Modeling Relationships with a Line/Slide 7.js:
+  6  // Retrieving information
+  7: utils.RTS.on("datachange", "slide-c9df07d05033", (register) => {
+  8    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M2/TC L17 - Modeling Relationships with a Line/Slide 10.js:
+  37  
+  38: utils.RTS.on('datachange', 'slide-e89c96d31a0d', (register) => {
+  39    if (!register || !register.length) {
+
+  46  
+  47: utils.RTS.on('datachange', 'slide-290b837ee12a', (register) => {
+  48    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L17 - Modeling Relationships with a Line/Slide 11.js:
+  36  
+  37: utils.RTS.on('datachange', 'slide-e89c96d31a0d', (register) => {
+  38    if (!register || !register.length) {
+
+  45  
+  46: utils.RTS.on('datachange', 'slide-290b837ee12a', (register) => {
+  47    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L18 - Airline Flight Data Demo/slide2.js:
+  4  
+  5: utils.RTS.on('datachange', 'slide-290b837ee12a', (register) => {
+  6    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L19 - Analyzing Residuals Demo/slide6.js:
+  81  
+  82: utils.RTS.on('datachange', 'slide-d6ce052ba84a', (register) => {
+  83    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TC L20 - Interpreting Correlation/slide5.js:
+  6  
+  7: utils.RTS.on("datachange", "slide-de266d0d66c4", (register) => {
+  8    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M2/TC L20 - Interpreting Correlation/slide14.js:
+  84  
+  85: utils.RTS.on('datachange', 'slide-0c7d50858588', (register) => {
+  86    if (!register || !register.length) {
+
+  94  
+  95: utils.RTS.on('datachange', 'slide-ffd0bc2076d0', (register) => {
+  96    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/Slide 8.js:
+  5  // Retrieving information
+  6: utils.RTS.on("datachange", "slide-0238f6cbbc1b", (register) => {
+  7    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/Slide 9.js:
+  37  // Retrieving information
+  38: utils.RTS.on("datachange", "slide-0238f6cbbc1b", (register) => {
+  39    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/Slide 10.js:
+  5  // Retrieving information
+  6: utils.RTS.on("datachange", "slide-0238f6cbbc1b", (register) => {
+  7    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/Slide 11.js:
+  40  // Retrieving information
+  41: utils.RTS.on("datachange", "slide-0238f6cbbc1b", (register) => {
+  42    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/Slide 12.js:
+  221  // Retrieving information
+  222: utils.RTS.on("datachange", "slide-0238f6cbbc1b", (register) => {
+  223    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/Slide 18.js:
+  208  // Retrieving information
+  209: utils.RTS.on("datachange", "slide-0238f6cbbc1b", (register) => {
+  210    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/Slide 19.js:
+  30  // Retrieving information
+  31: utils.RTS.on("datachange", "slide-0238f6cbbc1b", (register) => {
+  32    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/Slide 20.js:
+  8  // Retrieving information
+  9: utils.RTS.on("datachange", "slide-0238f6cbbc1b", (register) => {
+  10    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M3/TA L03 - The Graph of a Function/slide9.js:
+   9  
+  10: utils.RTS.on('datachange', 'slide-3a98e4d3e8f3', (register) => {
+  11    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M3/TA L03 - The Graph of a Function/slide16.js:
+  35  
+  36: utils.RTS.on('datachange', 'slide-3b6db967be76', (register) => {
+  37    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M3/TB L07 - Exploring Key Features of a Function and Its Graph/slide7.js:
+   95  // receive data section:
+   96: utils.RTS.on("datachange", "slide-7d04d771b18a", (register) => {
+   97    // Don't do anything if we don't have data
+
+  129  
+  130: utils.RTS.on("datachange", "slide-fbf629b044b7", (register) => {
+  131    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M3/TB L07 - Exploring Key Features of a Function and Its Graph/slide10.js:
+   95  // receive data section:
+   96: utils.RTS.on("datachange", "slide-611a56806b59-above", (register) => {
+   97    // Don't do anything if we don't have data
+
+  129  
+  130: utils.RTS.on("datachange", "slide-611a56806b59-below", (register) => {
+  131    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M3/TB L07 - Exploring Key Features of a Function and Its Graph/slide15.js:
+  4  
+  5: utils.RTS.on("datachange", "slide-52f9200ffc57", (register) => {
+  6    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M3/TB L07 - Exploring Key Features of a Function and Its Graph/slide17.js:
+  4  
+  5: utils.RTS.on("datachange", "slide-5fa491f600ef", (register) => {
+  6    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M3/TC L13 - Modeling Elevation as a Function of Time/slide3.js:
+  4  
+  5: utils.RTS.on("datachange", "slide-e6377369e54e", (register) => {
+  6    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M3/TC L13 - Modeling Elevation as a Function of Time/slide6.js:
+  4  
+  5: utils.RTS.on("datachange", "slide-3cb228faaa54", (register) => {
+  6    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M3/TC L13 - Modeling Elevation as a Function of Time/slide9.js:
+  4  
+  5: utils.RTS.on("datachange", "slide-8646fd8a4630", (register) => {
+  6    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M3/TC L13 - Modeling Elevation as a Function of Time/slide11.js:
+  4  
+  5: utils.RTS.on("datachange", "slide-fea879b785b9", (register) => {
+  6    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M3/TC L13 - Modeling Elevation as a Function of Time/slide13.js:
+  4  
+  5: utils.RTS.on("datachange", "slide-c79aa62c31a4", (register) => {
+  6    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M6/TA L01 - Analyzing Paint Splatters/slide5.js:
+  76  
+  77: utils.RTS.on('datachange', 'slide-62797c462e04', (register) => {
+  78    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M6/TA L01 - Analyzing Paint Splatters/slide6.js:
+  18  
+  19: utils.RTS.on('datachange', 'slide-62797c462e04', (register) => {
+  20    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M6/TA L01 - Analyzing Paint Splatters/slide7.js:
+  19  
+  20: utils.RTS.on('datachange', 'slide-62797c462e04', (register) => {
+  21    if (!register || !register.length) {
+
+  31  
+  32: utils.RTS.on('datachange', 'slide-fa863e2a26e0', (register) => {
+  33    if (!register || !register.length) {
+
+DIDwhiteboard • A1/M6/TA L01 - Analyzing Paint Splatters/slide8.js:
+   9  
+  10: utils.RTS.on('datachange', 'slide-62797c462e04', (register) => {
+  11    if (!register || !register.length) {
+
+  21  
+  22: utils.RTS.on('datachange', 'slide-fa863e2a26e0', (register) => {
+  23    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M6/TA L01 - Analyzing Paint Splatters/slide9.js:
+  22  
+  23: utils.RTS.on('datachange', 'slide-62797c462e04', (register) => {
+  24    if (!register || !register.length) {
+
+  35  
+  36: utils.RTS.on('datachange', 'slide-fa863e2a26e0', (register) => {
+  37    // Don't do anything if we don't have data
+
+DIDwhiteboard • A1/M6/TA L01 - Analyzing Paint Splatters/slide10.js:
+  14  
+  15: utils.RTS.on("datachange", "slide-62797c462e04", (register) => {
+  16    if (!register || !register.length) {
+
+  26  
+  27: utils.RTS.on("datachange", "slide-fa863e2a26e0", (register) => {
+  28    // Don't do anything if we don't have data
+
+DIDwhiteboard • G6/M1/TB L07 - Graphs of Ratio Relationships/slide-7c1b3287d00a.js:
+  4  
+  5: utils.RTS.on('datachange', 'slide-e8a367e5dc02', (register) => {
+  6    if (!register || !register.length) {
+
+DIDwhiteboard • G6/M1/TD L18 - Comparing Rates/slide8.js:
+  6  
+  7: utils.RTS.on('datachange', id1, (register) => {
+  8    if (!register || !register.length) {
+
+DIDwhiteboard • G6/M1/TD L18 - Comparing Rates/slide22.js:
+  6  
+  7: utils.RTS.on('datachange', id1, (register) => {
+  8    if (!register || !register.length) {
+
+DIDwhiteboard • G6/M2/TC L12 - Fraction Operations in a Real-World Situation/slide14.js:
+  12  
+  13: utils.RTS.on('datachange', id11, (register) => {
+  14    const actualValue = 20; // Change this accordingly
+
+DIDwhiteboard • G6/M2/TC L12 - Fraction Operations in a Real-World Situation/origFilesToDeleteWhenReady/slide14Orig.js:
+  10  
+  11: utils.RTS.on('datachange', 'slide-d5bf2f77a12c', (register) => {
+  12    const actualValue = 20; // Change this accordingly
+
+DIDwhiteboard • G6/M3/TA L02 - Integers/slide17.js:
+  23  
+  24: utils.RTS.on('datachange', 'slide-50a590bf3ae1', (register) => {
+  25    if (!register || !register.length) {
+
+DIDwhiteboard • G6/M3/TA L02 - Integers/slide19.js:
+  23  
+  24: utils.RTS.on('datachange', 'slide-10141571b1ef', (register) => {
+  25    if (!register || !register.length) {
+
+DIDwhiteboard • G6/M3/TB L07 - Absolute Value/slide13.js:
+  5  
+  6: utils.RTS.on('datachange', 'slide-b3270303bf26', (register) => {
+  7    if (!register || !register.length) {
+
+DIDwhiteboard • G6/M3/TB L07 - Absolute Value/slide16.js:
+  4  
+  5: utils.RTS.on('datachange', 'slide-9a8ab250cd3c', (register) => {
+  6    if (!register || !register.length) {
+
+DIDwhiteboard • G6/M3/TB L07 - Absolute Value/slide17.js:
+  4  
+  5: utils.RTS.on('datachange', 'slide-7ce621d4daee', (register) => {
+  6    if (!register || !register.length) {
+
+DIDwhiteboard • G6/M3/TB L07 - Absolute Value/slide19.js:
+  23  // Retrieving information
+  24: utils.RTS.on('datachange', 'slide-c36777aec611', (register) => {
+  25    // Don't do anything if we don't have data
+
+DIDwhiteboard • G6/M3/TB L07 - Absolute Value/slide21.js:
+  23  // Retrieving information
+  24: utils.RTS.on('datachange', 'slide-c1585b337528', (register) => {
+  25    // Don't do anything if we don't have data
+
+DIDwhiteboard • G6/M3/TC L12 - Reflections in the Coordinate Plane/slide10.js:
+  16  
+  17: utils.RTS.on('datachange', 'slide-9e3fd488f98e', (register) => {
+  18    if (!register || !register.length) {
+
+DIDwhiteboard • G6/M3/TC L12 - Reflections in the Coordinate Plane/slide12.js:
+  17  
+  18: utils.RTS.on('datachange', 'slide-8c7e3c27becc', (register) => {
+  19    if (!register || !register.length) {
+
+DIDwhiteboard • G6/M3/TC L12 - Reflections in the Coordinate Plane/slide14.js:
+  17  
+  18: utils.RTS.on('datachange', 'slide-2dfeb1cb88b9', (register) => {
+  19    if (!register || !register.length) {
+
+DIDwhiteboard • G6/M3/TC L12 - Reflections in the Coordinate Plane/slide16.js:
+  17  
+  18: utils.RTS.on('datachange', 'slide-3776675e3131', (register) => {
+  19    if (!register || !register.length) {
+
+DIDwhiteboard • G6/M4/TA L03 - Exploring Exponents/slide13.js:
+   6  // retrieving from slide 9
+   7: utils.RTS.on('datachange', 'slide-a0fa91df758d', (register) => {
+   8    if (!register || !register.length) {
+
+  27  // retrieving from slide 12
+  28: utils.RTS.on('datachange', 'slide-f6e713252036', (register) => {
+  29    if (!register || !register.length) {
+
+DIDwhiteboard • G6/M6/TC L15 - More Practice with Box Plots/Slide 14.js:
+  37  
+  38: utils.RTS.on("datachange", "slide-2f5efef9be15", (register) => {
+  39    if (!register || !register.length) {
+
+DIDwhiteboard • G6/M6/TC L15 - More Practice with Box Plots/Slide 15.js:
+  132  
+  133: utils.RTS.on("datachange", "slide-2f5efef9be15", (register) => {
+  134    if (!register || !register.length) {
+
+DIDwhiteboard • G6/M6/TC L15 - More Practice with Box Plots/Slide 16.js:
+  19  
+  20: utils.RTS.on("datachange", "slide-2f5efef9be15", (register) => {
+  21    if (!register || !register.length) {
+
+DIDwhiteboard • G7/M1/TB L09 - Comparing Proportional Relationships/slide6.js:
+  16  
+  17: utils.RTS.on('datachange', 'slide-e209cf1e7a95', (register) => {
+  18    // Don't do anything if we don't have data
+
+DIDwhiteboard • G7/M1/TB L09 - Comparing Proportional Relationships/slide14.js:
+  15  
+  16: utils.RTS.on("datachange", "slide-9fa01b0ddaa5", (register) => {
+  17    // Don't do anything if we don't have data
+
+DIDwhiteboard • G7/M1/TB L09 - Comparing Proportional Relationships/slide16.js:
+  15  
+  16: utils.RTS.on("datachange", "slide-5aae43ebb95c", (register) => {
+  17    // Don't do anything if we don't have data
+
+DIDwhiteboard • G7/M1/TB L09 - Comparing Proportional Relationships/slide18.js:
+  15  
+  16: utils.RTS.on("datachange", "slide-43a56066f9b3", (register) => {
+  17    // Don't do anything if we don't have data
+
+DIDwhiteboard • G7/M3/TD L18 - Understanding Inequalities and Their Solutions/slide3.js:
+  10  // Retrieving information
+  11: utils.RTS.on("datachange", "slide-a60c06cd5664_num1", (collection) => {
+  12    if (!collection || !collection.length) {
+
+DIDwhiteboard • G7/M3/TD L18 - Understanding Inequalities and Their Solutions/slide4.js:
+  10  // Retrieving information
+  11: utils.RTS.on("datachange", "slide-a60c06cd5664_num1", (collection) => {
+  12    if (!collection || !collection.length) {
+
+DIDwhiteboard • G7/M3/TD L18 - Understanding Inequalities and Their Solutions/slide7.js:
+  10  // Retrieving information
+  11: utils.RTS.on("datachange", "slide-5ac2dc875d26_num1", (collection) => {
+  12    if (!collection || !collection.length) {
+
+DIDwhiteboard • G7/M3/TD L18 - Understanding Inequalities and Their Solutions/slide8.js:
+  10  // Retrieving information
+  11: utils.RTS.on("datachange", "slide-5ac2dc875d26_num1", (collection) => {
+  12    if (!collection || !collection.length) {
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide3.js:
+  146  
+  147: utils.RTS.on("datachange", "slide-167a6a43345a", (collection) => {
+  148    if (!collection || !collection.length) {
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide6.js:
+  146  
+  147: utils.RTS.on("datachange", "slide-288dcabe5390", (collection) => {
+  148    if (!collection || !collection.length) {
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide9.js:
+  146  
+  147: utils.RTS.on("datachange", "slide-df3f39a85ce0", (collection) => {
+  148    if (!collection || !collection.length) {
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide13.js:
+  146  
+  147: utils.RTS.on("datachange", "slide-45d08cfa98f8", (collection) => {
+  148    if (!collection || !collection.length) {
+
+  266  
+  267: utils.RTS.on("datachange", "slide-179f3f38deed", (collection) => {
+  268    if (!collection || !collection.length) {
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide16.js:
+  146  
+  147: utils.RTS.on("datachange", "slide-995090d0f5d9", (collection) => {
+  148    if (!collection || !collection.length) {
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide20.js:
+  146  
+  147: utils.RTS.on("datachange", "slide-4652713265ff", (collection) => {
+  148    if (!collection || !collection.length) {
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide23.js:
+  146  
+  147: utils.RTS.on("datachange", "slide-8f4a57d83ec8", (collection) => {
+  148    if (!collection || !collection.length) {
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide26.js:
+  146  
+  147: utils.RTS.on("datachange", "slide-09890bbbf7a4", (collection) => {
+  148    if (!collection || !collection.length) {
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide30.js:
+  146  
+  147: utils.RTS.on("datachange", "slide-279bade1ef11", (collection) => {
+  148    if (!collection || !collection.length) {
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide31.js:
+  146  
+  147: utils.RTS.on("datachange", "slide-f65a463707f4", (collection) => {
+  148    if (!collection || !collection.length) {
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide32.js:
+  146  
+  147: utils.RTS.on("datachange", "slide-edd9f145cea4", (collection) => {
+  148    if (!collection || !collection.length) {
+
+DIDwhiteboard • G7/M4/TB L08 - Two Sides and One Angle/slide3.js:
+  146  
+  147: utils.RTS.on("datachange", "slide-83a161c5ac75", (collection) => {
+  148    if (!collection || !collection.length) {
+
+DIDwhiteboard • G7/M4/TB L08 - Two Sides and One Angle/slide6.js:
+  146  
+  147: utils.RTS.on("datachange", "slide-edb8b6bb4a82", (collection) => {
+  148    if (!collection || !collection.length) {
+
+DIDwhiteboard • G7/M4/TB L08 - Two Sides and One Angle/slide9.js:
+  146  
+  147: utils.RTS.on("datachange", "slide-6ddf02d53ad2", (collection) => {
+  148    if (!collection || !collection.length) {
+
+DIDwhiteboard • G7/M4/TB L08 - Two Sides and One Angle/slide13.js:
+  146  
+  147: utils.RTS.on("datachange", "slide-25174a4855d1", (collection) => {
+  148    if (!collection || !collection.length) {
+
+DIDwhiteboard • G7/M4/TB L08 - Two Sides and One Angle/slide16.js:
+  146  
+  147: utils.RTS.on("datachange", "slide-0d86367c012e", (collection) => {
+  148    if (!collection || !collection.length) {
+
+DIDwhiteboard • G7/M5/TD L19 - Applying Percent Error/slide3.js:
+  25  
+  26: utils.RTS.on('datachange', 'slide-a61b2c9bc11b.input1', (register) => {
+  27    const actualValue = 1807; // Change this accordingly
+
+DIDwhiteboard • G7/M5/TD L19 - Applying Percent Error/slide7.js:
+  20  
+  21: utils.RTS.on("datachange", "slide-e9dcbfed402b.input1", (register) => {
+  22    const actualValue = 548; // Change this accordingly
+
+DIDwhiteboard • G7/M5/TD L19 - Applying Percent Error/slide11.js:
+  19  
+  20: utils.RTS.on("datachange", "slide-a61b2c9bc11b.input1", (register) => {
+  21    const actualValue = 1800; // Change this accordingly
+
+DIDwhiteboard • G7/M5/TD L19 - Applying Percent Error/slide12.js:
+  18  
+  19: utils.RTS.on("datachange", "slide-e9dcbfed402b.input1", (register) => {
+  20    const actualValue = 330; // Change this accordingly
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 6.js:
+  93  
+  94: /*utils.RTS.on('datachange', 'slide-76c60e09ea26', (register) => {
+  95    // Don't do anything if we don't have data
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 14.js:
+  65  // Retrieving information
+  66: utils.RTS.on("datachange", "slide-2cfe81abfc55", (register) => {
+  67    // Don't do anything if we don't have data
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 15.js:
+  41  // Retrieving information
+  42: utils.RTS.on("datachange", "slide-2cfe81abfc55", (register) => {
+  43    // Don't do anything if we don't have data
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 16.js:
+  10  // Retrieving information
+  11: utils.RTS.on("datachange", "slide-2cfe81abfc55", (register) => {
+  12    // Don't do anything if we don't have data
+
+DIDwhiteboard • G7/M6/TD L19 - Memory Games/Slide 3.js:
+  37  
+  38: utils.RTS.on('datachange', 'slide-bbe966e158c4', (register) => {
+  39    if (!register || !register.length) {
+
+DIDwhiteboard • G7/M6/TD L19 - Memory Games/Slide 4.js:
+  29  
+  30: utils.RTS.on("datachange", "slide-bbe966e158c4", (register) => {
+  31    if (!register || !register.length) {
+
+DIDwhiteboard • G7/M6/TD L19 - Memory Games/Slide 5.js:
+  38  
+  39: utils.RTS.on('datachange', 'slide-bbe966e158c4', (register) => {
+  40    if (!register || !register.length) {
+
+DIDwhiteboard • G7/M6/TD L19 - Memory Games/Slide 6.js:
+  18  
+  19: utils.RTS.on("datachange", "slide-bbe966e158c4", (register) => {
+  20    if (!register || !register.length) {
+
+DIDwhiteboard • G7/M6/TD L19 - Memory Games/Slide 7.js:
+  21  
+  22: utils.RTS.on("datachange", "slide-bbe966e158c4", (register) => {
+  23    if (!register || !register.length) {
+
+DIDwhiteboard • G8/M1/TD L18 - The Pythagorean Theorem/slide10.js:
+  41  // receive data section:
+  42: utils.RTS.on('datachange', 'slide-c3780ec607dc', (register) => {
+  43    // Don't do anything if we don't have data
+
+DIDwhiteboard • G8/M2/TA L04 - Translations and Reflections on the Coordinate Plane/slide9.js:
+  78  
+  79: utils.RTS.on("datachange", "slide-c629aced8c39", (register) => {
+  80    if (!register || !register.length) {
+
+DIDwhiteboard • G8/M2/TA L04 - Translations and Reflections on the Coordinate Plane/slide10.js:
+  30  
+  31: utils.RTS.on('datachange', 'slide-c629aced8c39', (register) => {
+  32    if (!register || !register.length) {
+
+DIDwhiteboard • G8/M2/TD L18 - Proving the Converse of the Pythagorean Theorem/slide17.js:
+  65  
+  66: utils.RTS.on('datachange', 'slide-7914aad7f754', (register) => {
+  67    // Don't do anything if we don't have data
+
+DIDwhiteboard • G8/M3/TA L01 - Exploring Dilations/slide2.js:
+  32  
+  33: utils.RTS.on('datachange', 'slide-b653940d2f25', (register) => {
+  34    // Don't do anything if we don't have data
+
+DIDwhiteboard • G8/M3/TC L09 - Describing Dilations/slide3.js:
+  8  
+  9: utils.RTS.on("datachange", "slide-a263603219d2", (register) => {
+  10    // Don't do anything if we don't have data
+
+DIDwhiteboard • G8/M3/TD L17 - Similar Triangles on a Line/slide2.js:
+  29  
+  30: utils.RTS.on('datachange', 'slide-a54624cada0b', (register) => {
+  31    if (!register || !register.length) {
+
+DIDwhiteboard • G8/M4/TC L12 - Solutions to Linear Equations in Two Variables/Slide 2.js:
+  37  // Retrieving information
+  38: utils.RTS.on('datachange', 'slide-dc880babda70', (register) => {
+  39    // Don't do anything if we don't have data
+
+DIDwhiteboard • G8/M4/TC L12 - Solutions to Linear Equations in Two Variables/Slide 8.js:
+  11  
+  12: utils.RTS.on('datachange', 'slide-8cc4c1a27755', (register) => {
+  13    if (!register || !register.length) {
+
+DIDwhiteboard • G8/M4/TC L12 - Solutions to Linear Equations in Two Variables/Slide 9.js:
+  11  
+  12: utils.RTS.on('datachange', 'slide-8cc4c1a27755', (register) => {
+  13    if (!register || !register.length) {
+
+DIDwhiteboard • G8/M4/TC L12 - Solutions to Linear Equations in Two Variables/Slide 10.js:
+  11  
+  12: utils.RTS.on('datachange', 'slide-8cc4c1a27755', (register) => {
+  13    if (!register || !register.length) {
+
+DIDwhiteboard • G8/M4/TC L12 - Solutions to Linear Equations in Two Variables/Slide 13.js:
+  4  
+  5: utils.RTS.on('datachange', 'slide-25f0913f123b', (register) => {
+  6    if (!register || !register.length) {
+
+DIDwhiteboard • G8/M4/TC L12 - Solutions to Linear Equations in Two Variables/Slide 15.js:
+  4  
+  5: utils.RTS.on('datachange', 'slide-4e211223633e', (register) => {
+  6    if (!register || !register.length) {
+
+DIDwhiteboard • G8/M5/TA L02 - Introduction to Systems of Linear Equations/slide5.js:
+  8  // Retrieving information
+  9: utils.RTS.on('datachange', 'slide-d7b277b63b6a', (register) => {
+  10    // Don't do anything if we don't have data
+
+DIDwhiteboard • G8/M5/TA L02 - Introduction to Systems of Linear Equations/slide6.js:
+  10  // Retrieving information
+  11: utils.RTS.on('datachange', 'slide-d7b277b63b6a', (register) => {
+  12    // Don't do anything if we don't have data
+
+DIDwhiteboard • G8/M5/TA L02 - Introduction to Systems of Linear Equations/slide8.js:
+  42  // Retrieving information
+  43: utils.RTS.on("datachange", "slide-bc11b8e8f71c", (register) => {
+  44    // Don't do anything if we don't have data
+
+DIDwhiteboard • G8/M5/TA L02 - Introduction to Systems of Linear Equations/slide15.js:
+  44  // Retrieving information
+  45: utils.RTS.on("datachange", "slide-2c4c567cf5e4", (register) => {
+  46    // Don't do anything if we don't have data
+
+DIDwhiteboard • Geometry/M1/TA L05 - Lines Crossed by a Transversal/slide1.js:
+  2  record student's first choice. I recommend sending this choice on first "Try It" button click, and
+  3: only sending to RTS on first click.*/
+  4  
+
+DIDwhiteboard • Geometry/M1/TA L05 - Lines Crossed by a Transversal/slide2.js:
+  2  record student's first choice. I recommend sending this choice on first "Try It" button click, and
+  3: only sending to RTS on first click.*/
+  4  
+
+DIDwhiteboard • Geometry/M1/TA L05 - Lines Crossed by a Transversal/slide3.js:
+  2  record student's first choice. I recommend sending this choice on first "Try It" button click, and
+  3: only sending to RTS on first click.*/
+  4  
+
+DIDwhiteboard • Geometry/M1/TA L05 - Lines Crossed by a Transversal/slide4.js:
+  2  record student's first choice. I recommend sending this choice on first "Try It" button click, and
+  3: only sending to RTS on first click.*/
+  4  
+
+DIDwhiteboard • Geometry/M1/TD L21 - AAA and SSS/slide-5f8c0b761541.js:
+  315  
+  316: utils.RTS.on('datachange', 'slide-eb18fa7ca80f', (register) => {
+  317    // Don't do anything if we don't have data
+
+  349  
+  350: utils.RTS.on('datachange', 'slide-0800759671fc', (register) => {
+  351    // Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M1/TA L02/slide-10fd7f96ba53.js:
+  2  
+  3: utils.RTS.on("datachange", "slide-9da1dbdb3ec5", (register) => {
+  4    // Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M1/TA L02/slide-e5b8436d69c6.js:
+  3  const { table2 } = components;
+  4: utils.RTS.on("datachange", "slide-72d12af2ec15", (register) => {
+  5  	// Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M1/TC L13 - Solving and Graphing Compound Inequalities/slide4.js:
+  39  
+  40: utils.RTS.on("datachange", "slide-4d0ec089bf0b-unique", (register) => {
+  41    // Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M1/TC L13 - Solving and Graphing Compound Inequalities/slide5.js:
+  65  
+  66: utils.RTS.on("datachange", "slide-4d0ec089bf0b", (register) => {
+  67    // Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M1/TC L13 - Solving and Graphing Compound Inequalities/slide6.js:
+  73  
+  74: utils.RTS.on("datachange", "slide-4d0ec089bf0b", (register) => {
+  75    // Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M1/TD L17 - Distributions and Their Shapes/slide5.js:
+  21  
+  22: utils.RTS.on("datachange", "slide-43b49a6aec4c", (register) => {
+  23    if (!register || !register.length) {
+
+  39  
+  40: utils.RTS.on("datachange", "slide-3f75850fe6b3", (register) => {
+  41    if (!register || !register.length) {
+
+  66  
+  67: utils.RTS.on("datachange", "slide-ca9b726bccee", (register2) => {
+  68    if (!register2 || !register2.length) {
+
+DIDwhiteboard • IM1/M1/TD L17 - Distributions and Their Shapes/slide6.js:
+   8  
+   9: utils.RTS.on("datachange", "slide-43b49a6aec4c", (register) => {
+  10    if (!register || !register.length) {
+
+  20  
+  21: utils.RTS.on("datachange", "slide-3f75850fe6b3", (register) => {
+  22    if (!register || !register.length) {
+
+  47  
+  48: utils.RTS.on("datachange", "slide-ca9b726bccee", (register2) => {
+  49    if (!register2 || !register2.length) {
+
+DIDwhiteboard • IM1/M1/TD L17 - Distributions and Their Shapes/slide7.js:
+   8  
+   9: utils.RTS.on("datachange", "slide-43b49a6aec4c", (register) => {
+  10    if (!register || !register.length) {
+
+  20  
+  21: utils.RTS.on("datachange", "slide-3f75850fe6b3", (register) => {
+  22    if (!register || !register.length) {
+
+  47  
+  48: utils.RTS.on("datachange", "slide-ca9b726bccee", (register2) => {
+  49    if (!register2 || !register2.length) {
+
+DIDwhiteboard • IM1/M1/TD L17 - Distributions and Their Shapes/slide10.js:
+  27  
+  28: utils.RTS.on("datachange", "slide-43b49a6aec4c", (register) => {
+  29    if (!register || !register.length) {
+
+  60  
+  61: utils.RTS.on("datachange", "slide-3f75850fe6b3", (register) => {
+  62    if (!register || !register.length) {
+
+  87  
+  88: utils.RTS.on("datachange", "slide-ca9b726bccee", (register2) => {
+  89    if (!register2 || !register2.length) {
+
+DIDwhiteboard • IM1/M1/TD L17 - Distributions and Their Shapes/slide11.js:
+  23  
+  24: utils.RTS.on("datachange", "slide-43b49a6aec4c", (register) => {
+  25    if (!register || !register.length) {
+
+  41  
+  42: utils.RTS.on("datachange", "slide-3f75850fe6b3", (register) => {
+  43    if (!register || !register.length) {
+
+  68  
+  69: utils.RTS.on("datachange", "slide-ca9b726bccee", (register2) => {
+  70    if (!register2 || !register2.length) {
+
+DIDwhiteboard • IM1/M1/TD L17 - Distributions and Their Shapes/slide14.js:
+  38  
+  39: utils.RTS.on("datachange", "slide-4bfb4c854b0b", (register3) => {
+  40    if (!register3 || !register3.length) {
+
+  61  
+  62: utils.RTS.on("datachange", "slide-4ef6031b9218", (register4) => {
+  63    if (!register4 || !register4.length) {
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide4 slide-1fae6b2740ae.js:
+  237  
+  238: utils.RTS.on("datachange", "slide-1a0fd993032e", (register) => {
+  239    // Don't do anything if we don't have data
+
+  284  // Retrieving information
+  285: utils.RTS.on("datachange", "slide-8e74cc3defa1", (register) => {
+  286    // Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide5 slide-1607be549e7a.js:
+  40  
+  41: utils.RTS.on("datachange", "slide-1a0fd993032e", (register) => {
+  42    if (!register || !register.length) {
+
+  81  
+  82: utils.RTS.on("datachange", "slide-8e74cc3defa1", (register) => {
+  83    if (!register || !register.length) {
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide6 slide-636c1d4df639.js:
+   63  
+   64: utils.RTS.on("datachange", "slide-1a0fd993032e", (register) => {
+   65    if (!register || !register.length) {
+
+  109  
+  110: utils.RTS.on("datachange", "slide-8e74cc3defa1", (register) => {
+  111    // Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide7 slide-7d823c66c153.js:
+  21  
+  22: utils.RTS.on("datachange", "slide-1a0fd993032e", (register) => {
+  23    // Don't do anything if we don't have data
+
+  69  // Retrieving information
+  70: utils.RTS.on("datachange", "slide-8e74cc3defa1", (register) => {
+  71    // Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide12 slide-cb14aaf8d320.js:
+  54  
+  55: utils.RTS.on("datachange", "slide-102b2e9edb49", (register) => {
+  56    if (!register || !register.length) {
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide13 slide-15596c4169b5.js:
+  66  
+  67: utils.RTS.on("datachange", "slide-102b2e9edb49", (register) => {
+  68    // Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide14 slide-9295071f4648.js:
+  49  
+  50: utils.RTS.on("datachange", "slide-102b2e9edb49", (register) => {
+  51    // Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide16 slide-4f4f1ee86f94.js:
+  30  
+  31: utils.RTS.on("datachange", "slide-fd85e50c42c6", (register) => {
+  32    if (!register || !register.length) {
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide17 slide-1cba24759350.js:
+  39  
+  40: utils.RTS.on("datachange", "slide-fd85e50c42c6", (register) => {
+  41    // Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide18 slide-5072c2c56e10.js:
+  45  
+  46: utils.RTS.on("datachange", "slide-fd85e50c42c6", (register) => {
+  47    // Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide19 slide-be0d33a7b382.js:
+  102  
+  103: utils.RTS.on("datachange", "slide-102b2e9edb49", (register) => {
+  104    if (!register || !register.length) {
+
+  140  
+  141: utils.RTS.on("datachange", "slide-fd85e50c42c6", (register) => {
+  142    if (!register || !register.length) {
+
+DIDwhiteboard • IM1/M2/TC L13 - Solution Sets of Linear Inequalities in Two Variables/slide7.js:
+  251  
+  252: utils.RTS.on("datachange", "slide-1a0fd993032e", (register) => {
+  253    if (!register || !register.length) {
+
+  277  
+  278: utils.RTS.on("datachange", "slide-8e74cc3defa1", (register) => {
+  279    if (!register || !register.length) {
+
+DIDwhiteboard • IM1/M2/TC L13 - Solution Sets of Linear Inequalities in Two Variables/slide10.js:
+   72  
+   73: utils.RTS.on("datachange", "slide-1a0fd993032e", (register) => {
+   74    if (!register || !register.length) {
+
+   99  // Retrieving information
+  100: utils.RTS.on("datachange", "slide-8e74cc3defa1", (register) => {
+  101    // Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M2/TC L16 - Solution Sets of Systems of Linear Inequalities/slide7.js:
+  55  
+  56: utils.RTS.on("datachange", "slide-0bca97913e87", (register) => {
+  57    // Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide13.js:
+  80  
+  81: utils.RTS.on("datachange", "slide-53edd5722d6d", (register) => {
+  82    // Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide14.js:
+  38  
+  39: utils.RTS.on("datachange", "slide-53edd5722d6d", (register) => {
+  40    // Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide15.js:
+  10  
+  11: utils.RTS.on("datachange", "slide-798ca5e70b9b", (register) => {
+  12    // Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide16.js:
+  80  
+  81: utils.RTS.on("datachange", "slide-53edd5722d6d", (register) => {
+  82    // Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide17.js:
+  38  
+  39: utils.RTS.on("datachange", "slide-53edd5722d6d", (register) => {
+  40    // Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide18.js:
+  10  
+  11: utils.RTS.on("datachange", "slide-798ca5e70b9b", (register) => {
+  12    // Don't do anything if we don't have data
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide19.js:
+  67  
+  68: utils.RTS.on("datachange", "slide-798ca5e70b9b", (register) => {
+  69    // Don't do anything if we don't have data
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V2/slide11.js:
+  2  
+  3: utils.RTS.on("datachange", "slide-3d79ba9a5cf4", (register) => {
+  4    // Don't do anything if we don't have data
+
+DIDwhiteboard • OMO/G6/unusedReport.js:
+  2  
+  3: utils.RTS.on("datachange", "slide-70413f4e7f20", (register) => {
+  4  	// Don't do anything if we don't have data
+
+DIDwhiteboard • Other/Onboarding/Learning Task 3/slide2.js:
+  4  
+  5: utils.RTS.on('datachange', 'slide-25f0913f123b', (register) => {
+  6    if (!register || !register.length) {
+
+DIDwhiteboard • Print Alt/A1/M2/TC L15/slide4.js:
+  25  // Retrieving information
+  26: utils.RTS.on("datachange", "slide-0f4cf0884e2b", (register) => {
+  27    // Don't do anything if we don't have data
+
+DIDwhiteboard • Print Alt/A1/M3/TA L3 The Graph of a Function/slide9.js:
+  33  
+  34: /*utils.RTS.on("datachange", "slide-3b6db967be76", (register) => {
+  35    // Don't do anything if we don't have data
+
+DIDwhiteboard • Print Alt/A1/M6/TA L01- Analyzing Paint Splatters/slide6.js:
+   8  
+   9: // utils.RTS.on('datachange', 'slide-62797c462e04', (register) => {
+  10  //   if (!register || !register.length) {
+
+  85  
+  86: utils.RTS.on('datachange', 'slide-62797c462e04', (register) => {
+  87    if (!register || !register.length) {

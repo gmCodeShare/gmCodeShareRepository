@@ -1,0 +1,231 @@
+# Query: const.*\\{.* media.*\\}.*=.*components
+# Flags: RegExp
+# Including: ./DIDwhiteboard
+# Excluding: Answer Key not working.json
+# ContextLines: 1
+
+52 results - 52 files
+
+DIDwhiteboard • A1/M3/TC L13 - Modeling Elevation as a Function of Time/slide14.js:
+  1: const { ggb1, buttonGroup1, media1 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TA L04 - Exploring Ratios by Making Batches/slide-00d528af43e0.js:
+  1: const { media1 } = components;
+
+DIDwhiteboard • G6/M1/TA L04 - Exploring Ratios by Making Batches/slide-59a9a6830a38.js:
+  1: const { media1 } = components;
+
+DIDwhiteboard • G6/M1/TD L18 - Comparing Rates/slide3.js:
+  1: const { text1, text2, text3, button1, media1, ggb1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TB L08 - Picking Blue/Slide 1.js:
+  1: const { cc_sharewithclass_ee6dea82d723_button1, media1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G1/M2/TC/L10/Version1/slide1.js:
+  1  //slide-290c0399a706
+  2: const { ggb1, buttonGroup1, media1 } = components;
+  3  
+
+DIDwhiteboard • OMO/G1/M2/TC/L10/Version1/slide2.js:
+  2  
+  3: const { media1, ggb1, fib1, select1, buttonGroup1 } = components;
+  4  media1.on("ready", ({ data: vid }) => {
+
+DIDwhiteboard • OMO/G1/M2/TC/L10/Version1/slide3.js:
+  2  
+  3: const { media1, ggb1, fib1, select1, buttonGroup1 } = components;
+  4  media1.on("ready", ({ data: vid }) => {
+
+DIDwhiteboard • OMO/G1/M2/TC/L10/Version2/slide3.js:
+  1: const { select1, ggb1, buttonGroup1, fib1, media1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G1/M2/TC/L10/Version3/slide1.js:
+  1: const { media1, ggb1, text1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G1/M2/TC/L10/Version3/slide2.js:
+  1: const { media1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G1/M2/TC/L10/Version3/slide5.js:
+  1: const { media1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G1/M2/TC/L10/Version3/slide7.js:
+  1: const { media1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G1/M2/TC/L10/Version3/slide9.js:
+  1: const { media1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G1/M2/TC/L10/Version4/slide3.js:
+  1: const { ggb1, ggb3, buttonGroup1, media6 } = components;
+  2  let arcList = [
+
+DIDwhiteboard • OMO/G1/M2/TC/L10/Version4/slide6.js:
+  1: const { media9 } = components;
+  2  
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V1/newSlide1.js:
+  2  
+  3: const { media1 } = components;
+  4  
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V1/newSlide2.js:
+  2  
+  3: const { select1, button1, media1, input1 } = components;
+  4  
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V1/newSlide4.js:
+  2  
+  3: const { ggb1, ggb2, buttonGroup2, media1 } = components;
+  4  ggb1.instance.setVisible("button1", false);
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V1/newSlide8.js:
+  2  
+  3: const { ggb1, fib2, fib3, fib4, buttonGroup1, text1, media1 } = components;
+  4  let num1 = 4;
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V1/newSlide10.js:
+  2  
+  3: const { media1 } = components;
+  4  
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V1/pseudo.js:
+  2  
+  3: const { ggb1, fib2, fib3, fib4, buttonGroup1, text1, media1 } = components;
+  4  let num1 = 4;
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V2/slide2.js:
+  2  
+  3: const { select1, button1, media1, input1 } = components;
+  4  
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V2/slide4.js:
+  2  
+  3: const { ggb1, ggb2, buttonGroup2, media1, button1, text1, image1 } = components;
+  4  
+
+DIDwhiteboard • OMO/G6/slide1.js:
+  1  //slide-352ee5cfff43
+  2: const { media1, ggb1, text1} = components;
+  3  
+
+DIDwhiteboard • OMO/G6/slide3.js:
+  1  //slide-637beb969b3c
+  2: const {text1, media1} = components;
+  3  
+
+DIDwhiteboard • OMO/G6/slide4.js:
+  1  //slide-7c2bb4549d63
+  2: const { media1, ggb1, text1, text2, buttonGroup1 } = components;
+  3  
+
+DIDwhiteboard • OMO/G6/slide10.js:
+  1: const { media1, text1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide1.js:
+  1: const { media1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide2.js:
+  1: const { media1, cc_submit_b1b791c2fb51_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide3.js:
+  1: const { media1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide4.js:
+  1: const { ggb1, media1, button1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide5.js:
+  1: const { media1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide6.js:
+  1: const { ggb1, media1, button1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide7.js:
+  1: const { media1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide10.js:
+  1: const { media1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide12.js:
+  1: const { media1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide13.js:
+  1: const { ggb1, button1, media1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide15.js:
+  1: const { media1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide16.js:
+  1: const { ggb1, input1, button1, media1, select1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide17.js:
+  1: const { media1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide18.js:
+  1: const { media1, cc_submit_1d93061a6cdd_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide19.js:
+  1: const { media1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide20.js:
+  1: const { ggb1, input1, button1, select1, media1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide21.js:
+  1: const { media1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G7/M1/L20 - Proto 0/slide22.js:
+  1: const { media1, cc_submit_800f4394a190_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G9/M2/TA/L2/Slide1.js:
+  2  
+  3: const { ggb1, media1, buttonGroup1 } = components;
+  4  
+
+DIDwhiteboard • OMO/G9/M2/TA/L2/Slide4.js:
+  2  
+  3: const { ggb1, buttonGroup1, text1, text2, media4 } = components;
+  4  
+
+DIDwhiteboard • OMO/G9/M2/TA/L2/Slide8.js:
+  2  
+  3: const { media8, text1, text2, text3, select1, ggb1, buttonGroup1 } = components;
+  4  
+
+DIDwhiteboard • OMO/G9/M2/TA/L2/Slide9.js:
+  2  
+  3: const { ggb1, buttonGroup1, media9 } = components;
+  4  
+
+DIDwhiteboard • Print Alt/A1/M3/TC l13 Modeling Elevation as a Function of Time/slide10.js:
+  1: const { ggb1, buttonGroup1, media1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G7/M6/TB L08 - Picking Blue/slide2.js:
+  1: const { media1, buttonGroup1 } = components;
+  2  

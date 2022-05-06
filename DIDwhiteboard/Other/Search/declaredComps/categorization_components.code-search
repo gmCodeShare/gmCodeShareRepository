@@ -1,0 +1,28 @@
+# Query: const.*\\{.*cat.*\\}.*=.*components
+# Flags: RegExp
+# Including: ./DIDwhiteboard
+# Excluding: Answer Key not working.json
+# ContextLines: 1
+
+5 results - 5 files
+
+DIDwhiteboard • G8/M2/TD L18 - Proving the Converse of the Pythagorean Theorem/slide16.js:
+  1: const { categorization1 } = components;
+  2  
+
+DIDwhiteboard • G8/M3/TA L01 - Exploring Dilations/slide6.js:
+  1: const { cat1 } = components;
+  2  
+
+DIDwhiteboard • G8/M3/TA L01 - Exploring Dilations/slide7.js:
+  1: const { cat1 } = components;
+  2  
+
+DIDwhiteboard • Geometry/M1/TB L07 - Transformations/slide13.js:
+  1: const { ggb1, ggb2, select1, text2, cat1, button1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V1/newSlide5.js:
+  2  
+  3: const { cat1, button1, text1, text2 } = components;
+  4  slide.on("firstload", () => {

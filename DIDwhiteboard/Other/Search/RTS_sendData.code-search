@@ -1,0 +1,836 @@
+# Query: RTS.sendData
+# Flags: RegExp
+# Including: ./DIDwhiteboard
+# ContextLines: 1
+
+170 results - 150 files
+
+DIDwhiteboard • 7A/M1/TD L21 - Approximate Values of Roots/slide2.js:
+  105    button1.updateData({ disabled: true });
+  106:   utils.RTS.sendData(id1, {
+  107      points: [ggb2.instance.getXcoord('DragApprox'), ggb2.instance.getYcoord('DragApprox')],
+
+DIDwhiteboard • A1/M1/TA L05 - Multiplying Polynomial Expressions/slide16.js:
+  203  
+  204:     utils.RTS.sendData("slide-74e5ac695299", {
+  205        //package schema: [0: exp1]
+
+DIDwhiteboard • A1/M1/TC L15 - Solving and Graphing Compound Inequalities/slide 4.js:
+   34    text2.updateData({ text: "Checking your number..." });
+   35:   utils.RTS.sendData("slide-4d0ec089bf0b-unique", {
+   36      xVal: result.value,
+
+  103        ggb1.updateData({ plotted: [...plottedSoFar] });
+  104:       utils.RTS.sendData("slide-4d0ec089bf0b", {
+  105          xVals: [...ggb1.data.plotted],
+
+DIDwhiteboard • A1/M1/TD L18 - Distributions and Their Shapes/slide2.js:
+  50      text4.updateData({ text: `Your score: $${textEnteredLengthAnswer}$` });
+  51:     utils.RTS.sendData("slide-3f75850fe6b3", {
+  52        myData: textEnteredLengthAnswer,
+
+DIDwhiteboard • A1/M1/TD L18 - Distributions and Their Shapes/slide3.js:
+  47      text4.updateData({ text: `Your score: $${textEnteredLengthAnswer}$` });
+  48:     utils.RTS.sendData("slide-ca9b726bccee", {
+  49        myData2: textEnteredLengthAnswer,
+
+  77  //   text4.updateData({ text: `Your score: $${textEnteredLengthAnswer}$` });
+  78: //   utils.RTS.sendData("slide-3f75850fe6b3", {l1:textEnteredLengthAnswer});
+  79  // }
+
+DIDwhiteboard • A1/M1/TD L18 - Distributions and Their Shapes/slide11.js:
+  7    if (controls.current == now + 1) {
+  8:     utils.RTS.sendData("slide-4bfb4c854b0b", {
+  9        Answer: ggb1.innerData["Answer"],
+
+DIDwhiteboard • A1/M1/TD L18 - Distributions and Their Shapes/slide12.js:
+  7    if (controls.current == now + 1) {
+  8:     utils.RTS.sendData("slide-4ef6031b9218", {
+  9        Answer2: ggb1.innerData["Answer2"],
+
+DIDwhiteboard • A1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/Slide 1.js:
+  124    if (controls.current == now + 1) {
+  125:     utils.RTS.sendData("slide-1a0fd993032e", {
+  126        x1,
+
+DIDwhiteboard • A1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/Slide 3.js:
+  126    if (controls.current == now + 1) {
+  127:     utils.RTS.sendData("slide-8e74cc3defa1", {
+  128        x1,
+
+DIDwhiteboard • A1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/Slide 12.js:
+  70    if (controls.current == now + 1) {
+  71:     utils.RTS.sendData("slide-102b2e9edb49", {
+  72        distance: Math.round(ggb1.instance.getValue("distance") * 1000) / 1000,
+
+DIDwhiteboard • A1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/Slide 16.js:
+  70    if (controls.current == now + 1) {
+  71:     utils.RTS.sendData("slide-fd85e50c42c6", {
+  72        distance: Math.round(ggb1.instance.getValue("distance") * 1000) / 1000,
+
+DIDwhiteboard • A1/M2/TA L04 - Solutions Sets of Linear Inequalites in Two Variables/slide3.js:
+  208    if (controls.current == now + 1) {
+  209:     utils.RTS.sendData("slide-1a0fd993032e", {
+  210        a,
+
+DIDwhiteboard • A1/M2/TA L04 - Solutions Sets of Linear Inequalites in Two Variables/slide5.js:
+  148      let l = utils.math.evaluateLatex(cell21).value;
+  149:     utils.RTS.sendData("slide-8e74cc3defa1", {
+  150        g,
+
+DIDwhiteboard • A1/M2/TB L12 - Solution Sets of Systems of Linear Inequalities/slide12.js:
+  415      console.log(finalAnswer2);
+  416:     utils.RTS.sendData('slide-8086146665c9', {
+  417        //package schema: [0: 0 for writeSystem or 1 for graphSystem, 1: [frogX, frogY], 2: [cheese1X, cheese1Y], 3: [cheese2X, cheese2Y], 4: [cheese3X, cheese3Y], 5: finalAnswer1, 6: finalAnswer2, 7: [P1AX, P1AY], 8: [P1BX, P1BY], 9: line1Greater, 10: line1OrEqual, 11: [P2AX, P2AY], 12: [P2BX, P2BY], 13: line2Greater, 14: line2OrEqual]
+
+  597        let finalAnswer2 = ineq2Init;
+  598:       utils.RTS.sendData('slide-8086146665c9', {
+  599          //package schema: [0: 0 for writeSystem or 1 for graphSystem, 1: [frogX, frogY], 2: [cheese1X, cheese1Y], 3: [cheese2X, cheese2Y], 4: [cheese3X, cheese3Y], 5: finalAnswer1, 6: finalAnswer2]
+
+DIDwhiteboard • A1/M2/TB L12 - Solution Sets of Systems of Linear Inequalities/archive/slide12old.js:
+  408      });
+  409:     utils.RTS.sendData('slide-8086146665c9', {
+  410        //package schema: [0: 0 for writeSystem or 1 for graphSystem, 1: [frogX, frogY], 2: [cheese1X, cheese1Y], 3: [cheese2X, cheese2Y], 4: [cheese3X, cheese3Y], 5: finalAnswer1, 6: finalAnswer2]
+
+DIDwhiteboard • A1/M2/TB L12 - Solution Sets of Systems of Linear Inequalities/archive/slide15ToDelete.js:
+  409      });
+  410:     utils.RTS.sendData("slide-8086146665c9", {
+  411        //package schema: [0: 0 for writeSystem or 1 for graphSystem, 1: [frogX, frogY], 2: [cheese1X, cheese1Y], 3: [cheese2X, cheese2Y], 4: [cheese3X, cheese3Y], 5: finalAnswer1, 6: finalAnswer2]
+
+DIDwhiteboard • A1/M2/TC L15 - Relationships Between Quantitative Variables/Slide 4.js:
+  54  
+  55:   utils.RTS.sendData('slide-0f4cf0884e2b', {
+  56      num,
+
+DIDwhiteboard • A1/M2/TC L15 - Relationships Between Quantitative Variables/slide0.js:
+  10  select1.on('change', ({ selected }) => {
+  11:   utils.RTS.sendData('slide-380d9e72741f', {
+  12      showProvided: selected.includes('1'),
+
+DIDwhiteboard • A1/M2/TC L16 - Using Lines to Model Bivariate Quantitative Data/Slide 1.js:
+  54  
+  55:   utils.RTS.sendData("slide-28a7788bcedd", {
+  56      num,
+
+DIDwhiteboard • A1/M2/TC L16 - Using Lines to Model Bivariate Quantitative Data/Slide 2.js:
+  77    if (controls.current == now + 1) {
+  78:     utils.RTS.sendData('slide-74ce23520a2c', {
+  79        choiceVal,
+
+DIDwhiteboard • A1/M2/TC L16 - Using Lines to Model Bivariate Quantitative Data/Slide 4.js:
+  46      if (ggb1.instance.getValue('fake')) {
+  47:       utils.RTS.sendData('slide-71075d08f8a6', {
+  48          pointA: ggb1.innerData['FakeA'],
+
+  52      if (!ggb1.instance.getValue('fake')) {
+  53:       utils.RTS.sendData('slide-71075d08f8a6', {
+  54          pointA: ggb1.innerData['A'],
+
+DIDwhiteboard • A1/M2/TC L16 - Using Lines to Model Bivariate Quantitative Data/Slide 6.js:
+  29    if (controls.current == now + 1) {
+  30:     utils.RTS.sendData("slide-4c0089d01b35", {
+  31        pointA: ggb1.innerData["A"],
+
+DIDwhiteboard • A1/M2/TC L16 - Using Lines to Model Bivariate Quantitative Data/Slide 15.js:
+  132    if (controls.current == now + 1) {
+  133:     utils.RTS.sendData('slide-0637f0fae6a5', {
+  134        choiceVal,
+
+DIDwhiteboard • A1/M2/TC L16 - Using Lines to Model Bivariate Quantitative Data/slide0.js:
+  10  select1.on('change', ({ selected }) => {
+  11:   utils.RTS.sendData('slide-1c80a58b9dc4', {
+  12      showProvided: selected.includes('1'),
+
+DIDwhiteboard • A1/M2/TC L17 - Modeling Relationships with a Line/Slide 1.js:
+  54  
+  55:   utils.RTS.sendData("slide-290b837ee12a", {
+  56      num,
+
+DIDwhiteboard • A1/M2/TC L17 - Modeling Relationships with a Line/Slide 4.js:
+  41      if (ggb1.instance.getValue('fake')) {
+  42:       utils.RTS.sendData('slide-066820f92120', {
+  43          pointA: ggb1.innerData['FakeAIG'],
+
+  47      if (!ggb1.instance.getValue('fake')) {
+  48:       utils.RTS.sendData('slide-066820f92120', {
+  49          pointA: ggb1.innerData['RealAIG'],
+
+DIDwhiteboard • A1/M2/TC L17 - Modeling Relationships with a Line/Slide 6.js:
+  42    if (controls.current == now + 1) {
+  43:     utils.RTS.sendData("slide-c9df07d05033", {
+  44        pointA: ggb1.innerData["LeftDragPointA"],
+
+DIDwhiteboard • A1/M2/TC L17 - Modeling Relationships with a Line/slide0.js:
+  10  select1.on('change', ({ selected }) => {
+  11:   utils.RTS.sendData('slide-e89c96d31a0d', {
+  12      showProvided: selected.includes('1'),
+
+DIDwhiteboard • A1/M2/TC L18 - Airline Flight Data Demo/slide1.js:
+  173  
+  174:   utils.RTS.sendData('slide-290b837ee12a', {
+  175      num,
+
+DIDwhiteboard • A1/M2/TC L19 - Analyzing Residuals Demo/slide5.js:
+  173  
+  174:   utils.RTS.sendData('slide-d6ce052ba84a', {
+  175      num,
+
+DIDwhiteboard • A1/M2/TC L20 - Interpreting Correlation/slide0.js:
+  10  select1.on('change', ({ selected }) => {
+  11:   utils.RTS.sendData('slide-0c7d50858588', {
+  12      showProvided: selected.includes('1'),
+
+DIDwhiteboard • A1/M2/TC L20 - Interpreting Correlation/slide1.js:
+  55  
+  56:   utils.RTS.sendData("slide-ffd0bc2076d0", {
+  57      num,
+
+DIDwhiteboard • A1/M2/TC L20 - Interpreting Correlation/slide4.js:
+  25    if (controls.current == now + 1) {
+  26:     utils.RTS.sendData('slide-de266d0d66c4', {
+  27        pointA: ggb2.innerData['A'],
+
+DIDwhiteboard • A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/Slide 7.js:
+  103    if (controls.current == now + 1) {
+  104:     utils.RTS.sendData("slide-0238f6cbbc1b", {
+  105        choiceVal,
+
+DIDwhiteboard • A1/M3/TA L03 - The Graph of a Function/slide8.js:
+  75    // console.log(ggb1.innerData[`doodles`]);
+  76:   utils.RTS.sendData("slide-3a98e4d3e8f3", {
+  77      myDoodles: ggb1.innerData[`doodles`],
+
+DIDwhiteboard • A1/M3/TA L03 - The Graph of a Function/slide14.js:
+  49    // console.log(doodleArray);
+  50:   utils.RTS.sendData('slide-3b6db967be76', {
+  51      myDoodles: ggb1.innerData[`doodles2`],
+
+DIDwhiteboard • A1/M3/TB L07 - Exploring Key Features of a Function and Its Graph/slide5.js:
+  74    if (controls.current == now + 1) {
+  75:     utils.RTS.sendData("slide-7d04d771b18a", {
+  76        params: [
+
+DIDwhiteboard • A1/M3/TB L07 - Exploring Key Features of a Function and Its Graph/slide6.js:
+  78    if (controls.current == now + 1) {
+  79:     utils.RTS.sendData("slide-fbf629b044b7", {
+  80        params: [
+
+DIDwhiteboard • A1/M3/TB L07 - Exploring Key Features of a Function and Its Graph/slide9.js:
+  50    if (controls.current == now + 1) {
+  51:     utils.RTS.sendData("slide-611a56806b59-above", {
+  52        params: [
+
+  56      });
+  57:     utils.RTS.sendData("slide-611a56806b59-below", {
+  58        params: [
+
+DIDwhiteboard • A1/M3/TB L07 - Exploring Key Features of a Function and Its Graph/slide14.js:
+  203    if (controls.current == now + 1 && ggb2.data.cmdStrings?.length) {
+  204:     utils.RTS.sendData("slide-52f9200ffc57", {
+  205        doodles: [...ggb2.data.cmdStrings],
+
+DIDwhiteboard • A1/M3/TB L07 - Exploring Key Features of a Function and Its Graph/slide16.js:
+  203    if (controls.current == now + 1 && ggb2.data.cmdStrings?.length) {
+  204:     utils.RTS.sendData("slide-52f9200ffc57", {
+  205        doodles: [...ggb2.data.cmdStrings],
+
+  212    if (controls.current == now + 1 && ggb2.data.cmdStrings?.length) {
+  213:     utils.RTS.sendData("slide-5fa491f600ef", {
+  214        doodles: [...ggb2.data.cmdStrings],
+
+DIDwhiteboard • A1/M3/TC L13 - Modeling Elevation as a Function of Time/slide2.js:
+  42      adds(allStrokes[0]); // this enables erase responsiveness. but is it safe?
+  43:     utils.RTS.sendData("slide-e6377369e54e", {
+  44        doodles: [...ggb1.data.cmdStrings],
+
+DIDwhiteboard • A1/M3/TC L13 - Modeling Elevation as a Function of Time/slide5.js:
+  42      adds(allStrokes[0]); // this enables erase responsiveness. but is it safe?
+  43:     utils.RTS.sendData("slide-3cb228faaa54", {
+  44        doodles: [...ggb1.data.cmdStrings],
+
+DIDwhiteboard • A1/M3/TC L13 - Modeling Elevation as a Function of Time/slide8.js:
+  52      adds(allStrokes[0]); // this enables erase responsiveness. but is it safe?
+  53:     utils.RTS.sendData("slide-8646fd8a4630", {
+  54        doodles: [...ggb1.data.cmdStrings],
+
+DIDwhiteboard • A1/M3/TC L13 - Modeling Elevation as a Function of Time/slide10.js:
+  66      adds(allStrokes[0]); // this enables erase responsiveness. but is it safe?
+  67:     utils.RTS.sendData("slide-fea879b785b9", {
+  68        doodles: [...ggb1.data.cmdStrings],
+
+DIDwhiteboard • A1/M3/TC L13 - Modeling Elevation as a Function of Time/slide12.js:
+  66      adds(allStrokes[0]); // this enables erase responsiveness. but is it safe?
+  67:     utils.RTS.sendData("slide-c79aa62c31a4", {
+  68        doodles: [...ggb1.data.cmdStrings],
+
+DIDwhiteboard • A1/M6/TA L01 - Analyzing Paint Splatters/slide4.js:
+  455    let headerY = table1.data.columns[1].value;
+  456:   utils.RTS.sendData('slide-62797c462e04', {
+  457      text1x: headerX,
+
+  466      let headerY = table1.data.columns[1].value;
+  467:     utils.RTS.sendData('slide-62797c462e04', {
+  468        text1x: headerX,
+
+DIDwhiteboard • A1/M6/TA L01 - Analyzing Paint Splatters/slide5.js:
+  495  
+  496:   utils.RTS.sendData('slide-fa863e2a26e0', {
+  497      num,
+
+DIDwhiteboard • G6/M1/TB L07 - Graphs of Ratio Relationships/slide-e8a367e5dc02.js:
+  38    if (controls.current == now + 1) {
+  39:     utils.RTS.sendData('slide-e8a367e5dc02', {
+  40        choiceVal,
+
+DIDwhiteboard • G6/M1/TD L18 - Comparing Rates/slide7.js:
+  23    if (controls.current == now + 1) {
+  24:     utils.RTS.sendData('slide-8551d227df2b', {
+  25        choiceVal,
+
+DIDwhiteboard • G6/M1/TD L18 - Comparing Rates/slide20.js:
+  76      updateSingleButtonGroup(2, { disabled: false }, buttonGroup1);
+  77:     utils.RTS.sendData('slide-d1edeb748f96', {
+  78        myVal: ggb1.innerData['countPerMinute'],
+
+DIDwhiteboard • G6/M2/TC L12 - Fraction Operations in a Real-World Situation/slide12.js:
+  270    ggb1.instance.startAnimation();
+  271:   utils.RTS.sendData(id11, {
+  272      estimate: result.value.toFixed(2),
+
+DIDwhiteboard • G6/M2/TC L12 - Fraction Operations in a Real-World Situation/origFilesToDeleteWhenReady/slide12Orig.js:
+  43    ggb1.instance.startAnimation();
+  44:   utils.RTS.sendData('slide-d5bf2f77a12c', {
+  45      estimate: result.value.toFixed(2),
+
+DIDwhiteboard • G6/M3/TA L02 - Integers/slide16.js:
+  28  button1.on('click', () => {
+  29:   utils.RTS.sendData('slide-50a590bf3ae1', { myPoint: ggb1.innerData['F'] });
+  30  });
+
+DIDwhiteboard • G6/M3/TA L02 - Integers/slide18.js:
+  28  button1.on('click', () => {
+  29:   utils.RTS.sendData('slide-10141571b1ef', { my2Point: ggb1.innerData['F'] });
+  30  });
+
+DIDwhiteboard • G6/M3/TB L07 - Absolute Value/slide12.js:
+  47    if (controls.current == now + 1) {
+  48:     utils.RTS.sendData('slide-b3270303bf26', {
+  49        choiceVal,
+
+DIDwhiteboard • G6/M3/TB L07 - Absolute Value/slide14.js:
+  41    if (controls.current == now + 1) {
+  42:     utils.RTS.sendData('slide-9a8ab250cd3c', {
+  43        choiceVal,
+
+DIDwhiteboard • G6/M3/TB L07 - Absolute Value/slide15.js:
+  41    if (controls.current == now + 1) {
+  42:     utils.RTS.sendData('slide-7ce621d4daee', {
+  43        choiceVal,
+
+DIDwhiteboard • G6/M3/TB L07 - Absolute Value/slide18.js:
+  27    ggb1.instance.evalCommand('SelectObjects( )');
+  28:   utils.RTS.sendData('slide-c36777aec611', { myPoint: ggb1.innerData['F'] });
+  29  });
+
+DIDwhiteboard • G6/M3/TB L07 - Absolute Value/slide20.js:
+  27    ggb1.instance.evalCommand('SelectObjects( )');
+  28:   utils.RTS.sendData('slide-c1585b337528', { my2Point: ggb1.innerData['F'] });
+  29  });
+
+DIDwhiteboard • G6/M3/TC L12 - Reflections in the Coordinate Plane/slide9.js:
+  17    button1.updateData({ disabled: true });
+  18:   utils.RTS.sendData('slide-9e3fd488f98e', { myPoint: ggb1.innerData['BIG'] });
+  19  });
+
+DIDwhiteboard • G6/M3/TC L12 - Reflections in the Coordinate Plane/slide11.js:
+  22    button1.updateData({ disabled: true });
+  23:   utils.RTS.sendData('slide-8c7e3c27becc', { myPoint: ggb1.innerData['BIG'] });
+  24  });
+
+DIDwhiteboard • G6/M3/TC L12 - Reflections in the Coordinate Plane/slide13.js:
+  22    button1.updateData({ disabled: true });
+  23:   utils.RTS.sendData(`slide-2dfeb1cb88b9`, { myPoint: ggb1.innerData['BIG'] });
+  24  });
+
+DIDwhiteboard • G6/M3/TC L12 - Reflections in the Coordinate Plane/slide15.js:
+  22    button1.updateData({ disabled: true });
+  23:   utils.RTS.sendData('slide-3776675e3131', { myPoint: ggb1.innerData['BIG'] });
+  24  });
+
+DIDwhiteboard • G6/M4/TA L03 - Exploring Exponents/slide9.js:
+  42    if (controls.current == now + 1) {
+  43:     utils.RTS.sendData('slide-a0fa91df758d', {
+  44        choiceVal,
+
+DIDwhiteboard • G6/M4/TA L03 - Exploring Exponents/slide12.js:
+  35    if (controls.current == now + 1) {
+  36:     utils.RTS.sendData('slide-f6e713252036', {
+  37        choiceVal2,
+
+DIDwhiteboard • G6/M6/TC L15 - More Practice with Box Plots/Slide 13.js:
+  67    if (controls.current == now + 1) {
+  68:     utils.RTS.sendData("slide-2f5efef9be15", { total: feedback1.data.tot });
+  69    }
+
+DIDwhiteboard • G7/M1/TB L09 - Comparing Proportional Relationships/slide5.js:
+  8    if (controls.current == now + 1) {
+  9:     utils.RTS.sendData('slide-e209cf1e7a95', {
+  10        thePoints: [
+
+DIDwhiteboard • G7/M1/TB L09 - Comparing Proportional Relationships/slide13.js:
+  39    if (controls.current == now + 1) {
+  40:     utils.RTS.sendData("slide-9fa01b0ddaa5", {
+  41        pandaPoint: [...ggb1.innerData["B"]],
+
+DIDwhiteboard • G7/M1/TB L09 - Comparing Proportional Relationships/slide15.js:
+  39    if (controls.current == now + 1) {
+  40:     utils.RTS.sendData("slide-5aae43ebb95c", {
+  41        pandaPoint: [...ggb1.innerData["B"]],
+
+DIDwhiteboard • G7/M1/TB L09 - Comparing Proportional Relationships/slide17.js:
+  39    if (controls.current == now + 1) {
+  40:     utils.RTS.sendData("slide-43a56066f9b3", {
+  41        pandaPoint: [...ggb1.innerData["B"]],
+
+DIDwhiteboard • G7/M3/TD L18 - Understanding Inequalities and Their Solutions/slide1.js:
+  46      ggb1.updateData({ pumpNumbers });
+  47:     utils.RTS.sendData("slide-a60c06cd5664_num1", {
+  48        pumpNumbers,
+
+  56      console.log(pumpNumbers);
+  57:     utils.RTS.sendData('slide-a60c06cd5664_num1', {pumpNumbers: pumpNumbers});
+  58        }
+
+DIDwhiteboard • G7/M3/TD L18 - Understanding Inequalities and Their Solutions/slide5.js:
+  36      pumpNumbers.push(ggb1.instance.getValue("pumpDisplayVal"));
+  37:     utils.RTS.sendData("slide-5ac2dc875d26_num1", { pumpNumbers: pumpNumbers });
+  38      // console.log(pumpNumbers);
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide1.js:
+  97    if (controls.current == now + 1 && ggb1.data.sendPoints) {
+  98:     utils.RTS.sendData("slide-167a6a43345a", {
+  99        //ggb1.updateData({
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide4.js:
+  98    if (controls.current == now + 1 && ggb1.data.sendPoints) {
+  99:     utils.RTS.sendData("slide-288dcabe5390", {
+  100        //ggb1.updateData({
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide7.js:
+  97    if (controls.current == now + 1 && ggb1.data.sendPoints) {
+  98:     utils.RTS.sendData("slide-df3f39a85ce0", {
+  99        //ggb1.updateData({
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide10.js:
+  127    if (controls.current == now + 1 && ggb1.data.sendPoints) {
+  128:     utils.RTS.sendData("slide-45d08cfa98f8", {
+  129        //ggb1.updateData({
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide11.js:
+  127    if (controls.current == now + 1 && ggb1.data.sendPoints) {
+  128:     utils.RTS.sendData("slide-179f3f38deed", {
+  129        //ggb1.updateData({
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide14.js:
+  97    if (controls.current == now + 1 && ggb1.data.sendPoints) {
+  98:     utils.RTS.sendData("slide-995090d0f5d9", {
+  99        //ggb1.updateData({
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide18.js:
+  98    if (controls.current == now + 1 && ggb1.data.sendPoints) {
+  99:     utils.RTS.sendData("slide-4652713265ff", {
+  100        //ggb1.updateData({
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide21.js:
+  101    if (controls.current == now + 1 && ggb1.data.sendPoints) {
+  102:     utils.RTS.sendData("slide-8f4a57d83ec8", {
+  103        //ggb1.updateData({
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide24.js:
+  98    if (controls.current == now + 1 && ggb1.data.sendPoints) {
+  99:     utils.RTS.sendData("slide-09890bbbf7a4", {
+  100        //ggb1.updateData({
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide27.js:
+  115    if (controls.current == now + 1 && ggb1.data.sendPoints) {
+  116:     utils.RTS.sendData("slide-279bade1ef11", {
+  117        //ggb1.updateData({
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide28.js:
+  115    if (controls.current == now + 1 && ggb1.data.sendPoints) {
+  116:     utils.RTS.sendData("slide-f65a463707f4", {
+  117        //ggb1.updateData({
+
+DIDwhiteboard • G7/M4/TA L05 - Constructing Quadrilaterals and Triangles/slide29.js:
+  114    if (controls.current == now + 1 && ggb1.data.sendPoints) {
+  115:     utils.RTS.sendData("slide-edd9f145cea4", {
+  116        //ggb1.updateData({
+
+DIDwhiteboard • G7/M4/TB L08 - Two Sides and One Angle/slide1.js:
+  96    if (controls.current == now + 1 && ggb1.data.sendPoints) {
+  97:     utils.RTS.sendData("slide-83a161c5ac75", {
+  98        //ggb1.updateData({
+
+DIDwhiteboard • G7/M4/TB L08 - Two Sides and One Angle/slide4.js:
+  96    if (controls.current == now + 1 && ggb1.data.sendPoints) {
+  97:     utils.RTS.sendData("slide-edb8b6bb4a82", {
+  98        //ggb1.updateData({
+
+DIDwhiteboard • G7/M4/TB L08 - Two Sides and One Angle/slide7.js:
+  96    if (controls.current == now + 1 && ggb1.data.sendPoints) {
+  97:     utils.RTS.sendData("slide-6ddf02d53ad2", {
+  98        //ggb1.updateData({
+
+DIDwhiteboard • G7/M4/TB L08 - Two Sides and One Angle/slide11.js:
+  96    if (controls.current == now + 1 && ggb1.data.sendPoints) {
+  97:     utils.RTS.sendData("slide-25174a4855d1", {
+  98        //ggb1.updateData({
+
+DIDwhiteboard • G7/M4/TB L08 - Two Sides and One Angle/slide14.js:
+  96    if (controls.current == now + 1 && ggb1.data.sendPoints) {
+  97:     utils.RTS.sendData("slide-0d86367c012e", {
+  98        //ggb1.updateData({
+
+DIDwhiteboard • G7/M5/TD L19 - Applying Percent Error/slide2.js:
+  30      // Send response to Real Time Server
+  31:     utils.RTS.sendData("slide-a61b2c9bc11b.input1", { estimate: num.value });
+  32    }
+
+DIDwhiteboard • G7/M5/TD L19 - Applying Percent Error/slide6.js:
+  30      // Send response to Real Time Server
+  31:     utils.RTS.sendData("slide-e9dcbfed402b.input1", { estimate: num.value });
+  32    }
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 6.js:
+  90    pngPic = ggb1.instance.getPNGBase64(1, false, 300);
+  91:   //utils.RTS.sendData('slide-76c60e09ea26', { pngPic });
+  92  }
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 7.js:
+  10  
+  11: // utils.RTS.sendData("", { colorState: grab });
+  12  
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 10.js:
+   79    // Send the data to the RTS Server
+   80:   utils.RTS.sendData('slide-2cfe81abfc55', {
+   81      rightSideUp: rightSideUp,
+
+  124    // Send the data to the RTS Server
+  125:   utils.RTS.sendData("slide-2cfe81abfc55", {
+  126      rightSideUp: rightSideUp,
+
+DIDwhiteboard • G7/M6/TD L19 - Memory Games/Slide 2.js:
+  61    if (ggb1.innerData["finalCountTen"] > 0 && ggb1.innerData["time"] == 1) {
+  62:     utils.RTS.sendData("slide-bbe966e158c4", {
+  63        my10Val: ggb1.innerData["finalCountTen"],
+
+  71    if (ggb1.innerData["finalCountTwenty"] > 0 && ggb1.innerData["time"] == 1) {
+  72:     utils.RTS.sendData("slide-bbe966e158c4", {
+  73        my20Val: ggb1.innerData["finalCountTwenty"],
+
+DIDwhiteboard • G8/M1/TD L18 - The Pythagorean Theorem/slide9.js:
+  7    if (controls.current == now + 1 && ggb1.instance.getValue("rightAngle")) {
+  8:     utils.RTS.sendData("slide-c3780ec607dc", {
+  9        vecBl: [
+
+DIDwhiteboard • G8/M2/TA L04 - Translations and Reflections on the Coordinate Plane/slide8.js:
+  71    if (controls.current == now + 1) {
+  72:     utils.RTS.sendData('slide-c629aced8c39', {
+  73        x1: ggb1.instance.getValue('x1'),
+
+DIDwhiteboard • G8/M2/TD L18 - Proving the Converse of the Pythagorean Theorem/slide16.js:
+  56  
+  57:   utils.RTS.sendData('slide-7914aad7f754', {
+  58      yesNoData: [firstYes, firstNo, secondYes, secondNo, thirdYes, thirdNo],
+
+DIDwhiteboard • G8/M3/TA L01 - Exploring Dilations/slide1.js:
+  32      shareInput1.updateData({ text: chosen + ', because ' });
+  33:     utils.RTS.sendData('slide-b653940d2f25', {
+  34        chosen,
+
+DIDwhiteboard • G8/M3/TC L09 - Describing Dilations/slide2.js:
+  46    if (controls.current == now + 1 && ggb1.instance.getValue("showO")) {
+  47:     utils.RTS.sendData("slide-a263603219d2", {
+  48        orig: [ggb1.instance.getXcoord("O"), ggb1.instance.getYcoord("O")],
+
+DIDwhiteboard • G8/M3/TD L17 - Similar Triangles on a Line/slide1.js:
+  43    if (controls.current == now + 1) {
+  44:     utils.RTS.sendData('slide-a54624cada0b', {
+  45        xVal: ggb1.instance.getValue('xVal'),
+
+DIDwhiteboard • G8/M4/TC L12 - Solutions to Linear Equations in Two Variables/Slide 1.js:
+  178    if (controls.current == now + 1) {
+  179:     utils.RTS.sendData('slide-dc880babda70', {
+  180        x1,
+
+DIDwhiteboard • G8/M4/TC L12 - Solutions to Linear Equations in Two Variables/Slide 7.js:
+  66    }
+  67:   utils.RTS.sendData('slide-8cc4c1a27755', {
+  68      names: [...ggb1.data.names],
+
+DIDwhiteboard • G8/M4/TC L12 - Solutions to Linear Equations in Two Variables/Slide 12.js:
+  70  
+  71:   utils.RTS.sendData('slide-25f0913f123b', {
+  72      pointA: [-1, num],
+
+DIDwhiteboard • G8/M4/TC L12 - Solutions to Linear Equations in Two Variables/Slide 14.js:
+  72  
+  73:   utils.RTS.sendData('slide-4e211223633e', {
+  74      pointA: [-10, num],
+
+DIDwhiteboard • G8/M5/TA L02 - Introduction to Systems of Linear Equations/slide1.js:
+  97    if (controls.current == now + 1) {
+  98:     utils.RTS.sendData('slide-d7b277b63b6a', {
+  99        numX: input1.data.text,
+
+DIDwhiteboard • G8/M5/TA L02 - Introduction to Systems of Linear Equations/slide2.js:
+  81  function send() {
+  82:   utils.RTS.sendData('slide-bc11b8e8f71c', {
+  83      numX: input1.data.text,
+
+DIDwhiteboard • G8/M5/TA L02 - Introduction to Systems of Linear Equations/slide14.js:
+  48    if (controls.current == now + 1) {
+  49:     utils.RTS.sendData('slide-2c4c567cf5e4', {
+  50        choiceVal,
+
+DIDwhiteboard • IM1/M1/TA L02/slide-9da1dbdb3ec5.js:
+  30  shareButton1.on("click", () => {
+  31:   utils.RTS.sendData("slide-9da1dbdb3ec5", {
+  32      exp: shareInput1.data.text,
+
+DIDwhiteboard • IM1/M1/TA L02/slide-22f70e723c24.js:
+  37  shareButton1.on("click", () => {
+  38:   utils.RTS.sendData("slide-9da1dbdb3ec5", {
+  39      exp: shareInput1.data.text,
+
+DIDwhiteboard • IM1/M1/TA L02/slide-72d12af2ec15.js:
+  48  	button1.updateData({ disabled: true, text: "Submitted" });
+  49: 	utils.RTS.sendData("slide-72d12af2ec15", {
+  50  		figureNumbers: figureNumbers,
+
+DIDwhiteboard • IM1/M1/TC L13 - Solving and Graphing Compound Inequalities/slide4.js:
+   34    text2.updateData({ text: "Checking your number..." });
+   35:   utils.RTS.sendData("slide-4d0ec089bf0b-unique", {
+   36      xVal: result.value,
+
+  103        ggb1.updateData({ plotted: [...plottedSoFar] });
+  104:       utils.RTS.sendData("slide-4d0ec089bf0b", {
+  105          xVals: [...ggb1.data.plotted],
+
+DIDwhiteboard • IM1/M1/TD L17 - Distributions and Their Shapes/slide1.js:
+  10  select1.on("change", ({ selected }) => {
+  11:   utils.RTS.sendData("slide-43b49a6aec4c", {
+  12      showProvided: selected.includes("1"),
+
+DIDwhiteboard • IM1/M1/TD L17 - Distributions and Their Shapes/slide3.js:
+  50      text4.updateData({ text: `Your score: $${textEnteredLengthAnswer}$` });
+  51:     utils.RTS.sendData("slide-3f75850fe6b3", {
+  52        myData: textEnteredLengthAnswer,
+
+DIDwhiteboard • IM1/M1/TD L17 - Distributions and Their Shapes/slide4.js:
+  38      text4.updateData({ text: `Your score: $${textEnteredLengthAnswer}$` });
+  39:     utils.RTS.sendData("slide-ca9b726bccee", {
+  40        myData2: textEnteredLengthAnswer,
+
+  68  //   text4.updateData({ text: `Your score: $${textEnteredLengthAnswer}$` });
+  69: //   utils.RTS.sendData("slide-3f75850fe6b3", {l1:textEnteredLengthAnswer});
+  70  // }
+
+DIDwhiteboard • IM1/M1/TD L17 - Distributions and Their Shapes/slide12.js:
+  7    if (controls.current == now + 1) {
+  8:     utils.RTS.sendData("slide-4bfb4c854b0b", {
+  9        Answer: ggb1.innerData["Answer"],
+
+DIDwhiteboard • IM1/M1/TD L17 - Distributions and Their Shapes/slide13.js:
+  7    if (controls.current == now + 1) {
+  8:     utils.RTS.sendData("slide-4ef6031b9218", {
+  9        Answer2: ggb1.innerData["Answer2"],
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide1 slide-1a0fd993032e.js:
+  124    if (controls.current == now + 1) {
+  125:     utils.RTS.sendData("slide-1a0fd993032e", {
+  126        x1,
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide2 slide-8e74cc3defa1.js:
+  97    if (controls.current == now + 1) {
+  98:     utils.RTS.sendData("slide-8e74cc3defa1", {
+  99        x1,
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide11 slide-102b2e9edb49.js:
+  70    if (controls.current == now + 1) {
+  71:     utils.RTS.sendData("slide-102b2e9edb49", {
+  72        distance: Math.round(ggb1.instance.getValue("distance") * 1000) / 1000,
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide15 slide-fd85e50c42c6.js:
+  70    if (controls.current == now + 1) {
+  71:     utils.RTS.sendData("slide-fd85e50c42c6", {
+  72        distance: Math.round(ggb1.instance.getValue("distance") * 1000) / 1000,
+
+DIDwhiteboard • IM1/M2/TC L13 - Solution Sets of Linear Inequalities in Two Variables/slide5.js:
+  125      let l = utils.math.evaluateLatex(cell21).value;
+  126:     utils.RTS.sendData("slide-8e74cc3defa1", {
+  127        g,
+
+DIDwhiteboard • IM1/M2/TC L16 - Solution Sets of Systems of Linear Inequalities/slide6.js:
+  56      }, {});
+  57:     utils.RTS.sendData("slide-0bca97913e87", sendObject);
+  58    }
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide13.js:
+  63        const coords1 = defString.match(regEx).map((strVal) => Number(strVal));
+  64:       utils.RTS.sendData("slide-53edd5722d6d", {
+  65          chosenSeg1,
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide14.js:
+  89      const chosenLength1 = getData("chosenLength1");
+  90:     utils.RTS.sendData("slide-798ca5e70b9b", {
+  91        guessRaw,
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide16.js:
+  63        const coords2 = defString.match(regEx).map((strVal) => Number(strVal));
+  64:       utils.RTS.sendData("slide-53edd5722d6d", {
+  65          chosenSeg2,
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide17.js:
+  89      const chosenLength2 = getData("chosenLength2");
+  90:     utils.RTS.sendData("slide-798ca5e70b9b", {
+  91        guessRaw,
+
+DIDwhiteboard • OMO/G1/M2/TC/L10/Version4/slide8.js:
+  3  // function recordAttempt(prompt = 1, data = {}) {
+  4: //     utils.RTS.sendData("slide-3d79ba9a5cf4", {
+  5  //       prompt,
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V2/slide2.js:
+  42    button1.updateData({ text: "Submitted", disabled: true });
+  43:   utils.RTS.sendData("slide-3d79ba9a5cf4", {
+  44      prompt: 1,
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V2/slide3.js:
+  45  button1.on("click", () => {
+  46:   utils.RTS.sendData("slide-3d79ba9a5cf4", {
+  47      prompt: 1,
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V2/slide4.js:
+  304  function recordAttempt(prompt = 1, data = {}) {
+  305:   utils.RTS.sendData("slide-3d79ba9a5cf4", {
+  306      prompt,
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V2/slide5.js:
+  120  function recordAttempt(prompt = 1, data = {}) {
+  121:   utils.RTS.sendData("slide-3d79ba9a5cf4", {
+  122      prompt,
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V2/slide7.js:
+  147  function recordAttempt(prompt = 1, data = {}) {
+  148:   utils.RTS.sendData("slide-3d79ba9a5cf4", {
+  149      prompt,
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V2/slide8.js:
+  438  function recordAttempt(prompt = 1, data = {}) {
+  439:   utils.RTS.sendData("slide-3d79ba9a5cf4", {
+  440      prompt,
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V2/slide9.js:
+  183  function recordAttempt(prompt = 1, data = {}) {
+  184:   utils.RTS.sendData("slide-3d79ba9a5cf4", {
+  185      prompt,
+
+DIDwhiteboard • OMO/G6/slide1.js:
+  23  	vid.bind("end", () => {
+  24: 		utils.RTS.sendData("slide-70413f4e7f20", {
+  25  			prompt: 1,
+
+DIDwhiteboard • OMO/G6/slide2.js:
+  40      submitButton2.on("click",()=>{
+  41:         utils.RTS.sendData("slide-70413f4e7f20", {
+  42              prompt: 2,
+
+  51  submitButton2.on("click",()=>{
+  52:     utils.RTS.sendData("slide-70413f4e7f20", {
+  53          prompt: 3,
+
+DIDwhiteboard • OMO/G6/slide4.js:
+  72  	saveData({ ggbXML: ggb1.instance.getXML() }, "ggb1");
+  73: 	utils.RTS.sendData("slide-70413f4e7f20", {
+  74  		prompt: 4,
+
+DIDwhiteboard • OMO/G6/slide6.js:
+  128  	}
+  129: 	utils.RTS.sendData("slide-70413f4e7f20", {
+  130  		prompt: 6,
+
+DIDwhiteboard • OMO/G6/slide11.js:
+   88  //     // }
+   89: //     utils.RTS.sendData("slide-70413f4e7f20", {
+   90  //         prompt: 10,
+
+  144      //     }
+  145:         // utils.RTS.sendData("slide-70413f4e7f20", {
+  146          //     prompt: 11,
+
+DIDwhiteboard • Other/Onboarding/Learning Task 3/slide1.js:
+  63  
+  64:   utils.RTS.sendData('slide-25f0913f123b', {
+  65      pointA: [-1, y1],
+
+DIDwhiteboard • Print Alt/A1/M3/TA L3 The Graph of a Function/slide7.js:
+  47    // console.log(doodleArray);
+  48:   utils.RTS.sendData("slide-3b6db967be76", {
+  49      myDoodles: ggb1.innerData[`doodles2`],
+
+DIDwhiteboard • Print Alt/A1/M3/TB L07 - Exploring Key Features of a Function and Its Graph/slide12.js:
+  248  //   if (controls.current == now + 1 && ggb2.data.cmdStrings?.length) {
+  249: //     utils.RTS.sendData("slide-52f9200ffc57", {
+  250  //       doodles: [...ggb2.data.cmdStrings],
+
+DIDwhiteboard • Print Alt/A1/M3/TB L07 - Exploring Key Features of a Function and Its Graph/slide13.js:
+  248  //   if (controls.current == now + 1 && ggb2.data.cmdStrings?.length) {
+  249: //     utils.RTS.sendData("slide-52f9200ffc57", {
+  250  //       doodles: [...ggb2.data.cmdStrings],
+
+DIDwhiteboard • Print Alt/A1/M6/TA L01- Analyzing Paint Splatters/slide5.js:
+  455    let headerY = table1.data.columns[1].value;
+  456:   utils.RTS.sendData("slide-62797c462e04", {
+  457      text1x: headerX,
+
+  467      let headerY = table1.data.columns[1].value;
+  468:     utils.RTS.sendData("slide-62797c462e04", {
+  469        text1x: headerX,
+
+  498  
+  499: // utils.RTS.sendData("slide-62797c462e04", {
+  500  //   num,
+
+  564  
+  565:   utils.RTS.sendData('slide-62797c462e04', {
+  566      num,
+
+DIDwhiteboard • Print Alt/G7/M3/TD L18 - Understanding Inequalities and Their Solutions/slide4.js:
+  36      pumpNumbers.push(ggb1.instance.getValue('pumpDisplayVal'));
+  37:     utils.RTS.sendData('slide-5ac2dc875d26_num1', { pumpNumbers: pumpNumbers });
+  38      // console.log(pumpNumbers);
+
+DIDwhiteboard • Print Alt/G7/M5/TD L19 Applying Percent Error/slide4.js:
+  30      // Send response to Real Time Server
+  31:     utils.RTS.sendData("slide-a61b2c9bc11b.input1", { estimate: num.value });
+  32    }
+
+DIDwhiteboard • Print Alt/G7/M6/TD L19 - Memory Games/slide3.js:
+  61    if (ggb1.innerData["finalCountTen"] > 0 && ggb1.innerData["time"] == 1) {
+  62:     utils.RTS.sendData("slide-bbe966e158c4", {
+  63        my10Val: ggb1.innerData["finalCountTen"],
+
+  71    if (ggb1.innerData["finalCountTwenty"] > 0 && ggb1.innerData["time"] == 1) {
+  72:     utils.RTS.sendData("slide-bbe966e158c4", {
+  73        my20Val: ggb1.innerData["finalCountTwenty"],
+
+DIDwhiteboard • Print Alt/G7/M6/TD L19 - Memory Games/slide4.js:
+  62    if (ggb1.innerData["finalCountTen"] > 0 && ggb1.innerData["time"] == 1) {
+  63:     utils.RTS.sendData("slide-bbe966e158c4", {
+  64        my10Val: ggb1.innerData["finalCountTen"],
+
+  72    if (ggb1.innerData["finalCountTwenty"] > 0 && ggb1.innerData["time"] == 1) {
+  73:     utils.RTS.sendData("slide-bbe966e158c4", {
+  74        my20Val: ggb1.innerData["finalCountTwenty"],

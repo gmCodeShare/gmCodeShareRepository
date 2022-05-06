@@ -1,0 +1,223 @@
+# Query: const.*\\{.*share.*\\}.*=.*components
+# Flags: RegExp
+# Including: ./DIDwhiteboard
+# Excluding: Answer Key not working.json
+# ContextLines: 1
+
+54 results - 54 files
+
+DIDwhiteboard • 7A/M1/TC L16 - More Scientific Notation/slide6.js:
+  1: const { ggb1, text1, text2, buttonGroup1, cc_sharewithclass_a0c6e1d8ccb9_textbox1: shareText1, cc_sharewithclass_a0c6e1d8ccb9_input1: shareInput1, cc_sharewithclass_a0c6e1d8ccb9_button1: shareButton1 } = components;
+  2  
+
+DIDwhiteboard • 7A/M1/TC L16 - More Scientific Notation/slide15.js:
+  1: const { text1, text2, select1, buttonGroup1, cc_sharewithclass_476b70c6644c_textbox1: shareText1, cc_sharewithclass_476b70c6644c_input1: shareInput1, cc_sharewithclass_476b70c6644c_button1: shareButton1, cc_sharewithclass_476b70c6644c_studentanswers1: shareAnswers1 } = components;
+  2  
+
+DIDwhiteboard • 7A/M1/TC L16 - More Scientific Notation/slide16.js:
+  1: const { text1, text2, select1, buttonGroup1, cc_sharewithclass_476b70c6644c_textbox1: shareText1, cc_sharewithclass_476b70c6644c_input1: shareInput1, cc_sharewithclass_476b70c6644c_button1: shareButton1, cc_sharewithclass_476b70c6644c_studentanswers1: shareAnswers1 } = components;
+  2  
+
+DIDwhiteboard • 7A/M1/TD L21 - Approximate Values of Roots/slide3.js:
+  1: const { ggb1, ggb2, cc_submit_3a54687248a4_textbox1: submitText1, cc_submit_3a54687248a4_input1: submitInput1, cc_submit_3a54687248a4_button1: submitButton1, cc_sharewithclass_95f8eb7231ed_textbox1: shareText1, cc_sharewithclass_95f8eb7231ed_input1: shareInput1, cc_sharewithclass_95f8eb7231ed_button1: shareButton1 } = components;
+  2  
+
+DIDwhiteboard • A1/M4/TB L11 - Graphing Quadratic Functions from Factored Form/slide7.js:
+  1: const { ggb1, cc_sharewithclass_ec89b8d691e9_textbox1: text1 } = components;
+  2  
+
+DIDwhiteboard • A1/M5/TB L08 - Exponential Functions/slide13.js:
+  1: const { cc_sharewithclass_53d97ea46c85_textbox1: shareText1 } = components;
+  2  
+
+DIDwhiteboard • A1/M5/TC L16 - Exponential Growth/slide11.js:
+  1: const { cc_sharewithclass_45c50a649a51_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • A1/M5/TC L16 - Exponential Growth/slide12.js:
+  1: const { cc_sharewithclass_45c50a649a51_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • A1/M5/TC L16 - Exponential Growth/slide13.js:
+  1: const { cc_sharewithclass_45c50a649a51_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • A1/M5/TC L16 - Exponential Growth/slide17.js:
+  1: const { cc_sharewithclass_af6504d74d09_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M5/TA L01 - The Area of a Parallelogram/slide3.js:
+  1: const { cc_sharewithclass_8dcdf2ac6e1f_input1 } = components;
+  2  
+
+DIDwhiteboard • G6/M6/TC L15 - More Practice with Box Plots/Slide 20.js:
+  1: const { ggb1, cc_sharewithclass_3ab60a0e4d8f_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/G7 M3 TD L18 Slide 26.js:
+  1: const { button2, ggb1, feedback1, cc_sharewithclass_127e1aa6645a_input1: input1, cc_sharewithclass_127e1aa6645a_button1: button1, cc_sharewithclass_127e1aa6645a_textbox1: text1, text3, select1, buttonGroup2, buttonGroup3, buttonGroup4 } = components;
+  2  let pointSelected = "";
+
+DIDwhiteboard • G7/M1/TB L09 - Comparing Proportional Relationships/slide20.js:
+  1: const { cc_sharewithclass_8be4034769ab_button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TA L02 - Adding Integers/slide6.js:
+  1: const { ggb1, cc_sharewithclass_fad934eb75d5_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TA L02 - Adding Integers/slide7.js:
+  1: const { ggb1, cc_sharewithclass_fad934eb75d5_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TA L02 - Adding Integers/slide8.js:
+  1: const { ggb1, cc_sharewithclass_fad934eb75d5_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TA L02 - Adding Integers/slide17.js:
+  1: const { ggb1, cc_sharewithclass_fad934eb75d5_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TA L02 - Adding Integers/slide18.js:
+  1: const { ggb1, cc_sharewithclass_fad934eb75d5_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TA L02 - Adding Integers/slide19.js:
+  1: const { ggb1, cc_sharewithclass_fad934eb75d5_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TA L02 - Adding Integers/slide25.js:
+  1: const { ggb1, cc_sharewithclass_fad934eb75d5_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TA L02 - Adding Integers/slide27.js:
+  1: const { ggb1, cc_sharewithclass_fad934eb75d5_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TA L02 - Adding Integers/slide28.js:
+  1: const { ggb1, cc_sharewithclass_fad934eb75d5_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TA L02 - Adding Integers/slide29.js:
+  1: const { ggb1, cc_sharewithclass_fad934eb75d5_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TA L02 - Adding Integers/slide30.js:
+  1: const { ggb1, cc_sharewithclass_fad934eb75d5_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TB L08 - Subtracting Integers, Part 1/slide13.js:
+  1: const { ggb1, cc_sharewithclass_4bd8959226d1_input1: shareInput1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TB L08 - Subtracting Integers, Part 1/slide14.js:
+  1: const { ggb1, cc_sharewithclass_4bd8959226d1_input1: shareInput1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TB L08 - Subtracting Integers, Part 1/slide15.js:
+  1: const { ggb1, cc_sharewithclass_4bd8959226d1_input1: shareInput1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TC L13 - Understanding Multiples of Negative Numbers/slide3.js:
+  1: const { cc_sharewithclass_13ab40da3059_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TC L13 - Understanding Multiples of Negative Numbers/slide13.js:
+  1: const { cc_sharewithclass_f0e28041c5f3_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TD L17 - Understanding Negative Dividends/slide7.js:
+  1: const { cc_sharewithclass_ef8003204929_button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TD L17 - Understanding Negative Dividends/slide11.js:
+  1: const { image1, cc_sharewithclass_b50f002c2c34_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TD L17 - Understanding Negative Dividends/slide15.js:
+  1: const { image1, cc_sharewithclass_b50f002c2c34_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M3/TA L02 - The Distributive Property and the Tabular Model/slide15.js:
+  1: const { cc_sharewithclass_f47eacc4db87_button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M3/TA L02 - The Distributive Property and the Tabular Model/slide17.js:
+  1: const { cc_sharewithclass_f47eacc4db87_button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M3/TA L02 - The Distributive Property and the Tabular Model/slide19.js:
+  1: const { cc_sharewithclass_f47eacc4db87_button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M3/TA L02 - The Distributive Property and the Tabular Model/slide21.js:
+  1: const { cc_sharewithclass_4d229a3015ce_button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M3/TA L02 - The Distributive Property and the Tabular Model/slide22.js:
+  1: const { cc_sharewithclass_4d229a3015ce_button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M3/TA L02 - The Distributive Property and the Tabular Model/slide23.js:
+  1: const { cc_sharewithclass_4d229a3015ce_button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M3/TB L08 - Strategies to Determine Unknown Angle Measures/slide13.js:
+  1: const { ggb1, ggb2, cc_sharewithclass_32849cc9988a_button1 } = components;
+  2  ggb1.instance.setErrorDialogsActive(false);
+
+DIDwhiteboard • G7/M3/TB L08 - Strategies to Determine Unknown Angle Measures/slide24.js:
+  1: const { cc_sharewithclass_c78bcc179dc6_button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M3/TB L08 - Strategies to Determine Unknown Angle Measures/slide28.js:
+  1: const { cc_sharewithclass_900790192a9a_button1, text2, text1 } = components;
+  2  
+
+DIDwhiteboard • G7/M4/TC L11 - The Inside of a Circle/Slide 7.js:
+  1: const { cc_sharewithclass_a60a548a2a9f_textbox1, ggb1 } = components;
+  2  
+
+DIDwhiteboard • G7/M5/TD L19 - Applying Percent Error/slide7.js:
+  1: const { table1, cc_sharewithclass_4b9d10f58f0b_input1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 1.js:
+  1: const { cc_sharewithclass_9fc830e8b473_button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 3.js:
+  1: const { cc_sharewithclass_f8766d196562_button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 5.js:
+  1: const { ggb1, cc_sharewithclass_348a72d0a96b_button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 9.js:
+  1: const { cc_sharewithclass_9fc830e8b473_button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TB L08 - Picking Blue/Slide 1.js:
+  1: const { cc_sharewithclass_ee6dea82d723_button1, media1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TB L08 - Picking Blue/Slide 2.js:
+  1: const { cc_sharewithclass_ee6dea82d723_button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TB L08 - Picking Blue/Slide 6.js:
+  1: const { image1, cc_sharewithclass_266dde9717be_textbox1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TB L08 - Picking Blue/Slide 8.js:
+  1: const { image1, cc_sharewithclass_266dde9717be_textbox1 } = components;
+  2  
+
+DIDwhiteboard • G8/M1/TE L21 - Approximate Values of Roots and π²/slide18.js:
+  1: const { cc_sharewithclass_a83fd2af2920_textbox1: shareText1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide4 slide-1fae6b2740ae.js:
+  1: const { ggb1, cc_sharewithclass_87c25185ed53_button1: button1 } = components;
+  2  

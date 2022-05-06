@@ -1,0 +1,1029 @@
+# Query: const.*\\{.* table.*\\}.*=.*components
+# Flags: RegExp
+# Including: ./DIDwhiteboard
+# Excluding: Answer Key not working.json
+# ContextLines: 1
+
+252 results - 252 files
+
+DIDwhiteboard • 7A/M2/TC L14 - Exploring Graphs of Proportional Relationships/slide1.js:
+  1: const { ggb1, table1, text1, select1, button1 } = components;
+  2  
+
+DIDwhiteboard • 7A/M2/TC L14 - Exploring Graphs of Proportional Relationships/slide2.js:
+  1: const { ggb1, table1, text1, select1, button1 } = components;
+  2  
+
+DIDwhiteboard • 7A/M2/TC L14 - Exploring Graphs of Proportional Relationships/slide3.js:
+  1: const { ggb1, table1, text1, select1, button1 } = components;
+  2  
+
+DIDwhiteboard • 7A/M2/TC L14 - Exploring Graphs of Proportional Relationships/slide4.js:
+  1: const { ggb1, table1, text1, select1, button1 } = components;
+  2  
+
+DIDwhiteboard • 7A/M2/TC L14 - Exploring Graphs of Proportional Relationships/slide5.js:
+  1: const { ggb1, ggb2, ggb3, ggb4, table1, table2, table3, table4, separator1, select1 } = components;
+  2  
+
+DIDwhiteboard • A1/Florida.js:
+  1: const { ggb1, text1, select1, table1 } = components;
+  2  
+
+DIDwhiteboard • A1/M1/TD L21 - Demo - Standard Deviation/slide1.js:
+  1: const { ggb1, select1, text1, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • A1/M1/TD L21 and L23 - Demo - Summary Stats Tool/slide1.js:
+  1: const { ggb1, select1, text1, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/Slide 1.js:
+  1: const { table1, button1, table2, button2, text2 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/Slide 3.js:
+  1: const { table1, button1 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/Slide 20.js:
+  1: const { text1, ggb1, table1, ggb2, table2, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TA L04 - Solutions Sets of Linear Inequalites in Two Variables/slide3.js:
+  1: const { table1, button1, table2, button2, text2, text3, text4 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TA L04 - Solutions Sets of Linear Inequalites in Two Variables/slide5.js:
+  1: const { table1, button1, text2 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TC L15 - Relationships Between Quantitative Variables/Slide 4.js:
+  1: const { table1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TC L16 - Using Lines to Model Bivariate Quantitative Data/Slide 1.js:
+  1: const { table1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TC L17 - Modeling Relationships with a Line/Slide 1.js:
+  1: const { table1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TC L17 - Modeling Relationships with a Line/Slide 14.js:
+  1: const { ggb2, text1, table1, button1, select1 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TC L18 - Airline Flight Data Demo/slide1.js:
+  1: const { table1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TC L19 - Analyzing Residuals Demo/slide5.js:
+  1: const { table1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TC L19 - Analyzing Residuals Demo/slide7.js:
+  1: const { ggb1, ggb2, text1, select1, table1, table2 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TC L20 - Interpreting Correlation/slide1.js:
+  1: const { table1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TC L20 - Interpreting Correlation/slide16.js:
+  1: const { ggb1, ggb2, text1, select1, table1, table2 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TC L20 - Interpreting Correlation/slide20.js:
+  1: const { ggb1, ggb2, select1, table1, table2 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/Slide 8.js:
+  1: const { text1, table1, table2 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/Slide 10.js:
+  1: const { text1, table1, table2 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/Slide 11.js:
+  1: const { text1, text2, table1, button1, text3, table2, table3 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/Slide 12.js:
+  1: const { text1, table1, button1, text3, text4, text5, button2 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/Slide 13.js:
+  1: const { text1, table1 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/Slide 14.js:
+  1: const { text1, text2, text3, table1, radio1 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/Slide 15.js:
+  1: const { text1, text2, table1, ggb1 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/Slide 16.js:
+  1: const { text1, table1, ggb1 } = components;
+  2  
+
+DIDwhiteboard • A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/Slide 20.js:
+  1: const { text1, table1, text2, table2, ggb1, ggb2 } = components;
+  2  
+
+DIDwhiteboard • A1/M3/TA L03 - The Graph of a Function/slide3.js:
+  1: const { text1, table1, ggb1, button1 } = components;
+  2  ggb1.instance.setErrorDialogsActive(false);
+
+DIDwhiteboard • A1/M3/TA L03 - The Graph of a Function/slide4.js:
+  1  //slide4
+  2: const { text1, table1, ggb1, button1 } = components;
+  3  ggb1.instance.setErrorDialogsActive(false);
+
+DIDwhiteboard • A1/M3/TA L03 - The Graph of a Function/slide5.js:
+  1: const { text1, table1, ggb1, button1 } = components;
+  2  ggb1.instance.setErrorDialogsActive(false);
+
+DIDwhiteboard • A1/M3/TA L03 - The Graph of a Function/slide6.js:
+  1  //slide 6
+  2: const { text1, table1, ggb1, button1 } = components;
+  3  ggb1.instance.setErrorDialogsActive(false);
+
+DIDwhiteboard • A1/M3/TC L13 - Modeling Elevation as a Function of Time/slide18.js:
+  1: const { ggb1, table1, text1, text2, button1 } = components;
+  2  
+
+DIDwhiteboard • A1/M4/TC L20 - Art with Transformations (Optional)/slide1.js:
+  1: const { ggb1, text1, input1, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • A1/M4/TC L20 - Art with Transformations (Optional)/slide5.js:
+  1: const { ggb1, text1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • A1/M5/TA L01 - Exploring Patterns/Slide 7.js:
+  1: const { ggb1, ggb2, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • A1/M5/TA L01 - Exploring Patterns/Slide 10.js:
+  1: const { ggb1, ggb2, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • A1/M5/TB L08 - Exponential Functions/slide1.js:
+  1: const { table1, buttonGroup1, table2 } = components;
+  2  // this example uses a button group, but this could be done on different events
+
+DIDwhiteboard • A1/M5/TB L08 - Exponential Functions/slide4.js:
+  1: const { ggb1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • A1/M5/TB L08 - Exponential Functions/slide17.js:
+  1: const { ggb1, select1, table1, text1 } = components;
+  2  
+
+DIDwhiteboard • A1/M6/TA L01 - Analyzing Paint Splatters/slide4.js:
+  1: const { ggb1, text2, text3, buttonGroup1, buttonGroup2, table1 } = components;
+  2  
+
+DIDwhiteboard • A1/M6/TA L01 - Analyzing Paint Splatters/slide5.js:
+  1: const { ggb1, text2, buttonGroup1, buttonGroup2, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • A1/Regression Tool/slide1.js:
+  1: const { ggb1, ggb2, select1, select2, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • G2/G2 M6 TB L5 - Groups and Arrays.js:
+  1: const { ggb1, table1, button1 } = components;
+  2  let onPlates = true;
+
+DIDwhiteboard • G6/M1/TA L04 - Exploring Ratios by Making Batches/slide-e60060433bcd.js:
+  1: const { ggb1, table1, text1, ggb2, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TB L07 - Graphs of Ratio Relationships/slide-24d09fdab15c.js:
+  1: const { ggb1, button1, text1, image1, table1 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TB L07 - Graphs of Ratio Relationships/slide-f10fc7125873.js:
+  1: const { table1, ggb1, text1, text2, image1, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TC L12 - Multiple Ratio Relationships/slide-22f92cf58fad.js:
+  1: const { ggb1, ggb2, text1, buttonGroup1, table1 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TC L12 - Multiple Ratio Relationships/slide-327a92d99a54.js:
+  1: const { ggb1, text1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TC L12 - Multiple Ratio Relationships/slide-c4ce3168ee1b.js:
+  1: const { ggb1, ggb2, text1, buttonGroup1, table1 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TD L18 - Comparing Rates/slide9.js:
+  1: const { text1, text2, select1, table1, table2 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TD L18 - Comparing Rates/slide11.js:
+  1: const { ggb1, text1, table1, text2, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TD L18 - Comparing Rates/slide12.js:
+  1: const { table1, text2, ggb1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TD L18 - Comparing Rates/slide13.js:
+  1: const { table1, ggb1, text2, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TD L18 - Comparing Rates/slide18.js:
+  1: const { text1, buttonGroup1, table1, ggb1 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TD L18 - Comparing Rates/slide19.js:
+  1: const { table1 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TE L22 - Introduction to Percents/slide6.js:
+  1: const { ggb1, ggb2, text1, text2, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TE L22 - Introduction to Percents/slide7.js:
+  1: const { table1, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TE L22 - Introduction to Percents/slide8.js:
+  1: const { ggb1, ggb2, textDisplay1, table1, button1, text1, text2 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TE L22 - Introduction to Percents/slide9.js:
+  1: const { ggb1, text1, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M1/TE L22 - Introduction to Percents/slide11.js:
+  1: const { ggb1, text1, text2, table1, button1, button2 } = components;
+  2  
+
+DIDwhiteboard • G6/M2/TC L12 - Fraction Operations in a Real-World Situation/slide14.js:
+  1: const { table1 } = components;
+  2  
+
+DIDwhiteboard • G6/M2/TC L12 - Fraction Operations in a Real-World Situation/origFilesToDeleteWhenReady/slide14Orig.js:
+  1: const { table1 } = components;
+  2  
+
+DIDwhiteboard • G6/M2/TE L17 -Parital Quotients/slide5.js:
+  1: const { ggb1, text1, table1, image1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G6/M2/TE L17 -Parital Quotients/slide7.js:
+  1: const { ggb1, text1, text2, text3, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G6/M2/TE L17 -Parital Quotients/slide9.js:
+  1: const { ggb1, text1, text2, text3, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G6/M3/TA L02 - Integers/slide1.js:
+  1: const { ggb1, text1, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M3/TA L02 - Integers/slide2.js:
+  1: const { ggb1, text1, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M3/TA L02 - Integers/slide3.js:
+  1: const { ggb1, text1, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M3/TA L02 - Integers/slide4.js:
+  1: const { text1, text2, text3, table1, table2, table3 } = components;
+  2  
+
+DIDwhiteboard • G6/M3/TB L07 - Absolute Value/slide7.js:
+  1: const { ggb1, text1, text2, button1, table1 } = components;
+  2  
+
+DIDwhiteboard • G6/M3/TD L15 - Distance in the Coordinate Plane/slide2.js:
+  1: const { ggb1, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M3/TD L15 - Distance in the Coordinate Plane/slide3.js:
+  1: const { ggb1, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M3/TD L15 - Distance in the Coordinate Plane/slide9.js:
+  1: const { table1, button1, buttonGroup1, ggb1 } = components;
+  2  
+
+DIDwhiteboard • G6/M4/TA L03 - Exploring Exponents/slide3.js:
+  1: const { button1, table1, text1 } = components;
+  2  
+
+DIDwhiteboard • G6/M4/TA L03 - Exploring Exponents/slide7.js:
+  1: const { table1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M4/TA L03 - Exploring Exponents/slide11.js:
+  1: const { table1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M4/TA L03 - Exploring Exponents/slide17.js:
+  1: const { table1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M4/TB L11 - Modeling Real-World Situations with Expressions/slide2.js:
+  1: const { ggb1, table1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M4/TB L11 - Modeling Real-World Situations with Expressions/slide3.js:
+  1: const { table1 } = components;
+  2  
+
+DIDwhiteboard • G6/M4/TB L11 - Modeling Real-World Situations with Expressions/slide9.js:
+  1: const { table1, text1, text2, ggb1, button1, button2 } = components;
+  2  
+
+DIDwhiteboard • G6/M4/TC L15 - Combining Like Terms  by using the Distributive Property/Slide 9.js:
+  1: const { button1, table1 } = components;
+  2  
+
+DIDwhiteboard • G6/M4/TC L15 - Combining Like Terms  by using the Distributive Property/Slide 13.js:
+  1: const { button1, table1 } = components;
+  2  
+
+DIDwhiteboard • G6/M5/TC L09 - Properties of Solids/slide3.js:
+  1: const { ggb1, ggb2, tex2, table1, button1, button2 } = components;
+  2  
+
+DIDwhiteboard • G6/M5/TC L09 - Properties of Solids/slide4.js:
+  1: const { ggb1, ggb2, tex2, table1, button1, button2 } = components;
+  2  
+
+DIDwhiteboard • G6/M5/TC L09 - Properties of Solids/slide5.js:
+  1: const { ggb1, ggb2, text2, table1, button1, button2 } = components;
+  2  
+
+DIDwhiteboard • G6/M5/TC L09 - Properties of Solids/slide7.js:
+  1: const { table1, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M5/TC L09 - Properties of Solids/slide8.js:
+  1: const { ggb1, ggb2, text2, table1, buttonGroup1, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M5/TD L15 - Exploring Volume with Fractional Cubes/slide6.js:
+  1: const { ggb1, table1, text1, button1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G6/M5/TD L15 - Exploring Volume with Fractional Cubes/slide11.js:
+  1: const { ggb1, table1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M6/TA L04 - Creating a Histogram/Slide 4.js:
+  1: const { table1, table2, button1, text1 } = components;
+  2  
+
+DIDwhiteboard • G6/M6/TA L04 - Creating a Histogram/Slide 5.js:
+  1: const { ggb1, table1, table2, buttonGroup1, text1 } = components;
+  2  
+
+DIDwhiteboard • G6/M6/TA L04 - Creating a Histogram/Slide 12.js:
+  1: const { ggb1, table1, buttonGroup1, text1 } = components;
+  2  
+
+DIDwhiteboard • G6/M6/TA L04 - Creating a Histogram/Slide 13.js:
+  1: const { ggb1, text1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G6/M6/TB L08 - Mean as Balance Point/slide-b199af87fc68.js:
+  1: const { ggb1, text1, table1, table2, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M6/TC L15 - More Practice with Box Plots/Slide 14.js:
+  1: const { ggb1, text1, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • G6/M6/TC L15 - More Practice with Box Plots/Slide 15.js:
+  1: const { ggb1, text1, table1, buttonGroup1, feedback1, text2 } = components;
+  2  
+
+DIDwhiteboard • G7/M1/TA L01 - An Experiment with Ratios and Rates/slide10.js:
+  1: const { ggb1, text1, text2, text3, button1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G7/M1/TA L01 - An Experiment with Ratios and Rates/slide11.js:
+  1: const { ggb1, text1, text2, text3, button1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G7/M1/TA L01 - An Experiment with Ratios and Rates/slide13.js:
+  1: const { ggb1, text1, text2, text3, button1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G7/M1/TA L01 - An Experiment with Ratios and Rates/slide14.js:
+  1: const { ggb1, text1, text2, text3, button1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G7/M1/TA L01 - An Experiment with Ratios and Rates/slide18.js:
+  1: const { text1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G7/M1/TA L01 - An Experiment with Ratios and Rates/slide19.js:
+  1: const { text1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G7/M1/TB L09 - Comparing Proportional Relationships/slide24.js:
+  1: const { ggb1, table1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M1/TC L15 - Scale Drawings/slide4.js:
+  1: const { ggb1, button1, text1, table1 } = components;
+  2  
+
+DIDwhiteboard • G7/M1/TC L15 - Scale Drawings/slide10.js:
+  1: const { ggb1, button1, text1, table1 } = components;
+  2  
+
+DIDwhiteboard • G7/M1/TC L15 - Scale Drawings/slide15.js:
+  1: const { image1, table1, text1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TB L08 - Subtracting Integers, Part 1/slide2.js:
+  1: const { table1, button1, text1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TC L13 - Understanding Multiples of Negative Numbers/slide1.js:
+  1: const { table1, cc_submit_01667321618c_button1: button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M2/TC L13 - Understanding Multiples of Negative Numbers/slide2.js:
+  1: const { ggb1, text1, text2, button1, table1 } = components;
+  2  
+
+DIDwhiteboard • G7/M4/TC L11 - The Inside of a Circle/Slide 8.js:
+  1: const { ggb1, button2, table1, text1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G7/M4/TC L11 - The Inside of a Circle/Slide 13.js:
+  1: const { ggb1, table1, button1, text2 } = components;
+  2  
+
+DIDwhiteboard • G7/M5/TA L02 - Racing for Percents/slide7.js:
+  1: const { ggb1, text1, table1, button1, text2 } = components;
+  2  
+
+DIDwhiteboard • G7/M5/TA L02 - Racing for Percents/slide8.js:
+  1: const { ggb1, text1, text2, button1, table1 } = components;
+  2  
+
+DIDwhiteboard • G7/M5/TA L02 - Racing for Percents/slide12.js:
+  1: const { ggb1, text1, table1, button1, text2 } = components;
+  2  
+
+DIDwhiteboard • G7/M5/TA L02 - Racing for Percents/slide13.js:
+  1: const { ggb1, text1, text2, button1, table1 } = components;
+  2  
+
+DIDwhiteboard • G7/M5/TC L14 - Scale Factor_ Percent Increase and Decrease/slide15.js:
+  1: const { ggb1, text1, table1, button1, text2 } = components;
+  2  
+
+DIDwhiteboard • G7/M5/TD L19 - Applying Percent Error/slide4.js:
+  1: const { ggb1, buttongroup1, table1 } = components;
+  2  
+
+DIDwhiteboard • G7/M5/TD L19 - Applying Percent Error/slide5.js:
+  1: const { table1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M5/TD L19 - Applying Percent Error/slide7.js:
+  1: const { table1, cc_sharewithclass_4b9d10f58f0b_input1 } = components;
+  2  
+
+DIDwhiteboard • G7/M5/TD L19 - Applying Percent Error/slide10.js:
+  1: const { table1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M5/TD L19 - Applying Percent Error/slide11.js:
+  1: const { table1, table2, text1 } = components;
+  2  text1.updateData({ align: "center" });
+
+DIDwhiteboard • G7/M5/TD L19 - Applying Percent Error/slide12.js:
+  1: const { table1, table2, text1 } = components;
+  2  text1.updateData({ align: "center" });
+
+DIDwhiteboard • G7/M5/TE L22 - Making Mixtures/slide11.js:
+  1: const { ggb1, Button1, Button2, Textbox4, text1, text2, table1 } = components;
+  2  
+
+DIDwhiteboard • G7/M5/TE L22 - Making Mixtures/slide14.js:
+  1: const { ggb1, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M5/TE L22 - Making Mixtures/slide15.js:
+  1: const { ggb1, button1, table1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 2.js:
+  1: const { button1, table1, button2, ggb1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 7.js:
+  1: const { image1, button1, table1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 8.js:
+  1: const { ggb1, button1, table1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 10.js:
+  1: const { table1, ggb1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 11.js:
+  1: const { table1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 12.js:
+  4  
+  5: const { table1 } = components;
+  6  
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 13.js:
+  4  
+  5: const { table1 } = components;
+  6  
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 14.js:
+  1: const { button1, table2, table1, text1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 15.js:
+  2  
+  3: const { table1 } = components;
+  4  
+
+DIDwhiteboard • G7/M6/TA L03 - Outcomes of Chance Experiments/Slide 16.js:
+  3  
+  4: const { table1 } = components;
+  5  
+
+DIDwhiteboard • G7/M6/TB L08 - Picking Blue/Slide 3.js:
+  1: const { ggb1, button1, table1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TB L08 - Picking Blue/Slide 13.js:
+  1: const { ggb1, table1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TD L19 - Memory Games/Slide 8.js:
+  1: const { table1, table2, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TD L19 - Memory Games/Slide 9.js:
+  1: const { table1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TD L19 - Memory Games/Slide 13.js:
+  1: const { table1, table2, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • G7/M6/TD L19 - Memory Games/Slide 14.js:
+  1: const { table1 } = components;
+  2  
+
+DIDwhiteboard • G8/M1/TE L21 - Approximate Values of Roots and π²/slide5.js:
+  1  // keep a fake submit button updated after a table
+  2: const { table1, button1, text1 } = components;
+  3  
+
+DIDwhiteboard • G8/M1/TE L21 - Approximate Values of Roots and π²/slide8.js:
+  1  // keep a fake submit button updated after a table
+  2: const { table1, button1, text1 } = components;
+  3  
+
+DIDwhiteboard • G8/M1/TE L21 - Approximate Values of Roots and π²/slide12.js:
+  1  // keep a fake submit button updated after a table
+  2: const { table1, button1, text1 } = components;
+  3  
+
+DIDwhiteboard • G8/M1/TE L21 - Approximate Values of Roots and π²/slide17.js:
+  1  // keep a fake submit button updated after a table
+  2: const { table1, button1, text1 } = components;
+  3  
+
+DIDwhiteboard • G8/M2/TA L04 - Translations and Reflections on the Coordinate Plane/slide14.js:
+  1: const { ggb1, text2, buttonGroup1, table1 } = components;
+  2  
+
+DIDwhiteboard • G8/M2/TB L08 - Sequencing The Rigid Motions/slide4.js:
+  1: const { text1, ggb1, select1, button1, table1, separator1 } = components;
+  2  
+
+DIDwhiteboard • G8/M2/TB L08 - Sequencing The Rigid Motions/slide5.js:
+  1: const { text1, ggb1, select1, button1, table1 } = components;
+  2  
+
+DIDwhiteboard • G8/M2/TB L08 - Sequencing The Rigid Motions/slide6.js:
+  1: const { text1, ggb1, select1, button1, table1, text2, table2 } = components;
+  2  
+
+DIDwhiteboard • G8/M2/TB L08 - Sequencing The Rigid Motions/slide7.js:
+  1: const { text1, ggb1, select1, button1, table1 } = components;
+  2  
+
+DIDwhiteboard • G8/M2/TB L08 - Sequencing The Rigid Motions/slide8.js:
+  1: const { text1, ggb1, select1, button1, table1 } = components;
+  2  
+
+DIDwhiteboard • G8/M2/TB L08 - Sequencing The Rigid Motions/slide9.js:
+  1: const { text1, ggb1, select1, button1, table1 } = components;
+  2  
+
+DIDwhiteboard • G8/M2/TB L08 - Sequencing The Rigid Motions/slide10.js:
+  1: const { text1, ggb1, select1, button1, table1 } = components;
+  2  
+
+DIDwhiteboard • G8/M2/TB L08 - Sequencing The Rigid Motions/slide11.js:
+  1: const { text1, ggb1, select1, button1, table1 } = components;
+  2  
+
+DIDwhiteboard • G8/M2/TC L13 - Angle Sum of a Triangle/slide7.js:
+  1: const { ggb1, buttongroup1, table1, text1 } = components;
+  2  
+
+DIDwhiteboard • G8/M2/TC L13 - Angle Sum of a Triangle/slide12.js:
+  1: const { ggb1, table1, text2, buttongroup1, text3, text4 } = components;
+  2  
+
+DIDwhiteboard • G8/M2/TD L17 - Proving the Pythagorean Theorem/slide16.js:
+  1: const { table1, ggb1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G8/M2/TD L17 - Proving the Pythagorean Theorem/slide28.js:
+  1: const { table1, ggb1 } = components;
+  2  
+
+DIDwhiteboard • G8/M4/TC L12 - Solutions to Linear Equations in Two Variables/Slide 1.js:
+  1: const { buttonGroup1, ggb1, text2, table1, text3 } = components;
+  2  
+
+DIDwhiteboard • G8/M6/TA L01 - Motion and Speed/slide4.js:
+  1: const { ggb1, text1, button1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • G8/M6/TA L01 - Motion and Speed/slide13.js:
+  1: const { ggb1, table1, buttonGroup1, button2 } = components;
+  2  
+
+DIDwhiteboard • G8/M6/TA L01 - Motion and Speed/slide14.js:
+  1: const { ggb1, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • Geometry/M1/TC L14 - Sequences of Basic Rigid Motions/slide-2b267925b202.js:
+  1: const { ggb1, buttonGroup1, table1, text2 } = components;
+  2  
+
+DIDwhiteboard • Geometry/M1/TC L14 - Sequences of Basic Rigid Motions/slide-116b709c2663.js:
+  1: const { ggb1, text1, select1, buttonGroup1, table1 } = components;
+  2  
+
+DIDwhiteboard • Geometry/M1/TC L14 - Sequences of Basic Rigid Motions/slide-0944b3252f20.js:
+  1: const { ggb1, buttonGroup1, fib1, table1 } = components;
+  2  
+
+DIDwhiteboard • Geometry/M1/TC L14 - Sequences of Basic Rigid Motions/slide-bdee68af1acc.js:
+  1: const { ggb1, text1, select1, buttonGroup1, table1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M1/TA L02/slide-8f76102fa466.js:
+  1: const { ggb1, select1, button1, text2, table1, button2 } = components;
+  2  
+
+DIDwhiteboard • IM1/M1/TA L02/slide-72d12af2ec15.js:
+  2  
+  3: const { table1, button1 } = components;
+  4  button1.updateData({ align: "right" });
+
+DIDwhiteboard • IM1/M1/TA L02/slide-223dee614d44.js:
+  1: const { ggb1, table1, select1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M1/TA L02/slide-e5b8436d69c6.js:
+  2  
+  3: const { table2 } = components;
+  4  utils.RTS.on("datachange", "slide-72d12af2ec15", (register) => {
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide1 slide-1a0fd993032e.js:
+  1: const { table1, button1, table2, button2, text2 } = components;
+  2  
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide2 slide-8e74cc3defa1.js:
+  1: const { table1, button1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide19 slide-be0d33a7b382.js:
+  1: const { text1, ggb1, table1, ggb2, table2, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M2/TC L13 - Solution Sets of Linear Inequalities in Two Variables/slide4.js:
+  1: const { cc_submit_c997e1f0e31b_input1: input1, table1 } = components;
+  2  
+
+DIDwhiteboard • IM1/M2/TC L13 - Solution Sets of Linear Inequalities in Two Variables/slide5.js:
+  1: const { table1, button1, text2 } = components;
+  2  
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide19.js:
+  1: const { ggb1, ggb2, select1, table1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G1/M2/TC/L10/Version4/slide8.js:
+  1: const { table1 } = components;
+  2  
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V2/slide11.js:
+  1: const { table1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M2/TA L1/slide2.js:
+  1: const { table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M2/TA L1/slide3.js:
+  1: const { ggb1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M2/TA L1/slide4.js:
+  1: const { ggb1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M2/TA L1/slide5.js:
+  1: const { ggb1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M2/TA L1/slide7.js:
+  1: const { ggb1, table1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M2/TA L4/slide4.js:
+  1: const { table1, buttonGroup1 } = components;
+  2  buttonGroup1.updateSingleButton({ disabled: true }, 2);
+
+DIDwhiteboard • Print Alt/A1/M2/TA L4/slide5.js:
+  1: const { table1, ggb1, buttonGroup1 } = components;
+  2  ggb1.instance.setErrorDialogsActive(false);
+
+DIDwhiteboard • Print Alt/A1/M2/TC L20 - Interpreting Correlation/slide8.js:
+  1: const { ggb1, ggb2, text1, select1, table1, table2 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M2/TC L20 - Interpreting Correlation/slide9.js:
+  1: const { ggb1, ggb2, select1, table1, table2 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/slide23.js:
+  1: const { table1, table2 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/slide24.js:
+  1: const { text1, table1, button1, text3, text4, text5, button2 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/slide25.js:
+  1: const { text1, text2, text3, table1, radio1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/slide26.js:
+  1: const { text1, text2, table1, ggb1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/slide27.js:
+  1: const { text2, table1, table2, button1, button2 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M2/TD L22 - Summarizing Bivariate Categorical Data with Two-Way Tables/slide28.js:
+  1: const { table1, table2, ggb1, ggb2 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M3/TC l13 Modeling Elevation as a Function of Time/slide14.js:
+  1: const { ggb1, table1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M4/TC L20-Art with Transformations/slide2.js:
+  1: const { ggb1, text1, input1, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M5/TB L08 - Exponential Functions/slide2.js:
+  1: /*const { table1, buttonGroup1, table2 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M5/TB L08 - Exponential Functions/slide5.js:
+  1: const { ggb1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M5/TB L08 - Exponential Functions/slide6.js:
+  1: const { text1, table1, table2 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M5/TB L08 - Exponential Functions/slide7.js:
+  1: const { ggb1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M5/TB L08 - Exponential Functions/slide8.js:
+  1: const { ggb1, table1, table2, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/A1/M6/TA L01- Analyzing Paint Splatters/slide5.js:
+  1: const { ggb1, text2, text3, buttonGroup1, buttonGroup2, table1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M1/TC l12/slide3.js:
+  1  components.feedback1.updateData({ visible: false });
+  2: const { ggb1, table1, buttonGroup1 } = components;
+  3  
+
+DIDwhiteboard • Print Alt/G6/M1/TC l12/slide4.js:
+  1  components.feedback1.updateData({ visible: false });
+  2: const { ggb1, table1, buttonGroup1 } = components;
+  3  
+
+DIDwhiteboard • Print Alt/G6/M1/TC l12/slide5.js:
+  1: const { table1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M1/TC l12/slide6.js:
+  1: const { table1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M1/TD l18/slide4.js:
+  1: const { text1, text2, feedback1, select1, table1, table2 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M1/TD l18/slide5.js:
+  1: const { ggb1, text1, table1, text2, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M1/TE L22/slide6.js:
+  1: const { ggb1, ggb2, textDisplay1, table1, text1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M1/TE L22/slide9.js:
+  1: const { ggb1, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M2/TE L17/slide4.js:
+  1: const { ggb1, table1, image1, buttonGroup1 } = components;
+  2  slide.on("firstload", () => {
+
+DIDwhiteboard • Print Alt/G6/M2/TE L17/slide5.js:
+  1: const { ggb1, text1, text2, text3, table1, buttonGroup1 } = components;
+  2  slide.on("firstload", () => {
+
+DIDwhiteboard • Print Alt/G6/M2/TE L17/slide6.js:
+  1: const { ggb1, text1, text2, text3, table1, buttonGroup1 } = components;
+  2  slide.on("firstload", () => {
+
+DIDwhiteboard • Print Alt/G6/M3/TA L2/slide2.js:
+  1: const { ggb1, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M3/TA L2/slide3.js:
+  1: const { ggb1, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M3/TA L2/slide4.js:
+  1: const { ggb1, table1, button1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M3/TA L2/slide5.js:
+  1: const { text1, text2, text3, table1, table2, table3 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M4/TB L11 Modeling Real-World Situations and Expressions/slide3.js:
+  1: const { ggb1, table1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M4/TB L11 Modeling Real-World Situations and Expressions/slide4.js:
+  1: const { table1, ggb1, button1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M4/TB L11 Modeling Real-World Situations and Expressions/slide6.js:
+  1: const { table1, text1, text2, ggb1, button1, button2 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M4/TE L23 Graphs of Ratio Relationships/slide9.js:
+  1: const { text3, buttonGroup1, table1, ggb1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M5/TC 09-Properties of Solids/slide4.js:
+  1: const { ggb1, ggb2, tex2, table1, buttonGroup1, button2 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M5/TC 09-Properties of Solids/slide5.js:
+  1: const { ggb1, ggb2, tex2, table1, buttonGroup1, button2 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M5/TC 09-Properties of Solids/slide6.js:
+  1: const { ggb1, ggb2, text2, table1, buttonGroup1, button2 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M5/TC 09-Properties of Solids/slide8.js:
+  1: const { table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M5/TD L15-Exploring Volume of Fractional Cubes/slide4.js:
+  1: const { ggb1, table1, text1, buttonGroup2, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M5/TD L15-Exploring Volume of Fractional Cubes/slide6.js:
+  1: const { ggb1, table1, text1, button1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M6/TA L04 - Creating a Histogram/slide3.js:
+  1: const { table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M6/TA L04 - Creating a Histogram/slide4.js:
+  1: const { ggb1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M6/TA L04 - Creating a Histogram/slide10.js:
+  1: const { ggb1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G6/M6/TC L15 - More Practice with Box Plots/slide7.js:
+  1: const { ggb1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G7/M4/TC L11 The Inside of a Circle/slide13.js:
+  1: const { ggb1, table1, button1, text2 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G7/M5/TD L19 Applying Percent Error/slide5.js:
+  1: const { table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G7/M5/TD L19 Applying Percent Error/slide6.js:
+  1: const { table1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G7/M5/TD L19 Applying Percent Error/slide7.js:
+  1: const { table1, buttonGroup1, select1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G7/M5/TD L19 Applying Percent Error/slide8.js:
+  1: const { table1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G7/M5/TD L19 Applying Percent Error/slide9.js:
+  1: const { table1, table2, text1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G7/M5/TD L19 Applying Percent Error/slide10.js:
+  1: const { table1, table2, text1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G7/M6/TA L03 - Outcomes of Chance Experiments/slide5.js:
+  1: const { table1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G7/M6/TB L08 - Picking Blue/slide3.js:
+  1: const { ggb1, button1, table1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G7/M6/TB L08 - Picking Blue/slide4.js:
+  1: const { ggb1, button1, table1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G7/M6/TB L08 - Picking Blue/slide5.js:
+  1: const { ggb1, button1, table1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G7/M6/TB L08 - Picking Blue/slide6.js:
+  1: const { ggb1, button1, table1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G7/M6/TB L08 - Picking Blue/slide7.js:
+  1: const { ggb1, button1, table1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G7/M6/TB L08 - Picking Blue/slide14.js:
+  1: const { ggb1, table1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G8/M6/TA L01 - Motion and Speed/slide7.js:
+  1: const { ggb1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G8/M6/TA L01 - Motion and Speed/slide8.js:
+  1: const { ggb1, table1, buttonGroup1 } = components;
+  2  
+
+DIDwhiteboard • Print Alt/G8/M6/TC L11 - Scatter Plots/slide6.js:
+  1: const { ggb1, table1, button1 } = components;
+  2  

@@ -1,0 +1,1414 @@
+# Query: fib.*on\\(.*\\{((.|\\n)*?)ggb
+# Flags: RegExp
+# Including: ./DIDwhiteboard
+# Excluding: Answer Key not working.json, PageSource.html, PageSource2.html, ROL.js
+# ContextLines: 1
+
+93 results - 60 files
+
+DIDwhiteboard • 7A/M1/TC L16 - More Scientific Notation/slide5.js:
+  61  
+  62: fib1.on('change', ({ values }) => {
+  63:   buttonGroup2.updateSingleButton(
+  64:     {
+  65:       disabled: !values.every(({ text }) => !!text),
+  66:     },
+  67:     1
+  68:   );
+  69:   console.log(fib1.data);
+  70: });
+  71: undefined
+  72: function disablePump() {
+  73:   buttonGroup1.updateSingleButton(
+  74:     {
+  75:       disabled: true,
+  76:     },
+  77:     1
+  78:   );
+  79:   text2.updateData({ text: `Great! You did $${ggb1.instance.getValue('nextBreaths')}$ pumps in $10$ seconds!\n\nWhat was the total volume of air pumped during those $10$ seconds?` });
+  80    fib1.setVisible(true);
+
+DIDwhiteboard • 7A/M1/TC L16 - More Scientific Notation/slide7.js:
+  51  
+  52: fib1.on('change', ({ values }) => {
+  53:   console.log('typed in fib1');
+  54:   buttonGroup1.updateSingleButton(
+  55:     {
+  56:       text: 'Submit',
+  57:       disabled: !values.every(({ text }) => !!text),
+  58:     },
+  59:     1
+  60:   );
+  61: });
+  62: undefined
+  63: fib2.on('change', ({ values }) => {
+  64:   console.log('typed in fib2');
+  65:   buttonGroup2.updateSingleButton(
+  66:     {
+  67:       text: 'Submit',
+  68:       disabled: !values.every(({ text }) => !!text),
+  69:     },
+  70:     1
+  71:   );
+  72: });
+  73: undefined
+  74: buttonGroup1.on('click:1', () => {
+  75:   buttonGroup1.updateSingleButton(
+  76:     {
+  77:       text: 'Submitted',
+  78:       disabled: true,
+  79:     },
+  80:     1
+  81:   );
+  82:   text2.updateData({ text: 'How much air is that per $1$ minute?', visible: true });
+  83:   fib2.setVisible(true);
+  84:   buttonGroup2.updateData({ visible: true });
+  85: });
+  86: undefined
+  87: buttonGroup2.on('click:1', () => {
+  88:   buttonGroup2.updateSingleButton(
+  89:     {
+  90:       text: 'Submitted',
+  91:       disabled: true,
+  92:     },
+  93:     1
+  94:   );
+  95: });
+  96: undefined
+  97: function getPrevGGB(slideID, compName = 'ggb1', innerData, storageComp = '') {
+  98    // find slide num of source
+
+DIDwhiteboard • 7A/M1/TD L21 - Approximate Values of Roots/OLD3slide1.js:
+  27  
+  28: fib1.on('change', ({ values }) => {
+  29:   button1.updateData({
+  30:     text: 'Submit',
+  31:     disabled: !values.every(({ text }) => !!text),
+  32:   });
+  33: });
+  34: undefined
+  35: button1.on('click', () => {
+  36:   button1.updateData({ text: 'Submitted', disabled: true });
+  37: });
+  38: undefined
+  39: function showComps() {
+  40:   if (ggb1.instance.getValue('timeStudentSquare') == 1) {
+  41      text1.updateData({ visible: true });
+
+DIDwhiteboard • 7A/M1/TD L21 - Approximate Values of Roots/slide1.js:
+  11  
+  12: fib1.on('change', ({ values }) => {
+  13:   button1.updateData({
+  14:     text: 'Submit',
+  15:     disabled: !values.every(({ text }) => !!text),
+  16:   });
+  17:   ggb1.instance.setVisible('sideCLabelShown', false);
+  18    ggb1.instance.setVisible('sideCLabelQuestionMark', true);
+
+DIDwhiteboard • A1/M3/TC L13 - Modeling Elevation as a Function of Time/slide16.js:
+   93  
+   94: fib1.on("change", ({ values }) => {
+   95:   button1.updateData({
+   96:     text: "Submit",
+   97:     disabled: !values.every(({ text }) => !!text),
+   98:   });
+   99: });
+  100: undefined
+  101: fib2.on("change", ({ values }) => {
+  102:   button1.updateData({
+  103:     text: "Submit",
+  104:     disabled: !values.every(({ text }) => !!text),
+  105:   });
+  106: });
+  107: undefined
+  108: fib3.on("change", ({ values }) => {
+  109:   button1.updateData({
+  110:     text: "Submit",
+  111:     disabled: !values.every(({ text }) => !!text),
+  112:   });
+  113: });
+  114: undefined
+  115: fib4.on("change", ({ values }) => {
+  116:   button1.updateData({
+  117:     text: "Submit",
+  118:     disabled: !values.every(({ text }) => !!text),
+  119:   });
+  120: });
+  121: undefined
+  122: function fillFibs(values, fibComp) {
+  123:   const textVals = values.map(({ text }) => text);
+  124:   const fibs = [fib1, fib2, fib3, fib4];
+  125:   fibs.splice(fibs.indexOf(fibComp), 1);
+  126:   for (let j = 0, K = fibs.length; j < K; j++) {
+  127:     for (let i = 0, L = textVals.length; i < L; i++) {
+  128:       fibs[j].updateInput(i, { text: textVals[i] });
+  129:     }
+  130:   }
+  131: }
+  132: undefined
+  133: function showFibs(selected) {
+  134:   const fibs = [fib1, fib2, fib3, fib4];
+  135:   for (let i = 0, L = fibs.length; i < L; i++) {
+  136:     fibs[i].setVisible(selected.includes(`${i}`) && text1.data.showFIBs);
+  137:   }
+  138: }
+  139: undefined
+  140: select1.on("change", ({ selected }) => {
+  141:   const fibs = [fib1, fib2, fib3, fib4];
+  142:   const oldFibs = fibs.filter((fib) => fib.data.visible);
+  143:   if (!oldFibs.length) {
+  144:     return;
+  145:   }
+  146:   const oldVals = oldFibs[0].data.values;
+  147:   fillFibs(oldVals, oldFibs[0]);
+  148:   showFibs(selected);
+  149: });
+  150: undefined
+  151: function getFibs() {
+  152:   const fibs = [fib1, fib2, fib3, fib4];
+  153:   const visFibs = fibs.filter((fib) => fib.data.visible);
+  154:   if (!visFibs.length) {
+  155:     return [];
+  156:   }
+  157:   const fibVals = visFibs[0].data.values.map(({ text }) => text);
+  158:   const allowedParams = ["x", "t"];
+  159:   if (fibVals.length != 3 || !allowedParams.includes(fibVals[1])) {
+  160:     return [];
+  161:   }
+  162:   const result0 = utils.math.evaluateLatex(fibVals[0]);
+  163:   const result2 = utils.math.evaluateLatex(fibVals[2]);
+  164:   if (result0.error || result2.error || !(result0.value < result2.value)) {
+  165:     return [];
+  166:   }
+  167:   return [result0.value, result2.value];
+  168: }
+  169: undefined
+  170: button1.on("click", () => {
+  171:   let vals = getFibs();
+  172:   if (!vals.length) {
+  173:     return;
+  174:   }
+  175:   if (!toGGB()) {
+  176      return;
+
+DIDwhiteboard • A1/M3/TC L13 - Modeling Elevation as a Function of Time/slide17.js:
+   71  
+   72: fib1.on("change", ({ values }) => {
+   73:   button1.updateData({
+   74:     text: "Submit",
+   75:     disabled: !values.every(({ text }) => !!text),
+   76:   });
+   77: });
+   78: undefined
+   79: fib2.on("change", ({ values }) => {
+   80:   button1.updateData({
+   81:     text: "Submit",
+   82:     disabled: !values.every(({ text }) => !!text),
+   83:   });
+   84: });
+   85: undefined
+   86: fib3.on("change", ({ values }) => {
+   87:   button1.updateData({
+   88:     text: "Submit",
+   89:     disabled: !values.every(({ text }) => !!text),
+   90:   });
+   91: });
+   92: undefined
+   93: fib4.on("change", ({ values }) => {
+   94:   button1.updateData({
+   95:     text: "Submit",
+   96:     disabled: !values.every(({ text }) => !!text),
+   97:   });
+   98: });
+   99: undefined
+  100: function fillFibs(values, fibComp) {
+  101:   const textVals = values.map(({ text }) => text);
+  102:   const fibs = [fib1, fib2, fib3, fib4];
+  103:   fibs.splice(fibs.indexOf(fibComp), 1);
+  104:   for (let j = 0, K = fibs.length; j < K; j++) {
+  105:     for (let i = 0, L = textVals.length; i < L; i++) {
+  106:       fibs[j].updateInput(i, { text: textVals[i] });
+  107:     }
+  108:   }
+  109: }
+  110: undefined
+  111: function showFibs(selected) {
+  112:   const fibs = [fib1, fib2, fib3, fib4];
+  113:   for (let i = 0, L = fibs.length; i < L; i++) {
+  114:     fibs[i].setVisible(selected.includes(`${i}`));
+  115:   }
+  116: }
+  117: undefined
+  118: select1.on("change", ({ selected }) => {
+  119:   const fibs = [fib1, fib2, fib3, fib4];
+  120:   const oldFibs = fibs.filter((fib) => fib.data.visible);
+  121:   if (!oldFibs.length) {
+  122:     return;
+  123:   }
+  124:   const oldVals = oldFibs[0].data.values;
+  125:   fillFibs(oldVals, oldFibs[0]);
+  126:   showFibs(selected);
+  127: });
+  128: undefined
+  129: function getFibs() {
+  130:   const fibs = [fib1, fib2, fib3, fib4];
+  131:   const visFibs = fibs.filter((fib) => fib.data.visible);
+  132:   if (!visFibs.length) {
+  133:     return [];
+  134:   }
+  135:   const fibVals = visFibs[0].data.values.map(({ text }) => text);
+  136:   const allowedParams = ["x", "t"];
+  137:   if (fibVals.length != 3 || !allowedParams.includes(fibVals[1])) {
+  138:     return [];
+  139:   }
+  140:   const result0 = utils.math.evaluateLatex(fibVals[0]);
+  141:   const result2 = utils.math.evaluateLatex(fibVals[2]);
+  142:   if (result0.error || result2.error || !(result0.value < result2.value)) {
+  143:     return [];
+  144:   }
+  145:   return [result0.value, result2.value];
+  146: }
+  147: undefined
+  148: button1.on("click", () => {
+  149:   let vals = getFibs();
+  150:   if (!vals.length) {
+  151:     return;
+  152:   }
+  153:   if (!toGGB()) {
+  154      return;
+
+DIDwhiteboard • A1/M3/TD L21 - Demo - Transformations/slide1.js:
+  18  
+  19: fib1.on('change', ({ values }) => {
+  20:   button1.updateData({ disabled: false, text: 'Submit' });
+  21:   ggb1.instance.setValue('show', false);
+  22  });
+
+DIDwhiteboard • A1/M3/TD L22 - Demo - Building New Functions Horizontal Scaling/slide1.js:
+  18  
+  19: fib1.on('change', ({ values }) => {
+  20:   button1.updateData({ disabled: false, text: 'Submit' });
+  21:   ggb1.instance.setValue('show', false);
+  22  });
+
+DIDwhiteboard • A1/M5/TC L16 - Exponential Growth/slide14.js:
+  39  
+  40: fib1.on('change', ({ values }) => {
+  41:   button1.updateData({
+  42:     disabled: !values.every(({ text }) => !!text),
+  43:   });
+  44: });
+  45: undefined
+  46: fib2.on('change', ({ values }) => {
+  47:   button2.updateData({
+  48:     disabled: !values.every(({ text }) => !!text),
+  49:   });
+  50: });
+  51: undefined
+  52: button1.on('click', () => {
+  53:   const valueLaTeXf = fib1.getInput(0).text;
+  54:   const valueLaTeXg = fib2.getInput(0).text;
+  55:   ggb1.instance.evalLaTeX(`f(x) = ${valueLaTeXf}`, 0);
+  56    // console.log(`f(x) = ${valueLaTeXf}`);
+
+DIDwhiteboard • A1/M5/TC L16 - Exponential Growth/slide15.js:
+  39  
+  40: fib1.on('change', ({ values }) => {
+  41:   button1.updateData({
+  42:     disabled: !values.every(({ text }) => !!text),
+  43:   });
+  44: });
+  45: undefined
+  46: fib2.on('change', ({ values }) => {
+  47:   button2.updateData({
+  48:     disabled: !values.every(({ text }) => !!text),
+  49:   });
+  50: });
+  51: undefined
+  52: button1.on('click', () => {
+  53:   const valueLaTeXf = fib1.getInput(0).text;
+  54:   const valueLaTeXg = fib2.getInput(0).text;
+  55:   ggb1.instance.evalLaTeX(`f(x) = ${valueLaTeXf}`, 0);
+  56    // console.log(`f(x) = ${valueLaTeXf}`);
+
+DIDwhiteboard • A1/M5/TC L16 - Exponential Growth/slide16.js:
+  38  
+  39: fib1.on('change', ({ values }) => {
+  40:   button1.updateData({
+  41:     disabled: !values.every(({ text }) => !!text),
+  42:   });
+  43: });
+  44: undefined
+  45: fib2.on('change', ({ values }) => {
+  46:   button2.updateData({
+  47:     disabled: !values.every(({ text }) => !!text),
+  48:   });
+  49: });
+  50: undefined
+  51: button1.on('click', () => {
+  52:   const valueLaTeXf = fib1.getInput(0).text;
+  53:   const valueLaTeXg = fib2.getInput(0).text;
+  54:   ggb1.instance.evalLaTeX(`f(x) = ${valueLaTeXf}`, 0);
+  55    ggb1.instance.setValue('showFunctionF', true);
+
+DIDwhiteboard • G4/G4 M1 TD L16 - PVC Addition.js:
+   7  
+   8: fib1.on("change", ({ values }) => {
+   9: 	reset();
+  10: 	buttonGroup1.updateSingleButton({ disabled: true }, 4);
+  11: 	buttonGroup1.updateSingleButton({ disabled: false }, 1);
+  12: 	buttonGroup1.updateSingleButton({ disabled: true }, 2);
+  13: 	buttonGroup1.updateSingleButton({ disabled: true }, 3);
+  14: });
+  15: buttonGroup1.on("click:1", () => {
+  16: 	boundIt(fib1, 0, 0, 4999999);
+  17: 	boundIt(fib1, 1, 0, 4999999);
+  18: 	ggb1.instance.setValue("add1", fib1.getInput(0).text.replaceAll(",", ""));
+  19  	ggb1.instance.setValue("add2", fib1.getInput(1).text.replaceAll(",", ""));
+
+DIDwhiteboard • G4/G4 M1 TD L18 - PVC Subtraction.js:
+   7  
+   8: fib1.on("change", ({ values }) => {
+   9: 	reset();
+  10: 	buttonGroup1.updateSingleButton({ disabled: false }, 1);
+  11: 	buttonGroup1.updateSingleButton({ disabled: true }, 2);
+  12: 	buttonGroup1.updateSingleButton({ disabled: true }, 3);
+  13: });
+  14: undefined
+  15: buttonGroup1.on("click:1", () => {
+  16: 	boundIt(fib1, 0, 0, 9999999);
+  17: 	if (fib1.getInput(0)) {
+  18: 		boundIt(fib1, 1, 0, fib1.getInput(0).text.replaceAll(",", ""));
+  19: 	}
+  20: 	ggb1.instance.setValue("subt1", fib1.getInput(0).text.replaceAll(",", ""));
+  21  	ggb1.instance.setValue("subt2", fib1.getInput(1).text.replaceAll(",", ""));
+
+DIDwhiteboard • G4/G4 M2 TB L5 - PVC Multiplication.js:
+   7  
+   8: fib1.on("change", ({ values }) => {
+   9: 	boundIt(fib1, 0, 0, 9);
+  10: 	boundIt(fib1, 1, 0, 99);
+  11: 	ggb1.instance.setValue("multiplier", fib1.getInput(0).text);
+  12  	ggb1.instance.setValue("multiplicand", fib1.getInput(1).text);
+
+DIDwhiteboard • G4/G4 M2 TC L15 - PVC Division.js:
+   7  
+   8: fib1.on("change", ({ values }) => {
+   9: 	reset();
+  10: 	ggb1.instance.setValue("dividend", fib1.getInput(0).text);
+  11  	ggb1.instance.setValue("divisor", fib1.getInput(1).text);
+
+DIDwhiteboard • G4/G4 M2 TD L18 - Arranging Rectangle Side Lengths.js:
+  44  
+  45: fib1.on("change", ({ values }) => {
+  46: 	reset();
+  47: 	buttonGroup1.updateSingleButton({ disabled: false }, 1);
+  48: 	buttonGroup1.updateSingleButton({ disabled: true }, 2);
+  49: 	buttonGroup1.updateSingleButton({ disabled: true }, 3);
+  50: 	boundIt(fib1, 0, 0, 15);
+  51: 	boundIt(fib1, 1, 0, 15);
+  52: 	ggb1.instance.setValue("length", values[0].text);
+  53  	ggb1.instance.setValue("width", values[1].text);
+
+DIDwhiteboard • G4/G4 M3 TC L9 - PVC Multiplication 3 Column.js:
+   9  
+  10: fib1.on("change", ({ values }) => {
+  11: 	boundIt(fib1, 0, 0, 9);
+  12: 	boundIt(fib1, 1, 0, 999);
+  13: 	ggb1.instance.setValue("multiplier", fib1.getInput(0).text);
+  14  	ggb1.instance.setValue("multiplicand", fib1.getInput(1).text);
+
+DIDwhiteboard • G5/G5 M3 TB L10 - Smooshy Multiplication.js:
+   5  
+   6: fib1.on("change", ({ values }) => {
+   7: 	buttonGroup1.updateSingleButton({ disabled: false }, 1);
+   8: 	buttonGroup1.updateSingleButton({ disabled: false }, 2);
+   9: 	buttonGroup1.updateSingleButton({ disabled: true }, 3);
+  10: });
+  11: undefined
+  12: buttonGroup1.on("click:1", () => {
+  13: 	boundIt(fib1, 1, 0, 8);
+  14: 	boundIt(fib1, 0, 0, 1);
+  15: 	if (boundIt(fib1, 0, 0, 1) == 1 || boundIt(fib1, 1, 0, 8) == 1) {
+  16: 		buttonGroup1.updateSingleButton({ disabled: true }, 2);
+  17: 		buttonGroup1.updateSingleButton({ disabled: true }, 3);
+  18: 	}
+  19: 	ggb1.instance.setValue("time", 0);
+  20  	let firstFraction = undoLaTeX(fib1.getInput(1).text);
+
+DIDwhiteboard • G5/G5 M3 TC L13 - Partitive Fractional Division.js:
+  47  
+  48: fib1.on("change:0", ({ value }) => {
+  49: 	ggb1.instance.setValue("FullNumber", fib1.getInput(0).text);
+  50  	fib2.updateInput(0, { text: ggb1.instance.getValue("FullNumber") });
+
+  57  
+  58: fib2.on("change:0", ({ value }) => {
+  59: 	ggb1.instance.setValue("FullNumber", fib2.getInput(0).text);
+  60  	fib1.updateInput(0, { text: ggb1.instance.getValue("FullNumber") });
+
+  67  
+  68: fib3.on("change:0", ({ value }) => {
+  69: 	ggb1.instance.setValue("FullNumber", fib3.getInput(0).text);
+  70  	fib2.updateInput(0, { text: ggb1.instance.getValue("FullNumber") });
+
+DIDwhiteboard • G5/G5 M5 TC L19 - Volume with Layers.js:
+   7  //set the length of the prism to the value entered into FIB component
+   8: fib1.on("change", () => {
+   9:     ggb1.instance.setValue("Length", fib1.getInput('0').text);
+  10      ggb1.instance.evalCommand("CenterView(A+(Length/2,Width/2,5))")
+
+  13  //set the width of the prism to the value entered into FIB component
+  14: fib2.on("change", () => {
+  15:     ggb1.instance.setValue("Width", fib2.getInput('0').text);
+  16      ggb1.instance.evalCommand("CenterView(A+(Length/2,Width/2,5))")
+
+  19  //set the height of the prism to the value entered into FIB component
+  20: fib3.on("change", () => {
+  21:     ggb1.instance.setValue("Height", fib3.getInput('0').text);
+  22      ggb1.instance.evalCommand("CenterView(A+(Length/2,Width/2,5))")
+
+DIDwhiteboard • G5/G5 M6 TA L4 - Coordinate Hopping.js:
+  32  
+  33: fib1.on('change', () => {
+  34:     buttonGroup1.updateSingleButton({ disabled: false }, 1);
+  35:     buttonGroup1.updateSingleButton({ disabled: false }, 2);
+  36: })
+  37: fib2.on('change', () => {
+  38:     if ((ggb1.instance.getXcoord("Point1") < fib2.getInput('0').text && selectedLabels(select2).includes('Left')) || (ggb1.instance.getYcoord('Point1') < fib2.getInput('0').text && selectedLabels(select2).includes('Down'))||(ggb1.instance.getXcoord("Point1") + utils.math.evaluateLatex(fib2.getInput('0').text).value) >15 && selectedLabels(select2).includes('Right')||(ggb1.instance.getYcoord("Point1") + utils.math.evaluateLatex(fib2.getInput('0').text).value) >15 && selectedLabels(select2).includes('Up')) {
+  39          buttonGroup1.updateSingleButton({disabled: true}, 1);
+
+DIDwhiteboard • G5/G5 M6 TB L5 - Point Grabber Game.js:
+   3  buttonGroup1.updateSingleButton({ disabled: true }, 2);
+   4: fib1.on("change", () => {
+   5: 	if (fib1.getInput("0").text == "") {
+   6: 		buttonGroup1.updateSingleButton({ disabled: true }, 1);
+   7: 		buttonGroup1.updateSingleButton({ disabled: true }, 2);
+   8: 	} else if (Math.floor(fib1.getInput("0").text / 20) == 0) {
+   9: 		buttonGroup1.updateSingleButton({ disabled: false }, 1);
+  10: 		buttonGroup1.updateSingleButton({ disabled: false }, 2);
+  11: 	} else {
+  12: 		buttonGroup1.updateSingleButton({ disabled: true }, 1);
+  13: 		buttonGroup1.updateSingleButton({ disabled: true }, 2);
+  14: 	}
+  15: });
+  16: undefined
+  17: buttonGroup1.on("click:1", () => {
+  18: 	let distance = fib1.getInput(0).text;
+  19: 	ggb1.instance.setValue("Dist", distance);
+  20  	ggb1.instance.evalCommand("RunClickScript(button1)");
+
+DIDwhiteboard • G5/G5 M6 TB L8 - Table-Graph Linker (patterns down).js:
+  12  //sets x pattern
+  13: fib1.on("change:0", () => {
+  14: 	ggb1.instance.setAnimating("t1", false);
+  15  	ggb1.instance.setAnimating("n", false);
+
+  24  //sets y pattern
+  25: fib1.on("change:1", () => {
+  26: 	ggb1.instance.setAnimating("t1", false);
+  27  	ggb1.instance.setAnimating("n", false);
+
+DIDwhiteboard • G5/G5 M6 TB L10 - Table-Graph Linker (patterns across).js:
+  14  //sets x pattern
+  15: fib1.on("change:0", () => {
+  16: 	ggb1.instance.setAnimating("t1", false);
+  17  	ggb1.instance.setAnimating("n", false);
+
+  26  //sets y pattern
+  27: fib1.on("change:1", () => {
+  28: 	ggb1.instance.setAnimating("t1", false);
+  29  	ggb1.instance.setAnimating("n", false);
+
+DIDwhiteboard • G8/M1/TE L21 - Approximate Values of Roots and π²/slide4.js:
+  31  
+  32: fib1.on("change", ({ values }) => {
+  33:   let input = values[0].text;
+  34:   const result = utils.math.evaluateLatex(input);
+  35:   text2.updateData({ visible: !result.error });
+  36:   if (result.error) {
+  37:     return;
+  38:   }
+  39:   const squaredNum = result.value ** 2;
+  40:   // const roundedNum = squaredNum.toFixed(6);
+  41:   const roundedNum = round(squaredNum, safeRound);
+  42:   text2.updateData({ text: `$= ${roundedNum}$` });
+  43: });
+  44: undefined
+  45: autorun(() => {
+  46:   const trigger = ggb1.innerData["Dragger"];
+  47    const low = round(ggb1.instance.getValue("lowEnd"), safeRound);
+
+DIDwhiteboard • G8/M1/TE L21 - Approximate Values of Roots and π²/slide7.js:
+  32  
+  33: fib1.on("change", ({ values }) => {
+  34:   let input = values[0].text;
+  35:   const result = utils.math.evaluateLatex(input);
+  36:   text2.updateData({ visible: !result.error });
+  37:   if (result.error) {
+  38:     return;
+  39:   }
+  40:   const squaredNum = result.value ** 2;
+  41:   // const roundedNum = squaredNum.toFixed(6);
+  42:   const roundedNum = round(squaredNum, safeRound);
+  43:   text2.updateData({ text: `$= ${roundedNum}$` });
+  44: });
+  45: undefined
+  46: autorun(() => {
+  47:   const trigger = ggb1.innerData["Dragger"];
+  48    const low = round(ggb1.instance.getValue("lowEnd"), safeRound);
+
+DIDwhiteboard • G8/M1/TE L21 - Approximate Values of Roots and π²/slide11.js:
+  23  
+  24: fib1.on("change", ({ values }) => {
+  25:   let input = values[0].text;
+  26:   const result = utils.math.evaluateLatex(input);
+  27:   text2.updateData({ visible: !result.error });
+  28:   if (result.error) {
+  29:     return;
+  30:   }
+  31:   const cubedNum = result.value ** 3; // slide specific
+  32:   // const roundedNum = cubedNum.toFixed(6);
+  33:   const roundedNum = round(cubedNum, safeRound); // slide specific
+  34:   text2.updateData({ text: `$= ${roundedNum}$` });
+  35: });
+  36: undefined
+  37: autorun(() => {
+  38:   const trigger = ggb1.innerData["Dragger"];
+  39    const low = round(ggb1.instance.getValue("lowEnd"), safeRound);
+
+DIDwhiteboard • G8/M1/TE L21 - Approximate Values of Roots and π²/slide16.js:
+  23  
+  24: fib1.on("change", ({ values }) => {
+  25:   let input = values[0].text;
+  26:   const result = utils.math.evaluateLatex(input);
+  27:   text2.updateData({ visible: !result.error });
+  28:   if (result.error) {
+  29:     return;
+  30:   }
+  31:   const squaredNum = result.value ** 2; // slide specific
+  32:   // const roundedNum = cubedNum.toFixed(6);
+  33:   const roundedNum = round(squaredNum, safeRound); // slide specific
+  34:   text2.updateData({ text: `$= ${roundedNum}$` });
+  35: });
+  36: undefined
+  37: autorun(() => {
+  38:   const trigger = ggb1.innerData["Dragger"];
+  39    const low = round(ggb1.instance.getValue("lowEnd"), safeRound);
+
+DIDwhiteboard • G8/M2/TA L04 - Translations and Reflections on the Coordinate Plane/slide16.js:
+  32  
+  33: fib1.on('change', ({ values }) => {
+  34:   buttonGroup1.updateSingleButton({ disabled: false }, 1);
+  35:   ggb1.instance.stopAnimation();
+  36    ggb1.instance.setAnimating('time', false);
+
+DIDwhiteboard • G8/M5/TB L07 - Equation Assistant Demo/slide1.js:
+  21  
+  22: fib1.on("change", ({ values }) => {
+  23:   ggb1.instance.setTextValue("grandAddend", "0");
+  24    ggb1.instance.setTextValue("grandScale", "1");
+
+  30  
+  31: fib2.on("change", ({ values }) => {
+  32:   button2.updateData({ disabled: !fibFilled(values) });
+  33: });
+  34: undefined
+  35: fib3.on("change", ({ values }) => {
+  36:   button3.updateData({ disabled: !fibFilled(values) });
+  37: });
+  38: undefined
+  39: function fibFilled(values) {
+  40:   return values.every((val) => !!val.text);
+  41: }
+  42: undefined
+  43: button1.on("click", () => {
+  44:   let GGBready = unLaTeX(fib1.data.values[0].text);
+  45    if (GGBready) {
+
+DIDwhiteboard • Geometry/M1/TA L05 - Lines Crossed by a Transversal/slide11.js:
+  56  
+  57: fib1.on('change', ({ values }) => {
+  58:   resetCaptions();
+  59:   buttonGroup1.updateSingleButton(
+  60:     { disabled: !values.every(({ text }) => !!text) },
+  61:     1
+  62:   );
+  63:   ggb1.instance.evalCommand('RunClickScript(button2)');
+  64  });
+  65  
+  66: fib2.on('change', ({ values }) => {
+  67:   resetCaptions();
+  68:   buttonGroup2.updateSingleButton(
+  69:     { disabled: !values.every(({ text }) => !!text) },
+  70:     1
+  71:   );
+  72:   ggb1.instance.evalCommand('RunClickScript(button2)');
+  73  });
+
+DIDwhiteboard • Geometry/M1/TA L05 - Lines Crossed by a Transversal/slide13.js:
+  106  
+  107: fib1.on('change', ({ values }) => {
+  108:   button1.updateData({
+  109:     text: 'Submit',
+  110:     disabled: !values.every(({ text }) => !!text),
+  111:   });
+  112: });
+  113: undefined
+  114: button1.on('click', () => {
+  115:   button1.updateData({ text: 'Submitted', disabled: true });
+  116: });
+  117: undefined
+  118: buttonGroup1.on('click:1', () => {
+  119:   ggb1.instance.stopAnimation();
+  120    buttonGroup1.updateSingleButton({ disabled: true }, 1);
+
+DIDwhiteboard • IM1/M1/TA L02/slide-b3df16ec6244.js:
+  26  
+  27: fib1.on("change", ({ values }) => {
+  28:   submitButton1.updateData({
+  29:     text: "Submit",
+  30:     disabled: !values.every(({ text }) => !!text),
+  31:   });
+  32: });
+  33: undefined
+  34: submitButton1.on("click", () => {
+  35:   shareText1.updateData({ visible: true });
+  36:   shareInput1.updateData({ visible: true });
+  37:   shareButton1.updateData({ visible: true });
+  38:   submitButton1.updateData({ text: "Submitted", disabled: true });
+  39: });
+  40: undefined
+  41: const obsoleteSegs = ggb1.instance
+  42    .getAllObjectNames("segment")
+
+DIDwhiteboard • IM1/M1/TB L09 - Writing and Solving Equations in One Variable/slide2.js:
+  12  
+  13: fib1.on("change", ({ values }) => {
+  14:   button1.updateData({
+  15:     text: "Submit",
+  16:     disabled: !values.every(({ text }) => !!text),
+  17:   });
+  18: });
+  19: undefined
+  20: button1.on("click", () => {
+  21:   button1.updateData({ text: "Submitted", disabled: true });
+  22: });
+  23: undefined
+  24: select1.on("change", ({ selected }) => {
+  25:   ggb1.instance.setValue("show3by3", selected.includes("0"));
+  26    ggb1.instance.setValue("show4by4", selected.includes("1"));
+
+DIDwhiteboard • IM1/M1/TB L09 - Writing and Solving Equations in One Variable/slide3.js:
+  29  
+  30: fib1.on("change", ({ values }) => {
+  31:   button1.updateData({
+  32:     text: "Submit",
+  33:     disabled: !values.every(({ text }) => !!text),
+  34:   });
+  35: });
+  36: undefined
+  37: button1.on("click", () => {
+  38:   button1.updateData({ text: "Submitted", disabled: true });
+  39:   shareText1.updateData({ visible: true });
+  40:   shareInput1.updateData({ visible: true });
+  41:   shareButton1.updateData({ visible: true });
+  42: });
+  43: undefined
+  44: shareButton1.on("click", () => {
+  45:   ggb1.instance.setValue("show10by10blank", false);
+  46    ggb1.instance.setValue("show10by10filled", true);
+
+DIDwhiteboard • IM1/M1/TB L09 - Writing and Solving Equations in One Variable/slide6.js:
+  16  
+  17: fib1.on("change", ({ values }) => {
+  18:   button1.updateData({
+  19:     text: "Submit",
+  20:     disabled: !values.every(({ text }) => !!text),
+  21:   });
+  22: });
+  23: undefined
+  24: button1.on("click", () => {
+  25:   button1.updateData({ text: "Submitted", disabled: true });
+  26:   ggb1.instance.setTextValue("textTop", `${fib1.getInput(0).text}`);
+  27    ggb1.instance.setValue("showTextTop", true);
+
+DIDwhiteboard • IM1/M1/TB L09 - Writing and Solving Equations in One Variable/slide8.js:
+  28  
+  29: fib1.on("change", ({ values }) => {
+  30:   button1.updateData({
+  31:     text: "Submit",
+  32:     disabled: !values.every(({ text }) => !!text),
+  33:   });
+  34: });
+  35: undefined
+  36: const id1FIB = getPrevFIB("slide-5523a522ba51");
+  37: undefined
+  38: const gridVis = ggb1.instance.getValue("show8by8");
+  39  
+
+DIDwhiteboard • IM1/M1/TB L09 - Writing and Solving Equations in One Variable/slide10.js:
+  22  
+  23: fib1.on("change", ({ values }) => {
+  24:   button1.updateData({
+  25:     text: "Submit",
+  26:     disabled: !values.every(({ text }) => !!text),
+  27:   });
+  28: });
+  29: undefined
+  30: autorun(() => {
+  31:   let trigger1 = ggb1.innerData["horizontal"];
+  32    let trigger2 = ggb1.innerData["vertical"];
+
+DIDwhiteboard • IM1/M1/TC L13 - Solving and Graphing Compound Inequalities/slide7.js:
+  60  
+  61: fib1.on("change", ({ values }) => {
+  62:   submitButton1.updateData({
+  63:     text: "Submit",
+  64:     disabled: !values.every(({ text }) => !!text),
+  65:   });
+  66: });
+  67: undefined
+  68: submitButton1.on("click", () => {
+  69:   submitText2.updateData({ visible: true });
+  70:   submitInput2.updateData({ visible: true });
+  71:   submitButton2.updateData({ visible: true });
+  72:   submitButton1.updateData({ text: "Submitted", disabled: true });
+  73: });
+  74: undefined
+  75: let selected = "";
+  76: undefined
+  77: // client section
+  78: function selectEvent(name) {
+  79:   if (ggb1.instance.getObjectType(name) != "point") {
+  80      return;
+
+DIDwhiteboard • IM1/M1/TC L13 - Solving and Graphing Compound Inequalities/slide8.js:
+  131  
+  132: fib1.on("change", ({ values }) => {
+  133:   submitButton1.updateData({
+  134:     text: "Submit",
+  135:     disabled: !values.every(({ text }) => !!text),
+  136:   });
+  137: });
+  138: undefined
+  139: submitButton1.on("click", () => {
+  140:   submitText2.updateData({ visible: true });
+  141:   submitInput2.updateData({ visible: true });
+  142:   submitButton2.updateData({ visible: true });
+  143:   submitButton1.updateData({ text: "Submitted", disabled: true });
+  144: });
+  145: undefined
+  146: let selected = "";
+  147: undefined
+  148: // client section
+  149: function selectEvent(name) {
+  150:   if (ggb1.instance.getObjectType(name) != "point") {
+  151      return;
+
+DIDwhiteboard • IM1/M1/TC L13 - Solving and Graphing Compound Inequalities/slide9.js:
+  182  
+  183: fib1.on("change", ({ values }) => {
+  184:   submitButton1.updateData({
+  185:     text: "Submit",
+  186:     disabled: !values.every(({ text }) => !!text),
+  187:   });
+  188: });
+  189: undefined
+  190: submitButton1.on("click", () => {
+  191:   submitText2.updateData({ visible: true });
+  192:   submitInput2.updateData({ visible: true });
+  193:   submitButton2.updateData({ visible: true });
+  194:   submitButton1.updateData({ text: "Submitted", disabled: true });
+  195: });
+  196: undefined
+  197: let selected = "";
+  198: undefined
+  199: // client section
+  200: function selectEvent(name) {
+  201:   if (ggb1.instance.getObjectType(name) != "point") {
+  202      return;
+
+DIDwhiteboard • IM1/M1/TC L13 - Solving and Graphing Compound Inequalities/slide10.js:
+  239  
+  240: fib1.on("change", ({ values }) => {
+  241:   submitButton1.updateData({
+  242:     text: "Submit",
+  243:     disabled: !values.every(({ text }) => !!text),
+  244:   });
+  245: });
+  246: undefined
+  247: submitButton1.on("click", () => {
+  248:   submitText2.updateData({ visible: true });
+  249:   submitInput2.updateData({ visible: true });
+  250:   submitButton2.updateData({ visible: true });
+  251:   submitButton1.updateData({ text: "Submitted", disabled: true });
+  252: });
+  253: undefined
+  254: submitButton2.on("click", () => {
+  255:   resetAnim();
+  256:   const result = utils.math.evaluateLatex(submitInput2.data.text);
+  257:   if (result.error) {
+  258:     return;
+  259:   }
+  260:   let newList = ggb1.instance.evalCommandGetLabels(
+  261      `Join(Sequence((${result.value}, Element(yVals, i)), i, 1, Length(yVals)), {(${result.value}, 0)})`
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide14 slide-9295071f4648.js:
+  32  
+  33: fib1.on("change", ({ values }) => {
+  34:   button1.updateData({
+  35:     text: "Submit",
+  36:     disabled: !values.every(({ text }) => !!text),
+  37:   });
+  38: });
+  39: undefined
+  40: button1.on("click", () => {
+  41:   button1.updateData({ text: "Submitted", disabled: true });
+  42: });
+  43: undefined
+  44: const sliderGGB = getPrevGGB("slide-cb14aaf8d320", "ggb1", { distance: 0 });
+  45  
+
+DIDwhiteboard • IM1/M2/TA L01 - Solution Sets of Linear Equations in Two Variables/slide18 slide-5072c2c56e10.js:
+  34  
+  35: fib1.on("change", ({ values }) => {
+  36:   button1.updateData({
+  37:     text: "Submit",
+  38:     disabled: !values.every(({ text }) => !!text),
+  39:   });
+  40: });
+  41: undefined
+  42: button1.on("click", () => {
+  43:   button1.updateData({ text: "Submitted", disabled: true });
+  44: });
+  45: undefined
+  46: utils.RTS.on("datachange", "slide-fd85e50c42c6", (register) => {
+  47:   // Don't do anything if we don't have data
+  48:   if (!register || !register.length) {
+  49:     return;
+  50:   }
+  51:   ggb1.instance.evalCommand("pointList={}");
+  52    const lastRegister = discardOldResponses(register).reverse();
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide4.js:
+  88  
+  89: fib1.on("change", ({ values }) => {
+  90:   button1.updateData({
+  91:     disabled: !values.every(({ text }) => !!text),
+  92:   });
+  93:   ggb1.instance.stopAnimation();
+  94    ggb1.instance.setValue("time", 0);
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide5.js:
+  88  
+  89: fib1.on("change", ({ values }) => {
+  90:   button1.updateData({
+  91:     disabled: !values.every(({ text }) => !!text),
+  92:   });
+  93:   ggb1.instance.stopAnimation();
+  94    ggb1.instance.setValue("time", 0);
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide6.js:
+  88  
+  89: fib1.on("change", ({ values }) => {
+  90:   button1.updateData({
+  91:     disabled: !values.every(({ text }) => !!text),
+  92:   });
+  93:   ggb1.instance.stopAnimation();
+  94    ggb1.instance.setValue("time", 0);
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide14.js:
+   97  
+   98: fib1.on("change", ({ values }) => {
+   99:   button1.updateData({
+  100:     disabled: !values.every(({ text }) => !!text),
+  101:   });
+  102:   ggb1.instance.stopAnimation();
+  103    ggb1.instance.setValue("time", 0);
+
+DIDwhiteboard • IM1/M2/TD L19 - The Distance Formula/slide17.js:
+   97  
+   98: fib1.on("change", ({ values }) => {
+   99:   button1.updateData({
+  100:     disabled: !values.every(({ text }) => !!text),
+  101:   });
+  102:   ggb1.instance.stopAnimation();
+  103    ggb1.instance.setValue("time", 0);
+
+DIDwhiteboard • OMO/G1/M2/TC/L10/Version2/slide1.js:
+  227  //unknown addend input
+  228: fib2.on("change", () => {
+  229: 	buttonGroup1.updateSingleButton({ disabled: false, text: "Submit" }, 1);
+  230: 	buttonGroup1.updateSingleButton({ disabled: false }, 2);
+  231: });
+  232: undefined
+  233: /////////////////////  BUTTONS  /////////////////////
+  234: //submit
+  235: buttonGroup1.on("click:1", () => {
+  236: 	console.log(fib2.getInput("0").text);
+  237: 	if (fib2.getInput("0").text == 3 && getData("thirdSubmitActivated")) {
+  238: 		media12.updateData({ visible: false });
+  239: 		media11.updateData({ visible: false });
+  240: 		media13.updateData({ visible: true });
+  241: 	}
+  242: 	if (fib2.getInput("0").text != 3 && getData("thirdSubmitActivated")) {
+  243: 		media13.updateData({ visible: false });
+  244: 		media12.updateData({ visible: true });
+  245: 		media11.updateData({ visible: false });
+  246: 	}
+  247: 	if (
+  248: 		ggb1.instance.getValue("currentValue") == 14 &&
+  249  		getData("secondSubmitActivated") &&
+
+DIDwhiteboard • OMO/G1/M2/TC/L10/Version2/slide2.js:
+  66  //unknown addend input
+  67: fib1.on("change", () => {
+  68: 	buttonGroup1.updateSingleButton({ disabled: false, text: "Submit" }, 1);
+  69: 	buttonGroup1.updateSingleButton({ disabled: false }, 2);
+  70: });
+  71: undefined
+  72: /////////////////////  BUTTONS  /////////////////////
+  73: //submit
+  74: buttonGroup1.on("click:1", () => {
+  75: 	buttonGroup1.updateSingleButton({ disabled: true, text: "Submitted" }, 1);
+  76: 	buttonGroup1.updateSingleButton({ disabled: false }, 2);
+  77: 	if (fib1.getInput("0").text == "5") {
+  78: 		media2.updateData({ visible: true });
+  79: 	}
+  80: });
+  81: undefined
+  82: //reset
+  83: buttonGroup1.on("click:2", () => {
+  84: 	ggb1.instance.setXML(getData("ggbXML"));
+  85  	saveData({ count: 1, holdnum: -1 });
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V1/newSlide8.js:
+  200  //distributive prop fib comp (_+_)x(_+_)
+  201: fib2.on("change:0", () => {
+  202: 	ggb1.instance.setValue("input1FillSlider", 0);
+  203  	ggb1.instance.setValue("input2FillSlider", 0);
+
+  214  });
+  215: fib2.on("change:1", () => {
+  216: 	ggb1.instance.setValue("input1FillSlider", 0);
+  217  	ggb1.instance.setValue("input2FillSlider", 0);
+
+  228  });
+  229: fib2.on("change:2", () => {
+  230: 	ggb1.instance.setValue("input1FillSlider", 0);
+  231  	ggb1.instance.setValue("input2FillSlider", 0);
+
+  242  });
+  243: fib2.on("change:3", () => {
+  244: 	ggb1.instance.setValue("input1FillSlider", 0);
+  245  	ggb1.instance.setValue("input2FillSlider", 0);
+
+  257  //partial products fib comp _+_
+  258: fib3.on("change:0", () => {
+  259: 	ggb1.instance.setValue("input5FillSlider", 0);
+  260  	ggb1.instance.setValue("input6FillSlider", 0);
+
+  267  });
+  268: fib3.on("change:1", () => {
+  269: 	ggb1.instance.setValue("input5FillSlider", 0);
+  270  	ggb1.instance.setValue("input6FillSlider", 0);
+
+  277  });
+  278: fib4.on("change:0", () => {
+  279: 	if (fib4.getInput("0").text != "") {
+  280: 		buttonGroup1.updateSingleButton({ disabled: false }, 1);
+  281: 	}
+  282: });
+  283: undefined
+  284: //vertical fill autorun
+  285: autorun(() => {
+  286: 	const time5 = ggb1.innerData["input5FillSlider"];
+  287  	if (time5 === 1) {
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V1/newSlide9.js:
+  104  
+  105: fib1.on("change:0", () => {
+  106: 	boundIt(fib1, 0, 0, 99);
+  107: 	// buttonGroup1.updateSingleButton({text: "Submit", disabled: false}, 1);
+  108: });
+  109: undefined
+  110: fib1.on("change:1", () => {
+  111: 	boundIt(fib1, 1, 0, 99);
+  112: 	// buttonGroup1.updateSingleButton({text: "Submit", disabled: false}, 1);
+  113: });
+  114: undefined
+  115: fib1.on("change:2", () => {
+  116: 	boundIt(fib1, 2, 0, 99);
+  117: 	// buttonGroup1.updateSingleButton({text: "Submit", disabled: false}, 1);
+  118: });
+  119: undefined
+  120: //distributive prop fib comp (_+_)x(_+_)
+  121: fib2.on("change:0", () => {
+  122: 	boundIt(fib2, 0, 0, 99);
+  123: 	// buttonGroup1.updateSingleButton({text: "Submit", disabled: false}, 1);
+  124: });
+  125: fib2.on("change:1", () => {
+  126: 	boundIt(fib2, 1, 0, 99);
+  127: 	// buttonGroup1.updateSingleButton({text: "Submit", disabled: false}, 1);
+  128: });
+  129: fib2.on("change:2", () => {
+  130: 	boundIt(fib2, 2, 0, 99);
+  131: 	// buttonGroup1.updateSingleButton({text: "Submit", disabled: false}, 1);
+  132: });
+  133: fib2.on("change:3", () => {
+  134: 	boundIt(fib2, 3, 0, 99);
+  135: 	// buttonGroup1.updateSingleButton({text: "Submit", disabled: false}, 1);
+  136: });
+  137: undefined
+  138: //partial products fib comp _+_
+  139: fib3.on("change:0", () => {
+  140: 	ggb1.instance.setValue("areaLeft", boundIt(fib3, 0, 0, 99));
+  141  	ggb1.instance.setVisible("D8", true);
+
+  143  });
+  144: fib3.on("change:1", () => {
+  145: 	ggb1.instance.setValue("areaRight", boundIt(fib3, 1, 0, 99));
+  146  	ggb1.instance.setVisible("D9", true);
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V1/pseudo.js:
+  197  //distributive prop fib comp (_+_)x(_+_)
+  198: fib2.on("change:0", () => {
+  199: 	ggb1.instance.setValue("input1FillSlider", 0);
+  200  	ggb1.instance.setValue("input2FillSlider", 0);
+
+  211  });
+  212: fib2.on("change:1", () => {
+  213: 	ggb1.instance.setValue("input1FillSlider", 0);
+  214  	ggb1.instance.setValue("input2FillSlider", 0);
+
+  225  });
+  226: fib2.on("change:2", () => {
+  227: 	ggb1.instance.setValue("input1FillSlider", 0);
+  228  	ggb1.instance.setValue("input2FillSlider", 0);
+
+  239  });
+  240: fib2.on("change:3", () => {
+  241: 	ggb1.instance.setValue("input1FillSlider", 0);
+  242  	ggb1.instance.setValue("input2FillSlider", 0);
+
+  254  //partial products fib comp _+_
+  255: fib3.on("change:0", () => {
+  256: 	ggb1.instance.setValue("input5FillSlider", 0);
+  257  	ggb1.instance.setValue("input6FillSlider", 0);
+
+  264  });
+  265: fib3.on("change:1", () => {
+  266: 	ggb1.instance.setValue("input5FillSlider", 0);
+  267  	ggb1.instance.setValue("input6FillSlider", 0);
+
+  274  });
+  275: fib4.on("change:0", () => {
+  276: 	if (fib4.getInput("0").text != "") {
+  277: 		buttonGroup1.updateSingleButton({ disabled: false }, 1);
+  278: 	}
+  279: });
+  280: undefined
+  281: //vertical fill autorun
+  282: autorun(() => {
+  283: 	const time5 = ggb1.innerData["input5FillSlider"];
+  284  	if (time5 === 1) {
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V1/slide1.js:
+   9  
+  10: // fib1.on("change", () => {
+  11: // 	ggb1.instance.setValue("xMax", (parseFloat(fib1.getInput(0).text) + parseFloat(2)));
+  12  // 	ggb2.instance.setValue("xMax", (parseFloat(fib1.getInput(0).text) + parseFloat(2)));
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V1/slide3.js:
+   97  //distributive prop fib comp (_+_)x(_+_)
+   98: fib2.on("change:0", () => {
+   99: 	ggb1.instance.setValue("input1FillSlider", 0);
+  100  	ggb1.instance.setValue("input2FillSlider", 0);
+
+  103  });
+  104: fib2.on("change:1", () => {
+  105: 	ggb1.instance.setValue("input1FillSlider", 0);
+  106  	ggb1.instance.setValue("input2FillSlider", 0);
+
+  109  });
+  110: fib2.on("change:2", () => {
+  111: 	ggb1.instance.setValue("input1FillSlider", 0);
+  112  	ggb1.instance.setValue("input2FillSlider", 0);
+
+  115  });
+  116: fib2.on("change:3", () => {
+  117: 	ggb1.instance.setValue("input1FillSlider", 0);
+  118  	ggb1.instance.setValue("input2FillSlider", 0);
+
+  123  //partial products fib comp _+_
+  124: fib3.on("change:0", () => {
+  125: 	let fib3Input1 = boundIt(fib3, 0, 0, 99);
+  126: 	ggb1.instance.setValue("area2", fib3Input1);
+  127  	ggb1.instance.setVisible("D5", true);
+
+  129  });
+  130: fib3.on("change:1", () => {
+  131: 	let fib3Input2 = boundIt(fib3, 1, 0, 99);
+  132: 	ggb1.instance.setValue("area1", fib3Input2);
+  133  	ggb1.instance.setVisible("D5", true);
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V2/slide8.js:
+  282  //distributive prop fib comp (_+_)x(_+_)
+  283: fib2.on("change:0", () => {
+  284:   ggb1.instance.setValue("input1FillSlider", 0);
+  285    ggb1.instance.setValue("input2FillSlider", 0);
+
+  296  });
+  297: fib2.on("change:1", () => {
+  298:   ggb1.instance.setValue("input1FillSlider", 0);
+  299    ggb1.instance.setValue("input2FillSlider", 0);
+
+  310  });
+  311: fib2.on("change:2", () => {
+  312:   ggb1.instance.setValue("input1FillSlider", 0);
+  313    ggb1.instance.setValue("input2FillSlider", 0);
+
+  324  });
+  325: fib2.on("change:3", () => {
+  326:   ggb1.instance.setValue("input1FillSlider", 0);
+  327    ggb1.instance.setValue("input2FillSlider", 0);
+
+  339  //partial products fib comp _+_
+  340: fib3.on("change:0", () => {
+  341:   ggb1.instance.setValue("input5FillSlider", 0);
+  342    ggb1.instance.setValue("input6FillSlider", 0);
+
+  349  });
+  350: fib3.on("change:1", () => {
+  351:   ggb1.instance.setValue("input5FillSlider", 0);
+  352    ggb1.instance.setValue("input6FillSlider", 0);
+
+  359  });
+  360: fib4.on("change:0", () => {
+  361:   if (fib4.getInput("0").text != "") {
+  362:     buttonGroup1.updateSingleButton({ disabled: false }, 1);
+  363:   }
+  364: });
+  365: undefined
+  366: //vertical fill autorun
+  367: autorun(() => {
+  368:   const time5 = ggb1.innerData["input5FillSlider"];
+  369    if (time5 === 1) {
+
+DIDwhiteboard • OMO/G4/M2/TB/L7/V2/slide9.js:
+  104  
+  105: fib1.on("change:0", () => {
+  106:   boundIt(fib1, 0, 0, 99);
+  107:   // buttonGroup1.updateSingleButton({text: "Submit", disabled: false}, 1);
+  108: });
+  109: undefined
+  110: fib1.on("change:1", () => {
+  111:   boundIt(fib1, 1, 0, 99);
+  112:   // buttonGroup1.updateSingleButton({text: "Submit", disabled: false}, 1);
+  113: });
+  114: undefined
+  115: fib1.on("change:2", () => {
+  116:   boundIt(fib1, 2, 0, 99);
+  117:   // buttonGroup1.updateSingleButton({text: "Submit", disabled: false}, 1);
+  118: });
+  119: undefined
+  120: //distributive prop fib comp (_+_)x(_+_)
+  121: fib2.on("change:0", () => {
+  122:   boundIt(fib2, 0, 0, 99);
+  123:   // buttonGroup1.updateSingleButton({text: "Submit", disabled: false}, 1);
+  124: });
+  125: fib2.on("change:1", () => {
+  126:   boundIt(fib2, 1, 0, 99);
+  127:   // buttonGroup1.updateSingleButton({text: "Submit", disabled: false}, 1);
+  128: });
+  129: fib2.on("change:2", () => {
+  130:   boundIt(fib2, 2, 0, 99);
+  131:   // buttonGroup1.updateSingleButton({text: "Submit", disabled: false}, 1);
+  132: });
+  133: fib2.on("change:3", () => {
+  134:   boundIt(fib2, 3, 0, 99);
+  135:   // buttonGroup1.updateSingleButton({text: "Submit", disabled: false}, 1);
+  136: });
+  137: undefined
+  138: //partial products fib comp _+_
+  139: fib3.on("change:0", () => {
+  140:   ggb1.instance.setValue("areaLeft", boundIt(fib3, 0, 0, 99));
+  141    ggb1.instance.setVisible("D8", true);
+
+  143  });
+  144: fib3.on("change:1", () => {
+  145:   ggb1.instance.setValue("areaRight", boundIt(fib3, 1, 0, 99));
+  146    ggb1.instance.setVisible("D9", true);
+
+DIDwhiteboard • Print Alt/A1/M3/TC l13 Modeling Elevation as a Function of Time/slide12.js:
+   93  
+   94: fib1.on("change", ({ values }) => {
+   95:   button1.updateData({
+   96:     text: "Submit",
+   97:     disabled: !values.every(({ text }) => !!text),
+   98:   });
+   99: });
+  100: undefined
+  101: fib2.on("change", ({ values }) => {
+  102:   button1.updateData({
+  103:     text: "Submit",
+  104:     disabled: !values.every(({ text }) => !!text),
+  105:   });
+  106: });
+  107: undefined
+  108: fib3.on("change", ({ values }) => {
+  109:   button1.updateData({
+  110:     text: "Submit",
+  111:     disabled: !values.every(({ text }) => !!text),
+  112:   });
+  113: });
+  114: undefined
+  115: fib4.on("change", ({ values }) => {
+  116:   button1.updateData({
+  117:     text: "Submit",
+  118:     disabled: !values.every(({ text }) => !!text),
+  119:   });
+  120: });
+  121: undefined
+  122: function fillFibs(values, fibComp) {
+  123:   const textVals = values.map(({ text }) => text);
+  124:   const fibs = [fib1, fib2, fib3, fib4];
+  125:   fibs.splice(fibs.indexOf(fibComp), 1);
+  126:   for (let j = 0, K = fibs.length; j < K; j++) {
+  127:     for (let i = 0, L = textVals.length; i < L; i++) {
+  128:       fibs[j].updateInput(i, { text: textVals[i] });
+  129:     }
+  130:   }
+  131: }
+  132: undefined
+  133: function showFibs(selected) {
+  134:   const fibs = [fib1, fib2, fib3, fib4];
+  135:   for (let i = 0, L = fibs.length; i < L; i++) {
+  136:     fibs[i].setVisible(selected.includes(`${i}`) && text1.data.showFIBs);
+  137:   }
+  138: }
+  139: undefined
+  140: select1.on("change", ({ selected }) => {
+  141:   const fibs = [fib1, fib2, fib3, fib4];
+  142:   const oldFibs = fibs.filter((fib) => fib.data.visible);
+  143:   if (!oldFibs.length) {
+  144:     return;
+  145:   }
+  146:   const oldVals = oldFibs[0].data.values;
+  147:   fillFibs(oldVals, oldFibs[0]);
+  148:   showFibs(selected);
+  149: });
+  150: undefined
+  151: function getFibs() {
+  152:   const fibs = [fib1, fib2, fib3, fib4];
+  153:   const visFibs = fibs.filter((fib) => fib.data.visible);
+  154:   if (!visFibs.length) {
+  155:     return [];
+  156:   }
+  157:   const fibVals = visFibs[0].data.values.map(({ text }) => text);
+  158:   const allowedParams = ["x", "t"];
+  159:   if (fibVals.length != 3 || !allowedParams.includes(fibVals[1])) {
+  160:     return [];
+  161:   }
+  162:   const result0 = utils.math.evaluateLatex(fibVals[0]);
+  163:   const result2 = utils.math.evaluateLatex(fibVals[2]);
+  164:   if (result0.error || result2.error || !(result0.value < result2.value)) {
+  165:     return [];
+  166:   }
+  167:   return [result0.value, result2.value];
+  168: }
+  169: undefined
+  170: button1.on("click", () => {
+  171:   let vals = getFibs();
+  172:   if (!vals.length) {
+  173:     return;
+  174:   }
+  175:   if (!toGGB()) {
+  176      return;
+
+DIDwhiteboard • Print Alt/A1/M3/TC l13 Modeling Elevation as a Function of Time/slide13.js:
+   71  
+   72: fib1.on("change", ({ values }) => {
+   73:   button1.updateData({
+   74:     text: "Submit",
+   75:     disabled: !values.every(({ text }) => !!text),
+   76:   });
+   77: });
+   78: undefined
+   79: fib2.on("change", ({ values }) => {
+   80:   button1.updateData({
+   81:     text: "Submit",
+   82:     disabled: !values.every(({ text }) => !!text),
+   83:   });
+   84: });
+   85: undefined
+   86: fib3.on("change", ({ values }) => {
+   87:   button1.updateData({
+   88:     text: "Submit",
+   89:     disabled: !values.every(({ text }) => !!text),
+   90:   });
+   91: });
+   92: undefined
+   93: fib4.on("change", ({ values }) => {
+   94:   button1.updateData({
+   95:     text: "Submit",
+   96:     disabled: !values.every(({ text }) => !!text),
+   97:   });
+   98: });
+   99: undefined
+  100: function fillFibs(values, fibComp) {
+  101:   const textVals = values.map(({ text }) => text);
+  102:   const fibs = [fib1, fib2, fib3, fib4];
+  103:   fibs.splice(fibs.indexOf(fibComp), 1);
+  104:   for (let j = 0, K = fibs.length; j < K; j++) {
+  105:     for (let i = 0, L = textVals.length; i < L; i++) {
+  106:       fibs[j].updateInput(i, { text: textVals[i] });
+  107:     }
+  108:   }
+  109: }
+  110: undefined
+  111: function showFibs(selected) {
+  112:   const fibs = [fib1, fib2, fib3, fib4];
+  113:   for (let i = 0, L = fibs.length; i < L; i++) {
+  114:     fibs[i].setVisible(selected.includes(`${i}`));
+  115:   }
+  116: }
+  117: undefined
+  118: select1.on("change", ({ selected }) => {
+  119:   const fibs = [fib1, fib2, fib3, fib4];
+  120:   const oldFibs = fibs.filter((fib) => fib.data.visible);
+  121:   if (!oldFibs.length) {
+  122:     return;
+  123:   }
+  124:   const oldVals = oldFibs[0].data.values;
+  125:   fillFibs(oldVals, oldFibs[0]);
+  126:   showFibs(selected);
+  127: });
+  128: undefined
+  129: function getFibs() {
+  130:   const fibs = [fib1, fib2, fib3, fib4];
+  131:   const visFibs = fibs.filter((fib) => fib.data.visible);
+  132:   if (!visFibs.length) {
+  133:     return [];
+  134:   }
+  135:   const fibVals = visFibs[0].data.values.map(({ text }) => text);
+  136:   const allowedParams = ["x", "t"];
+  137:   if (fibVals.length != 3 || !allowedParams.includes(fibVals[1])) {
+  138:     return [];
+  139:   }
+  140:   const result0 = utils.math.evaluateLatex(fibVals[0]);
+  141:   const result2 = utils.math.evaluateLatex(fibVals[2]);
+  142:   if (result0.error || result2.error || !(result0.value < result2.value)) {
+  143:     return [];
+  144:   }
+  145:   return [result0.value, result2.value];
+  146: }
+  147: undefined
+  148: button1.on("click", () => {
+  149:   let vals = getFibs();
+  150:   if (!vals.length) {
+  151:     return;
+  152:   }
+  153:   if (!toGGB()) {
+  154      return;
