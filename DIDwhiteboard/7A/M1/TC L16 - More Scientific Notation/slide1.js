@@ -6,9 +6,15 @@ buttonGroup1.on('click:1', () => {
   ggb1.instance.stopAnimation();
   ggb1.instance.setAnimating('time', true);
   if (buttonGroup1.data.clicked) {
-    ggb1.instance.setValue('currentBreaths', ggb1.instance.getValue('nextBreaths'));
+    ggb1.instance.setValue(
+      'currentBreaths',
+      ggb1.instance.getValue('nextBreaths')
+    );
     ggb1.instance.setValue('time', 0);
-    ggb1.instance.setValue('nextBreaths', ggb1.instance.getValue('nextBreaths') + 1);
+    ggb1.instance.setValue(
+      'nextBreaths',
+      ggb1.instance.getValue('nextBreaths') + 1
+    );
   } else {
     buttonGroup1.updateData({ clicked: true });
   }
